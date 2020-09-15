@@ -6,8 +6,9 @@ function App() {
     <div className="App">
       <header className="App-header">
           <div className="banner-text">
-            <h1>Hi there, so nice of you to check out my portfolio</h1>
-            <p>Riva Davidowski | Software Engineer</p>
+            <h1 class="greeting-text">HELLO, I'M RIVA DAVIDOWSKI</h1>
+            <p class="greeting-two-text">Front End Focused Engineer with Full Stack Experience</p>
+            <button class="project-button">VIEW PROJECTS</button>
           </div>
         </header>
       <div className="column-container">
