@@ -8,6 +8,7 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
   background-image: url('/images/header-image.jpg');
+  background-blend-mode: hard-light;
   background-position: center;
   background-size: cover;
   background-repeat:no-repeat;
@@ -30,12 +31,15 @@ body {
 .greeting-text {
 flex-direction: row;
 justify-content:center;
+align-items:center;
 font-size:50px;
 }
 
 .greeting-two-text {
   flex-direction:row;
   font-family: 'Roboto Mono', monospace;
+  align-items:center;
+  justify-content: center;
 }
 
 .project-button {
@@ -67,6 +71,24 @@ font-size:50px;
   display:flex;
   flex-direction:row;
 
+
+}
+.navbar-container {
+  display:flex;
+  flex-direction:column;
+}
+
+.nav-link {
+  color: rgb(219, 236, 236);
+}
+
+.nav-link:hover {
+  color:rgb(164, 233, 233);
+}
+
+.header-logo {
+  height: 80px;
+  justify-content: left;
 }
 
 .column {
@@ -79,6 +101,7 @@ font-size:50px;
 .project-container {
   width:100%;
   max-width: 250px;
+
 }
 
 .project-image {

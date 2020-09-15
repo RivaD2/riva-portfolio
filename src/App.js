@@ -11,6 +11,24 @@ function App() {
             <button class="project-button">VIEW PROJECTS</button>
           </div>
         </header>
+        <ul class="navbar-container">
+          <li>
+            <img src="/images/cv-icon.png" class="header-logo" alt="resume"></img>
+      <a  href="placeholder" class="nav-link">My resume</a>
+          </li>
+          <li>
+          <img src="/images/email.png" class="header-logo" alt="contact"></img>
+      <a  href="placeholder" class="nav-link">Contact Me</a>
+      </li>
+      <li>
+          <img src="/images/github-image2.png" class="header-logo" alt="github"></img>
+      <a  href="placeholder" class="nav-link">GitHub</a>
+      </li>
+      <li>
+          <img src="/images/linkedin-logo.png" class="header-logo" alt="linkedin"></img>
+      <a  href="placeholder" class="nav-link">LinkedIn</a>
+      </li>
+      </ul>
       <div className="column-container">
         <div className="column" id="column-one">
           <div className="project-container">
