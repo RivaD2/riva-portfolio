@@ -30,6 +30,7 @@ function App() {
       </li>
       </ul>
       <div className="column-container">
+        <p class="project-modal">PROJECTS</p>
         <div className="column" id="column-one">
           <div className="project-container">
             <div className="project-image" id="raw-materials-image">
