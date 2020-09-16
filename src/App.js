@@ -4,14 +4,16 @@ import './App.css';
 import 'materialize-css/dist/css/materialize.min.css';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <body className="App">
+      <div className="wrapper">
           <div className="banner-text">
             <h1 className="greeting-text">HELLO, I'M RIVA DAVIDOWSKI</h1>
-            <p className="greeting-two-text"><span>Front End</span> Focused <span>Engineer with</span> Full Stack <span></span><span>Experience</span></p>
+            <p className="greeting-text-two">Front End Focused Engineer with Full Stack Experience</p>
+            <p class="animation-text"><span></span></p>
            <button className="project-button">VIEW PROJECTS</button>
           </div>
-        </header>
+        </div>
+        
       <div className="navbar-container" id="mySidenav">
         <div id="resume" className="sidenav-item">
           <img src="/images/cv-icon.png" alt="resume" className="sidenav-image"/>
@@ -48,7 +50,7 @@ function App() {
 
 
 
-    </div>
+    </body>
       
   );
 }
