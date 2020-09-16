@@ -8,8 +8,8 @@ function App() {
       <header className="App-header">
           <div className="banner-text">
             <h1 className="greeting-text">HELLO, I'M RIVA DAVIDOWSKI</h1>
-            <p className="greeting-two-text">Front End Focused Engineer with Full Stack Experience</p>
-            <button className="project-button">VIEW PROJECTS</button>
+            <p className="greeting-two-text"><span>Front End</span> Focused <span>Engineer with</span> Full Stack <span></span><span>Experience</span></p>
+           <button className="project-button">VIEW PROJECTS</button>
           </div>
         </header>
       <div className="navbar-container" id="mySidenav">
@@ -30,7 +30,6 @@ function App() {
           <a href="https://github.com/RivaD2" className="header-logo">Contact</a>
         </div>
       </div>
-
    
 
 

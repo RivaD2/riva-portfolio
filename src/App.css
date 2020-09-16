@@ -46,7 +46,35 @@ body {
   font-family: 'Roboto Mono', monospace;
   align-items:center;
   justify-content: center;
+  font-size:2rem;
+  z-index:1;
+  overflow:hidden;
 }
+
+.greeting-two-text:before {
+  content:'';
+  position: absolute;
+  left:110%;
+  width:120%;
+  height:50%;
+  background:linear-gradient(90deg, transparent 0, rgb(218, 226, 226) 5%, rgb(218, 226, 226) 100%);
+  animation: animate 5.5s linear forwards;
+}
+
+@keyframes animate {
+  0% 
+  {
+    left:110%
+  }
+    100%
+{
+  left:-20%
+}
+}
+.greeting-two-text span {
+  color: rgb(148, 209, 209);
+}
+
 
 .project-button {
   padding-top: 60px;
@@ -66,7 +94,7 @@ body {
   background-color:black;
 }
   
-.project-button {
+.project-button{
     transition: all .2s ease-in-out;
 }
 
