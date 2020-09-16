@@ -7,6 +7,7 @@ body {
 }
 
 .App-header{
+  min-height:100vh;
   font-size: calc(10px + 2vmin);
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(145, 228, 228, 0.068)), url('/images/header-image.jpg');
@@ -15,21 +16,20 @@ body {
   background-size: cover;
   background-repeat:no-repeat;
   height:400px;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items:center;
+  text-align:center;
 
 }
 
 .banner-text {
   font-family: 'Wallpoet', cursive;
   font-size: 17px;
-  flex-direction:row;
-  justify-content: center;
+  align-items:center;
   text-align:center;
 
-}
-
-.banner-text {
-  flex-direction:row;
-  text-align:center;
 }
 
 .greeting-text {
@@ -37,7 +37,7 @@ body {
   align-items:center;
   justify-content:center;
   align-items:center;
-  font-size:50px;
+  font-size:45px;
 
 }
 
@@ -46,11 +46,10 @@ body {
   font-family: 'Roboto Mono', monospace;
   align-items:center;
   justify-content: center;
-  text-align:center;
 }
 
 .project-button {
-  justify-content: center;
+  padding-top: 60px;
   font-size: 15px;
   font-weight: bold;
   font-family: 'Wallpoet', cursive;
