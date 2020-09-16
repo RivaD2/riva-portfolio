@@ -6,27 +6,31 @@ function App() {
     <div className="App">
       <header className="App-header">
           <div className="banner-text">
-            <h1 class="greeting-text">HELLO, I'M RIVA DAVIDOWSKI</h1>
-            <p class="greeting-two-text">Front End Focused Engineer with Full Stack Experience</p>
-            <button class="project-button">VIEW PROJECTS</button>
+            <h1 className="greeting-text">HELLO, I'M RIVA DAVIDOWSKI</h1>
+            <p className="greeting-two-text">Front End Focused Engineer with Full Stack Experience</p>
+            <button className="project-button">VIEW PROJECTS</button>
           </div>
         </header>
-      <ul class="navbar-container">
-          <li><img src="/images/cv-icon.png" class="header-logo" alt="resume"></img>
-              <a  href="placeholder" class="nav-link">My resume</a>
-          </li>
-          <li><img src="/images/email.png" class="header-logo" alt="contact"></img>
-              <a  href="placeholder" class="nav-link">Contact Me</a>
-          </li>
-          <li><img src="/images/github-image2.png" class="header-logo" alt="github"></img>
-              <a  href="placeholder" class="nav-link">GitHub</a>
-          </li>
-          <li><img src="/images/linkedin-logo.png" class="header-logo" alt="linkedin"></img>
-              <a  href="placeholder" class="nav-link">LinkedIn</a>
-          </li>
-      </ul>
+      <div className="navbar-container" id="mySidenav">
+        <div id="resume" className="sidenav-item">
+          <img src="/images/cv-icon.png" alt="resume" className="sidenav-image"/>
+          <a href="https://github.com/RivaD2" className="header-logo">Resume</a>
+        </div>
+        <div id="linkedin" className="sidenav-item">
+        <img src="/images/linkedin-logo.png" alt="linkedin" className="sidenav-image"/>
+          <a href="https://www.linkedin.com/in/riva-davidowski-rivad/" className="header-logo">LinkedIn</a>
+        </div>
+        <div id="github" className="sidenav-item">
+        <img src="/images/github-image2.png" alt="github" className="sidenav-image"/>
+          <a href="https://github.com/RivaD2" className="header-logo">Github</a>
+        </div>
+        <div id="contact" className="sidenav-item">
+        <img src="/images/email-icon.png" alt="contact" className="sidenav-image"/>
+          <a href="https://github.com/RivaD2" className="header-logo">Contact</a>
+        </div>
+      </div>
       <div className="column-container">
-        <p class="project-modal">PROJECTS</p>
+        <p className="project-modal">PROJECTS</p>
         <div className="column" id="column-one">
           <div className="project-container">
             <div className="project-image" id="raw-materials-image">
