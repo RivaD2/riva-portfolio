@@ -37,7 +37,7 @@ body {
   align-items:center;
   justify-content:center;
   align-items:center;
-  font-size:45px;
+  font-size:3rem;
 
 }
 
@@ -56,7 +56,8 @@ body {
   text-align: center;
   margin:0 auto;
   display: block;
-  width: 150px;
+  height:50px;
+  width: 175px;
   padding: 8px;
   color: #fff;
   border: 2px solid #fff;

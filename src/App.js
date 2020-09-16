@@ -1,7 +1,7 @@
 import React from 'react';
 //import Projects from "./Projects";
 import './App.css';
-
+import 'materialize-css/dist/css/materialize.min.css';
 function App() {
   return (
     <div className="App">
