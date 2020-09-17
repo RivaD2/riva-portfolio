@@ -2,6 +2,13 @@ import React from 'react';
 import './App.css';
 function Projects() {
   //name of component is always the same as name of file
+  //each component is combo of JS and HTML
+  /*There are two things that components have that make them React components
+    - props: is how a parent communicates to child. They are read only from childs perspective
+    -state: how a component manages itself so it can read, write, edit its own state and no other
+    components know about its state
+    - each componenet is self-contained and props is how they are connected
+    */
   return (
     //parens tell react that I am switching from JS to HTML
     <div className="column-container">

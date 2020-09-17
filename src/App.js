@@ -1,19 +1,10 @@
 import React from 'react';
-//import Projects from "./Projects";
+import Projects from "./Projects";
+import Home from "./Home";
 import './App.css';
-import 'materialize-css/dist/css/materialize.min.css';
 function App() {
   return (
     <body className="App">
-      <div className="wrapper">
-          <div className="banner-text">
-            <h1 className="greeting-text">HELLO, I'M RIVA DAVIDOWSKI</h1>
-            <p className="greeting-text-two">Front End Focused Engineer with Full Stack Experience</p>
-            <p class="animation-text"><span></span></p>
-           <button className="project-button">VIEW PROJECTS</button>
-          </div>
-        </div>
-        
       <div className="navbar-container" id="mySidenav">
         <div id="resume" className="sidenav-item">
           <img src="/images/cv-icon.png" alt="resume" className="sidenav-image"/>
@@ -32,7 +23,6 @@ function App() {
           <a href="https://github.com/RivaD2" className="header-logo">Contact</a>
         </div>
       </div>
-   
 
 
 
