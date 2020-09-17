@@ -17,3 +17,21 @@
     -webkit-text-stroke: 1px black;
     color:#fff;
 }
+
+.project-page-button {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Wallpoet', cursive;
+  text-align: center;
+  margin:0 auto;
+  display: block;
+  height:50px;
+  width: 175px;
+  padding: 8px;
+  color: rgb(177, 243, 245);
+  border: 2px solid #fff;
+  outline: none;
+  text-decoration: none;
+  background-color:black;
+}
+}

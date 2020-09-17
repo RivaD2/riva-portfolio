@@ -42,6 +42,7 @@ class Projects extends React.Component {
             style={{ marginBottom: this.state.offset / 3 }}
           >
             <h1>RIVA DAVIDOWSKI</h1>
+            <button className="project-page-button">PROJECTS</button>
           </section>
         </header>
 
