@@ -1,4 +1,10 @@
 .App {
+  
+  font-family: 'Wallpoet', cursive;
+  background-color:black;
+}
+
+.home-container {
   min-height:100vh;
   margin:0;
   padding:0;

@@ -1,0 +1,19 @@
+.header-background {
+    height:80vh;
+    background-image:url('/images/spaceship-interior-projects.jpg');
+    background-repeat: no-repeat; 
+    background-size:contain;
+    background-position: center center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+}
+
+.info-container {
+    width:600px;
+    font-size:28pt;
+    -webkit-text-stroke: 1px black;
+    color:#fff;
+}

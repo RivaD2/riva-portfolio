@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 function Home() {
     return (
+        <div className="home-container">
         <div className="wrapper">
           <div className="banner-text">
             <h1 className="greeting-text">HELLO, I'M RIVA DAVIDOWSKI</h1>
@@ -10,7 +11,7 @@ function Home() {
            <button className="project-button">VIEW PROJECTS</button>
           </div>
         </div>
-        
+        </div>
 
     )
 }
