@@ -19,14 +19,14 @@
 }
 
 .project-page-button {
-  font-size: 15px;
+  font-size: 22pt;
   font-weight: bold;
   font-family: 'Wallpoet', cursive;
   text-align: center;
   margin:0 auto;
   display: block;
-  height:50px;
-  width: 175px;
+  height:60px;
+  width: 210px;
   padding: 8px;
   color: rgb(177, 243, 245);
   border: 2px solid #fff;
@@ -34,4 +34,8 @@
   text-decoration: none;
   background-color:black;
 }
-}
+
+.project-page-button:hover {
+    background-color:rgb(177, 243, 245);
+    color:black;
+  }
