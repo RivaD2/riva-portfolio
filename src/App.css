@@ -15,7 +15,7 @@
   background-repeat:no-repeat;
   background-color: rgb(12, 12, 12);
   border: 4px solid black;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(145, 228, 228, 0.068)), url('/images/header-image.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(145, 228, 228, 0.068)), url('/images/spaceship-entry-home.jpg');
   font-family: 'Wallpoet', cursive;
 }
 
@@ -178,48 +178,5 @@ span:before{
 .header-logo {
   height: 60px;
   justify-content: left;
-}
-
-.column {
-  flex-basis:33%;
-  display:flex;
-  flex-direction: column;
-  align-items:center;
-}
-
-.project-container {
-  width:100%;
-  max-width: 250px;
-
-}
-
-.project-image {
-  width:100%;
-  height:0;
-  padding-top: 100%;
-  border:solid 2px black;
-  background-color: gray;
-  background-size:cover;
-}
-
-.project-title {
-  font-family: 'Wallpoet', cursive;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 35px;
-  line-height: 35px;
-  color: #FAF4F4;
-}
-
-#raw-materials-image {
-  background-image:url();
-}
-
-#busMall-image {
-  background-image:url('/images/busMall-image.png');
-}
-
-#movie-night-image {
-  background-image: url('/images/movie-night-image.png');
 }
 
