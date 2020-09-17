@@ -11,6 +11,11 @@
     text-align:center;
 }
 
+.header-text-projects {
+    -webkit-text-stroke: 1px black;
+    color:#fff;
+}
+
 .info-container {
     width:600px;
     font-size:28pt;
@@ -18,24 +23,69 @@
     color:#fff;
 }
 
-.project-page-button {
-  font-size: 22pt;
-  font-weight: bold;
-  font-family: 'Wallpoet', cursive;
-  text-align: center;
-  margin:0 auto;
-  display: block;
-  height:60px;
-  width: 210px;
-  padding: 8px;
-  color: rgb(177, 243, 245);
-  border: 2px solid #fff;
-  outline: none;
-  text-decoration: none;
-  background-color:black;
+.project-image {
+    height:80vh;
+    background-image:url('/images/movie-night-image.png');
+    background-repeat: no-repeat; 
+    background-size:contain;
+    background-position: center center;
+    display:flex;
+    flex-direction:column;
+    background-repeat: no-repeat; 
+    background-size:contain;
+    background-position: center center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
 }
 
-.project-page-button:hover {
-    background-color:rgb(177, 243, 245);
-    color:black;
-  }
+.arrow-box {
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+}
+
+.arrow-box span {
+    display:flex;
+    justify-content:center;
+    width:20px;
+    height:20px;
+    border-bottom:1 px solid #fff;
+    border-right:1 px solid #fff;
+    transform:rotate(45deg);
+    animation:animate 2s infinite;
+    margin:-10px;
+}
+
+.arrow-box span:nth-child(2) 
+{
+    animation-delay:-0.2s;
+    
+}
+.arrow-box span:nth-child(3) 
+{
+    animation-delay:-0.4s;
+}
+@keyframes animate 
+{
+    0%
+    {
+        opacity:0;
+        transform:rotate(45deg)translate(-20px,-20px);
+    }
+    50%
+    {
+        opacity:1;
+    }
+    100%
+    {
+        opacity:0;
+        transform:rotate(45deg)translate(20px,20px);
+    }
+}
+
