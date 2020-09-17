@@ -46,27 +46,35 @@ class Projects extends React.Component {
             <p className = "header-text-projects">PROJECTS</p>
           </section>
         </header>
-
         <div className="arrow-box">
           <span></span>
           <span></span>
           <span></span>
          </div>
 
+        
+       
+
         <div className="project-container">
-          <div ClassName ="move-night-container"></div>
+          <div ClassName ="movie-night-container"></div>
           <div className="project-image" id="movie-night-image">
-          <p>MOVIE NIGHT</p>
+          <div className="movie-night-img-title">MOVIE NIGHT</div>
+            <div className="button-container">
+            <button className="project-page-button">VIEW DEMO</button>
+            <button className="project-page-button">VIEW CODE</button>
+            </div>
           </div>
+
           <div ClassName ="movie-night-desc-container">
-          <div className="project-desc">
-          The app’s purpose is to have group members choose which product, of the three displayed images,
-          that they would be most likely to purchase. I had to store, calculate, and visually display the 
-          resulting data using Chart.js.
-          </div>
+            <div className="project-desc">
+              <p>MOVIE NIGHT</p>
+                The app’s purpose is to have group members choose which product, of the three displayed images,
+                that they would be most likely to purchase. I had to store, calculate, and visually display the 
+                resulting data using Chart.js.
+            </div>
           </div>
         </div>
-        </div>
+      </div>
     )
   }
 }
