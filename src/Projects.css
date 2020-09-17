@@ -23,86 +23,15 @@
     color:#fff;
 }
 
-.movie-night-img-title {
-    color: rgb(177, 243, 245);
-    font-size: 36pt;
-    display:flex;
-    flex-direction:row;
-    justify-content: left;
-    writing-mode: vertical-rl;
-    text-orientation:mixed;
-}
-.project-image {
-    height:60vh;
-    width:100vw;
-    background-image:url('/images/movie-night-image.png');
-    background-repeat: no-repeat; 
-    background-size:contain;
-    background-position: center center;
-    display:flex;
-    flex-direction:row;
-    justify-content: left;
-    background-repeat: no-repeat; 
-    background-size:contain;
-    background-position: center center;
-    justify-content: center;
-    align-items:center;
-    text-align:center;
-    border:2px solid white;
-}
-#movie-night-img {
-    display:flex;
-    justify-content:left;
-    flex-direction:row;
-
-}
-
-.button-container {
-    display:flex;
-    flex-direction:row;
-    justify-content:space-evenly;
-    align-items: right;
-}
-.project-page-button {
-  font-size: 15px;
-  font-weight: bold;
-  font-family: 'Wallpoet', cursive;
-  text-align: center;
-  margin:0 auto;
-  display: block;
-  height:50px;
-  width: 175px;
-  padding: 8px;
-  color: rgb(177, 243, 245);
-  border: 2px solid #fff;
-  outline: none;
-  text-decoration: none;
-  background-color:black;
-  display:flex;
-  flex-direction:row;
-  justify-content: center;
-  align-items:center;
-
-}
-  
-.project-page-button{
-    transition: all .2s ease-in-out;
-}
-
-.project-page-button:hover {
-  background-color:rgb(177, 243, 245);
-  color:black;
-}
-
 .arrow-box {
-   display:flex;
-   flex-direction:column;
-   justify-content: center;
-   top:50%;
-   left:50%;
-   transform:translate(50%,100%);
-}
-
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    top:50%;
+    left:50%;
+    transform:translate(50%,100%);
+ }
+ 
 .arrow-box span {
     display:flex;
     width:20px;
@@ -140,4 +69,75 @@
         transform:rotate(45deg)translate(20px,20px);
     }
 }
+
+.img-title {
+    color: rgb(177, 243, 245);
+    font-size: 36pt;
+    display:flex;
+    flex-direction:row;
+    writing-mode: vertical-rl;
+    text-orientation:mixed;
+    align-self:left;
+}
+.project-image {
+    height:60vh;
+    width:100vw;
+    background-image:url('/images/movie-night-image.png');
+    background-repeat: no-repeat; 
+    background-size:contain;
+    background-position: center center;
+    display:flex;
+    flex-direction:row;
+    justify-content: left;
+    background-repeat: no-repeat; 
+    background-size:contain;
+    background-position: center center;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    border:2px solid white;
+}
+
+.button-container {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: right;
+}
+.project-page-button {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Wallpoet', cursive;
+  text-align: center;
+  margin:0 auto;
+  display: block;
+  height:50px;
+  width: 175px;
+  padding: 8px;
+  color: rgb(177, 243, 245);
+  border: 2px solid #fff;
+  outline: none;
+  text-decoration: none;
+  background-color:black;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items:center;
+}
+  
+.project-page-button{
+    transition: all .2s ease-in-out;
+}
+
+.project-page-button:hover {
+  background-color:rgb(177, 243, 245);
+  color:black;
+}
+
+#movie-night-desc {
+    color:white;
+    font-size:12pt;
+}
+
+
 

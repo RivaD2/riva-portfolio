@@ -56,21 +56,27 @@ class Projects extends React.Component {
        
 
         <div className="project-container">
-          <div ClassName ="movie-night-container"></div>
-          <div className="project-image" id="movie-night-image">
-          <div className="movie-night-img-title">MOVIE NIGHT</div>
+          <div ClassName ="movie-container">
+          <div className="project-image">
+          <div className="img-title">MOVIE NIGHT</div>
             <div className="button-container">
             <button className="project-page-button">VIEW DEMO</button>
             <button className="project-page-button">VIEW CODE</button>
             </div>
           </div>
 
-          <div ClassName ="movie-night-desc-container">
+          <div ClassName ="desc-container">
             <div className="project-desc">
-              <p>MOVIE NIGHT</p>
-                The app’s purpose is to have group members choose which product, of the three displayed images,
-                that they would be most likely to purchase. I had to store, calculate, and visually display the 
-                resulting data using Chart.js.
+              {/* <p id="movie-night-title-desc">MOVIE NIGHT</p> */}
+              <p id="text-desc">Movie Night makes it easy for a user to pick a movie from a recommendation list based of 
+                ratings. The user can choose which movies to watch based of this list and add them to a watchlist.
+                The project used a public API to get movie data and the user can choose which movies to watch based of this list. They can then add movies to the watchlist and delete movies from the watchlist. This involved setting up a server
+                ,using various SQL commands, creating GET and POST routes and storing data in a database. 
+                </p> 
+                <p>TOOLS USED:  Nodemon, PostgreSQL, JS, HTML, CSS, EJS, ES6, 
+                  Express.js, Heroku, Github, Trello, and public API from themoviedb.org. 
+                  Credit for the background images used on this project goes to Netflix.</p>    
+              </div>
             </div>
           </div>
         </div>

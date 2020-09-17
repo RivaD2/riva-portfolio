@@ -15,7 +15,7 @@
   background-repeat:no-repeat;
   background-color: rgb(12, 12, 12);
   border: 4px solid black;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(145, 228, 228, 0.068)), url('/images/header-image.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(145, 228, 228, 0.068)), url('/images/spaceship-entry-home.jpg');
   font-family: 'Wallpoet', cursive;
 }
 
