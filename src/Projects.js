@@ -57,9 +57,18 @@ class Projects extends React.Component {
        
 
         <div className="project-container">
-          <div className ="movie-container">
-          <div className="project-image">
+          <div className="movie-container">
+          <div className="image-container">
+            <div className="project-image">
+          
           <div className="img-title">MOVIE NIGHT</div>
+          <div className="tools-desc-container">
+            <div className="tools-used-desc">TOOLS USED:  
+            Nodemon, PostgreSQL, JS, HTML, CSS, EJS, ES6, 
+                  Express.js, Heroku, Github, Trello, and public API from themoviedb.org. 
+                  Credit for the background images used on this project goes to Netflix.
+              </div>  
+              </div>
             <div className="button-container">
             <button className="project-page-button">VIEW DEMO</button>
             <button className="project-page-button">VIEW CODE</button>
@@ -69,18 +78,16 @@ class Projects extends React.Component {
           <div className ="desc-container"></div>
             <div className="project-desc">
               {/* <p id="movie-night-title-desc">MOVIE NIGHT</p> */}
-              <p id="text-desc">Movie Night makes it easy for a user to pick a movie from a recommendation list based of 
+              <div id="text-desc">Movie Night makes it easy for a user to pick a movie from a recommendation list based of 
                 ratings. The user can choose which movies to watch based of this list and add them to a watchlist.
                 The project used a public API to get movie data and the user can choose which movies to watch based of this list. They can then add movies to the watchlist and delete movies from the watchlist. This involved setting up a server
                 ,using various SQL commands, creating GET and POST routes and storing data in a database. 
-                </p> 
-                <p>TOOLS USED:  Nodemon, PostgreSQL, JS, HTML, CSS, EJS, ES6, 
-                  Express.js, Heroku, Github, Trello, and public API from themoviedb.org. 
-                  Credit for the background images used on this project goes to Netflix.</p>    
+                </div>   
               </div>
             </div>
           </div>
-      </div>
+        </div>
+    </div>
     )
   }
 }

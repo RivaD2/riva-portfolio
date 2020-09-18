@@ -1,4 +1,5 @@
 .header-background {
+    background-color:black;
     height:70vh;
     background-image:url('/images/spaceship-interior-projects.jpg');
     background-repeat: no-repeat; 
@@ -69,13 +70,6 @@
     }
 }
 
-.img-title {
-    color: rgb(177, 243, 245);
-    font-size: 36pt;
-    display:flex;
-    flex-direction:row;
-}
-
 .project-image {
     height:60vh;
     width:100vw;
@@ -87,6 +81,14 @@
     background-repeat: no-repeat; 
     justify-content: center;
     border:2px solid white;
+}
+
+.img-title {
+    color: rgb(177, 243, 245);
+    font-size: 36pt;
+    display:flex;
+    flex-direction:row;
+    margin-left:500px
 }
 
 .button-container {
@@ -112,6 +114,8 @@
   flex-direction:row;
   justify-content: center;
   align-items:center;
+  margin-top:350px;
+  margin-right: 200px;
 }
   
 .project-page-button{
@@ -123,9 +127,24 @@
   color:black;
 }
 
+.tools-desc-container {
+    display:flex;
+    flex-direction:row;
+    align-content:right;
+    justify-content:right;
+}
+.tools-used-desc {
+    
+    font: size 12pt;
+    color:rgb(221, 211, 211);
+    text-align:right;
+    line-height: 1em;
+}
+
 #text-desc {
-    color:white;
+    color: rgb(221, 211, 211);
     font-size:12pt;
+    line-height: 1em;
 }
 
 
