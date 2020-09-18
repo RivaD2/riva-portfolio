@@ -45,18 +45,19 @@ class Projects extends React.Component {
             <h1>RIVA DAVIDOWSKI</h1>
             <p className = "header-text-projects">PROJECTS</p>
           </section>
-        </header>
-        <div className="arrow-box">
-          <span></span>
-          <span></span>
-          <span></span>
+          <div className="arrow-box">
+          <div></div>
+          <div></div>
+          <div></div>
          </div>
+        </header>
+        
 
         
        
 
         <div className="project-container">
-          <div ClassName ="movie-container">
+          <div className ="movie-container">
           <div className="project-image">
           <div className="img-title">MOVIE NIGHT</div>
             <div className="button-container">
@@ -65,7 +66,7 @@ class Projects extends React.Component {
             </div>
           </div>
 
-          <div ClassName ="desc-container">
+          <div className ="desc-container"></div>
             <div className="project-desc">
               {/* <p id="movie-night-title-desc">MOVIE NIGHT</p> */}
               <p id="text-desc">Movie Night makes it easy for a user to pick a movie from a recommendation list based of 
@@ -79,7 +80,6 @@ class Projects extends React.Component {
               </div>
             </div>
           </div>
-        </div>
       </div>
     )
   }

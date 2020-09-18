@@ -1,5 +1,5 @@
 .header-background {
-    height:80vh;
+    height:70vh;
     background-image:url('/images/spaceship-interior-projects.jpg');
     background-repeat: no-repeat; 
     background-size:contain;
@@ -26,29 +26,28 @@
 .arrow-box {
     display:flex;
     flex-direction:column;
-    justify-content: center;
+    align-items: center;
     top:50%;
     left:50%;
-    transform:translate(50%,100%);
  }
  
-.arrow-box span {
+.arrow-box div {
     display:flex;
     width:20px;
     height:20px;
-    margin:-10px;
     border-bottom:5px solid white;
     border-right:5px solid white;
     transform:rotate(45deg);
     animation:animate 2s infinite;
+    margin:-10px;
 }
 
-.arrow-box span:nth-child(2) 
+.arrow-box div:nth-child(2) 
 {
     animation-delay:-0.2s;
     
 }
-.arrow-box span:nth-child(3) 
+.arrow-box div:nth-child(3) 
 {
     animation-delay:-0.4s;
 }
@@ -75,26 +74,18 @@
     font-size: 36pt;
     display:flex;
     flex-direction:row;
-    writing-mode: vertical-rl;
-    text-orientation:mixed;
-    align-self:left;
 }
+
 .project-image {
     height:60vh;
     width:100vw;
     background-image:url('/images/movie-night-image.png');
-    background-repeat: no-repeat; 
-    background-size:contain;
-    background-position: center center;
+    background-size:500px;
+    background-position: left;
     display:flex;
     flex-direction:row;
-    justify-content: left;
     background-repeat: no-repeat; 
-    background-size:contain;
-    background-position: center center;
     justify-content: center;
-    align-items:center;
-    text-align:center;
     border:2px solid white;
 }
 
@@ -108,9 +99,7 @@
   font-size: 15px;
   font-weight: bold;
   font-family: 'Wallpoet', cursive;
-  text-align: center;
   margin:0 auto;
-  display: block;
   height:50px;
   width: 175px;
   padding: 8px;
