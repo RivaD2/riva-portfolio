@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## My Portfolio
+
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* This project involved creating my personal spaceship themed portfolio. This was not a class project but one where I focused on learning React, responsive CSS frameworks like Materialize, various CSS3 animations and Bootstrap.
 
 ## Available Scripts
 
