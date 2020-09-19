@@ -80,20 +80,23 @@
 .project-image {
     height:60vh;
     width:40vw;
-    background-image:url('/images/movie-night-image.png');
-    background-size:500px;
-    background-position: left;
+    background-size:350px;
+    background-position: center;
     display:flex;
     flex-direction:row;
     background-repeat: no-repeat; 
     justify-content: center;
 }
 
-.img-title {
+.movie-container {
+    display:flex;
+    flex-direction:column;
+   justify-content: space-around;
+}
+.project-title {
     color: rgb(177, 243, 245);
     font-size: 36pt;
-    display:flex;
-    flex-direction:row;
+    text-align:center;
 }
 
 .button-container {
@@ -130,19 +133,16 @@
   color:black;
 }
 
-.tools-used-desc {
-     font: size 10pt;
-    color:rgb(221, 211, 211);
-    text-align:right;
-    line-height: 1em;
-    font-family:'Orbitron', sans-serif;
+#tools-used-desc {
+   text-align:center;
+   font-size: 12pt;
 }
 
-#text-desc {
+.project-text{
     color: rgb(221, 211, 211);
-    font-size:10pt;
-    line-height: 1em;
-    font-family:'Orbitron', sans-serif;
+    font-size:12pt;
+    line-height: 1.5em;
+    font-family: 'Roboto', sans-serif;
 }
 
 

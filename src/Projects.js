@@ -59,30 +59,35 @@ class Projects extends React.Component {
         <div className="project-container">
           <div className="image-container">
             <div className="project-image">
+              <img src="/images/movie-night-image.png" alt="project-gif"></img>
             </div>
           </div>
           <div className="movie-container">
-            <div className="img-title">MOVIE NIGHT</div>
+            <div className="project-title">MOVIE NIGHT</div>
             <div className="tools-desc-container">
-              <div className="tools-used-desc">TOOLS USED:  
-                  Nodemon, PostgreSQL, JS, HTML, CSS, EJS, ES6, 
+              <div id="tools-used-desc" className="project-text"> TOOLS USED:  
+                  <blockquote>Nodemon, PostgreSQL, JS, HTML, CSS, EJS, ES6, 
                   Express.js, Heroku, Github, Trello, and public API from themoviedb.org. 
                   Credit for the background images used on this project goes to Netflix.
+                  </blockquote>
               </div>  
-            </div>
-            <div className="button-container">
-              <button className="project-page-button">VIEW DEMO</button>
-              <button className="project-page-button">VIEW CODE</button>
             </div>
           
             <div className ="desc-container"></div>
             <div className="project-desc">
               {/* <p id="movie-night-title-desc">MOVIE NIGHT</p> */}
-              <div id="text-desc">ABOUT MOVIE NIGHT: This app makes it easy to pick a movie from a recommendation list based of 
+              <div id="text-desc" className="project-text">ABOUT MOVIE NIGHT: 
+                <blockquote>This app makes it easy to pick a movie from a recommendation list based of 
                 ratings. The user can choose which movies to watch based of this list and add them to a watchlist.
                 The project used a public API to get movie data and the user can choose which movies to watch based of this list. They can then add movies to the watchlist and delete movies from the watchlist. This involved setting up a server
-                ,using various SQL commands, creating GET and POST routes and storing data in a database. 
+                ,using various SQL commands, creating GET and POST routes and storing data in a database.
+                </blockquote> 
               </div>   
+            </div>
+            <div className="button-spacer"></div>
+            <div className="button-container">
+              <button className="project-page-button">VIEW DEMO</button>
+              <button className="project-page-button">VIEW CODE</button>
             </div>
           </div>
         </div>
