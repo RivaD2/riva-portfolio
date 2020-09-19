@@ -1,7 +1,7 @@
 ## My Portfolio
 
-* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-* This project involved creating my personal spaceship themed portfolio. This was not a class project but one where I focused on learning React, responsive CSS frameworks like Materialize, various CSS3 animations and Bootstrap.
+###  I had a lot of fun building this project on my own time. I really focused on learning React and familarizing myself with Bootstrap and other CSS Frameworks like Materialize.
+**TOOLS USED: React app, responsive CSS frameworks, various CSS3 animations, Node.js to run server on backend and NASA API's to access the NASA Image and Video Library
 
 ## Available Scripts
 
