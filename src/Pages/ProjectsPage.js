@@ -1,6 +1,5 @@
 import React from 'react';
-import './App.css';
-import './Projects.css';
+import './ProjectsPage.css';
 
 class Projects extends React.Component {
   constructor(props) {
@@ -52,10 +51,6 @@ class Projects extends React.Component {
          </div>
         </header>
         
-
-        
-       
-
         <div className="project-container">
           <div className="image-container">
             <div className="project-image">
