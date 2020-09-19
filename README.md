@@ -1,7 +1,14 @@
-## My Portfolio
+### My Portfolio
 
 ###  I had a lot of fun building this project on my own time. I really focused on learning React and familarizing myself with Bootstrap and other CSS Frameworks like Materialize.
-**TOOLS USED: React app, responsive CSS frameworks, various CSS3 animations, Node.js to run server on backend and NASA API's to access the NASA Image and Video Library
+### TOOLS USED: 
+* React app
+* Responsive CSS frameworks
+* Various CSS3 animations
+* Node.js to run server on backend 
+* NASA API's to access the NASA Image and Video Library for some of my photos
+
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
