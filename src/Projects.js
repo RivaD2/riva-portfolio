@@ -65,8 +65,8 @@ class Projects extends React.Component {
           <div className="movie-container">
             <div className="project-title">MOVIE NIGHT</div>
             <div className="tools-desc-container">
-              <div id="tools-used-desc" className="project-text"> TOOLS USED:  
-                  <blockquote>Nodemon, PostgreSQL, JS, HTML, CSS, EJS, ES6, 
+              <div id="tools-used-desc" className="project-text"> <b>TOOLS USED:</b>  
+                  <blockquote>Balsamiq,HTML, CSS,JavaScript, EJS, ES6, Nodemon, Postgresql, 
                   Express.js, Heroku, Github, Trello, and public API from themoviedb.org. 
                   Credit for the background images used on this project goes to Netflix.
                   </blockquote>
@@ -76,7 +76,7 @@ class Projects extends React.Component {
             <div className ="desc-container"></div>
             <div className="project-desc">
               {/* <p id="movie-night-title-desc">MOVIE NIGHT</p> */}
-              <div id="text-desc" className="project-text">ABOUT MOVIE NIGHT: 
+              <div id="text-desc" className="project-text"><b>ABOUT MOVIE NIGHT:</b>
                 <blockquote>This app makes it easy to pick a movie from a recommendation list based of 
                 ratings. The user can choose which movies to watch based of this list and add them to a watchlist.
                 The project used a public API to get movie data and the user can choose which movies to watch based of this list. They can then add movies to the watchlist and delete movies from the watchlist. This involved setting up a server
