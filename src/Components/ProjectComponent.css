@@ -1,0 +1,82 @@
+
+.project-container {
+    display:flex;
+    flex-direction:row;
+    border:2px solid white;
+}
+
+.project-image {
+    height:60vh;
+    width:40vw;
+    background-size:350px;
+    background-position: center;
+    display:flex;
+    flex-direction:row;
+    background-repeat: no-repeat; 
+    justify-content: flex-start;
+}
+.project-gif {
+    width: 80%;
+}
+
+.movie-container {
+    display:flex;
+    flex-direction:column;
+   justify-content: space-around;
+}
+
+.project-title {
+    color: rgb(177, 243, 245);
+    font-size: 36pt;
+    text-align:center;
+}
+
+.button-container {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: right;
+}
+.project-page-button {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Wallpoet', cursive;
+  margin:0 auto;
+  height:50px;
+  width: 175px;
+  padding: 8px;
+  color: rgb(177, 243, 245);
+  border: 2px solid #fff;
+  outline: none;
+  text-decoration: none;
+  background-color:black;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items:center;
+}
+  
+.project-page-button{
+    transition: all .2s ease-in-out;
+}
+
+.project-page-button:hover {
+  background-color:rgb(177, 243, 245);
+  color:black;
+}
+
+#tools-used-desc b {
+   text-align:left;
+   font-size: 12pt;
+   text-transform: uppercase;
+}
+
+.project-text{
+    color: rgb(221, 211, 211);
+    font-size:12pt;
+    line-height: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+#text-desc b {
+    text-transform: uppercase;
+}

@@ -13,7 +13,7 @@ class App extends React.Component {
   //the render function renders html for the component 
   render() {
     return (
-      <body className="App">
+      <div className="App">
         {/* curly braces mean we are using JS */}
         {/* using ternary operators for if else. The value of state will be checked
         and the Projects component or Home component will be rendered depending on value. */}
@@ -40,7 +40,7 @@ class App extends React.Component {
             <a href="https://github.com/RivaD2" className="header-logo">Contact</a>
           </div>
         </div>
-      </body>
+      </div>
         
     );
   }

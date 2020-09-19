@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectComponent from '../Components/ProjectComponent';
 import './ProjectsPage.css';
 
 class Projects extends React.Component {
@@ -8,7 +9,28 @@ class Projects extends React.Component {
     this.state = {
       offset: 0
     };
+
+    this.projectList = [
+      {
+        title : 'Movie Night',
+        img_url: '/images/movie-night-image.png', 
+        tools_used:'Balsamiq,HTML, CSS,JavaScript, EJS, ES6, Nodemon, Postgresql, Express.js, Heroku, Github, Trello, and public API from themoviedb.org. Credit for the background images used on this project goes to Netflix.',
+        text_desc:'This app makes it easy to pick a movie from a recommendation list based of ratings. The user can choose which movies to watch based of this list and add them to a watchlist. The project used a public API to get movie data and the user can choose which movies to watch based of this list. They can then add movies to the watchlist and delete movies from the watchlist. This involved setting up a server,using various SQL commands, creating GET and POST routes and storing data in a database.'
+      },
+      {title: 'Raw Materials', 
+      img_url: 'images/raw-materials-image.png', 
+      tools_used:'HTML, jQuery, JavaScript, CSS, local storage ',
+      text_desc:'A smooth looking, modern online shopping experience for high-end quality morning beverage products. Users can add items to a cart and save the items. They can delete the items and the amount due is upated. '
+      },
+      {title: 'Bus Mall', 
+      img_url: 'images/busMall-image.png',
+      tools_used:'HTML, CSS, vanilla JavaScript',
+      text_desc:'The BusMall project challenge was to build an app that displays potential products to individuals in focus groups (three products at a time, side-by-side-by-side)The app’s purpose is to have group members choose which product, of the three displayed images, that they would be most likely to purchase. I had to store, calculate, and visually display the resulting data using Chart.js'
+      }
+    ]
+  
   }
+
   componentDidMount() {
     window.addEventListener('scroll', this.parallaxShift);
   }
@@ -50,43 +72,16 @@ class Projects extends React.Component {
             <div></div>
          </div>
         </header>
-        
-        <div className="project-container">
-          <div className="image-container">
-            <div className="project-image">
-              <img src="/images/movie-night-image.png" alt="project-gif"></img>
-            </div>
-          </div>
-          <div className="movie-container">
-            <div className="project-title">MOVIE NIGHT</div>
-            <div className="tools-desc-container">
-              <div id="tools-used-desc" className="project-text"> <b>TOOLS USED:</b>  
-                  <blockquote>Balsamiq,HTML, CSS,JavaScript, EJS, ES6, Nodemon, Postgresql, 
-                  Express.js, Heroku, Github, Trello, and public API from themoviedb.org. 
-                  Credit for the background images used on this project goes to Netflix.
-                  </blockquote>
-              </div>  
-            </div>
-          
-            <div className ="desc-container"></div>
-            <div className="project-desc">
-              {/* <p id="movie-night-title-desc">MOVIE NIGHT</p> */}
-              <div id="text-desc" className="project-text"><b>ABOUT MOVIE NIGHT:</b>
-                <blockquote>This app makes it easy to pick a movie from a recommendation list based of 
-                ratings. The user can choose which movies to watch based of this list and add them to a watchlist.
-                The project used a public API to get movie data and the user can choose which movies to watch based of this list. They can then add movies to the watchlist and delete movies from the watchlist. This involved setting up a server
-                ,using various SQL commands, creating GET and POST routes and storing data in a database.
-                </blockquote> 
-              </div>   
-            </div>
-            <div className="button-spacer"></div>
-            <div className="button-container">
-              <button className="project-page-button">VIEW DEMO</button>
-              <button className="project-page-button">VIEW CODE</button>
-            </div>
-          </div>
-        </div>
-      </div>
+        {this.projectList.map(projectData => {
+          console.log(projectData);
+          return (
+            //I passed projectData (an obj) into the object Component as a prop
+            //A prop is the react word for data that is passed into a Component
+            <ProjectComponent projectData={projectData}></ProjectComponent>
+          )
+        })
+        }
+    </div>
     )
   }
 }
