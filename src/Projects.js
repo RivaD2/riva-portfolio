@@ -3,8 +3,8 @@ import './App.css';
 import './Projects.css';
 
 class Projects extends React.Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
   
     this.state = {
       offset: 0
@@ -46,9 +46,9 @@ class Projects extends React.Component {
             <p className = "header-text-projects">PROJECTS</p>
           </section>
           <div className="arrow-box">
-          <div></div>
-          <div></div>
-          <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
          </div>
         </header>
         
@@ -57,35 +57,34 @@ class Projects extends React.Component {
        
 
         <div className="project-container">
-          <div className="movie-container">
           <div className="image-container">
             <div className="project-image">
-          
-          <div className="img-title">MOVIE NIGHT</div>
-          <div className="tools-desc-container">
-            <div className="tools-used-desc">TOOLS USED:  
-            Nodemon, PostgreSQL, JS, HTML, CSS, EJS, ES6, 
+            </div>
+          </div>
+          <div className="movie-container">
+            <div className="img-title">MOVIE NIGHT</div>
+            <div className="tools-desc-container">
+              <div className="tools-used-desc">TOOLS USED:  
+                  Nodemon, PostgreSQL, JS, HTML, CSS, EJS, ES6, 
                   Express.js, Heroku, Github, Trello, and public API from themoviedb.org. 
                   Credit for the background images used on this project goes to Netflix.
               </div>  
-              </div>
-            <div className="button-container">
-            <button className="project-page-button">VIEW DEMO</button>
-            <button className="project-page-button">VIEW CODE</button>
             </div>
-          </div>
-          </div>
+            <div className="button-container">
+              <button className="project-page-button">VIEW DEMO</button>
+              <button className="project-page-button">VIEW CODE</button>
+            </div>
           
-          <div className ="desc-container"></div>
+            <div className ="desc-container"></div>
             <div className="project-desc">
               {/* <p id="movie-night-title-desc">MOVIE NIGHT</p> */}
               <div id="text-desc">ABOUT MOVIE NIGHT: This app makes it easy to pick a movie from a recommendation list based of 
                 ratings. The user can choose which movies to watch based of this list and add them to a watchlist.
                 The project used a public API to get movie data and the user can choose which movies to watch based of this list. They can then add movies to the watchlist and delete movies from the watchlist. This involved setting up a server
                 ,using various SQL commands, creating GET and POST routes and storing data in a database. 
-                </div>   
-              </div>
+              </div>   
             </div>
+          </div>
         </div>
       </div>
     )
