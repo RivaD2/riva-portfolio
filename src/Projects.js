@@ -74,20 +74,20 @@ class Projects extends React.Component {
             <button className="project-page-button">VIEW CODE</button>
             </div>
           </div>
-
+          </div>
+          
           <div className ="desc-container"></div>
             <div className="project-desc">
               {/* <p id="movie-night-title-desc">MOVIE NIGHT</p> */}
-              <div id="text-desc">Movie Night makes it easy for a user to pick a movie from a recommendation list based of 
+              <div id="text-desc">ABOUT MOVIE NIGHT: This app makes it easy to pick a movie from a recommendation list based of 
                 ratings. The user can choose which movies to watch based of this list and add them to a watchlist.
                 The project used a public API to get movie data and the user can choose which movies to watch based of this list. They can then add movies to the watchlist and delete movies from the watchlist. This involved setting up a server
                 ,using various SQL commands, creating GET and POST routes and storing data in a database. 
                 </div>   
               </div>
             </div>
-          </div>
         </div>
-    </div>
+      </div>
     )
   }
 }

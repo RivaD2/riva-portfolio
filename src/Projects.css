@@ -15,6 +15,7 @@
 .header-text-projects {
     -webkit-text-stroke: 1px black;
     color:#fff;
+    font-family:'Orbitron', sans-serif;
 }
 
 .info-container {
@@ -133,18 +134,23 @@
     align-content:right;
     justify-content:right;
 }
+
+.desc-container {
+    width:100vw;
+}
 .tools-used-desc {
-    
-    font: size 12pt;
+     font: size 10pt;
     color:rgb(221, 211, 211);
     text-align:right;
     line-height: 1em;
+    font-family:'Orbitron', sans-serif;
 }
 
 #text-desc {
     color: rgb(221, 211, 211);
-    font-size:12pt;
+    font-size:10pt;
     line-height: 1em;
+    font-family:'Orbitron', sans-serif;
 }
 
 
