@@ -44,7 +44,27 @@ class Projects extends React.Component {
       offset: window.pageYOffset
     });
   };
+
+  /*showModal code:
+    - I can pass showModal function to the ProjectComponents (movie night, raw materials, etc.)
+    - The components can call the showModal function and pass in their specific img_url
+    */
   
+  showModal = (img_url) => {
+    //to change a state of something, I have to call 'setState' can't say this.state;
+    this.setState({
+      modalImage: img_url
+    })
+  }
+
+  //hideModal Code:
+
+  hideModal = () => {
+    this.setState({
+      modalImage: undefined
+    })
+  }
+
   //name of component is always the same as name of file
   //each component is combo of JS and HTML
   /*There are two things that components have that make them React components
@@ -58,9 +78,13 @@ class Projects extends React.Component {
     return (
     <div className="projects-container">
       {/* rather than if statement I did an inline boolean
-      if this is falsy, React will ignore it */}
+      if the conditional is falsy, React will render nothing */}
       {this.state.modalImage !== undefined &&
-        (<Modal img_url={this.state.modalImage}></Modal>)
+      /* passed in img_url and hideModal function as props
+        -Inside the ModalComponent code, the img_url tells the component what image to show
+        -Inside the ModalComponent code, the hideModal function tells the component HOW to close the modal
+        by calling the function*/
+        (<Modal img_url={this.state.modalImage} hideModal={this.hideModal}></Modal>)
       }
       <header 
           className='header-background'
@@ -83,7 +107,8 @@ class Projects extends React.Component {
           return [
             //I passed projectData (an obj) into the object Component as a prop
             //A prop is the react word for data that is passed into a Component
-            <ProjectComponent projectData={projectData}></ProjectComponent>,
+            //Each project Component will have access to showModal function in its props
+            <ProjectComponent projectData={projectData} showModal={this.showModal}></ProjectComponent>,
             <div className="parallax-divider-container"/>
           ]
         })

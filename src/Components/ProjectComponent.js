@@ -11,6 +11,7 @@ class ProjectComponent extends React.Component {
     }
     onDemoClick() {
       console.log(this.props.projectData.title + ' was clicked!');
+      this.props.showModal(this.props.projectData.img_url);
     }
     render() { return (
         <div className="project-container">

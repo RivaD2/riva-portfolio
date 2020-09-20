@@ -6,3 +6,7 @@
     top:0;
     background-color: rgba(26, 25, 25, 0.5);
 }
+
+.modal-gif {
+    height:80vh;
+}
