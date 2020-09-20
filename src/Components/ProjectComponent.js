@@ -32,7 +32,8 @@ class ProjectComponent extends React.Component {
             <div className="button-spacer"></div>
             <div className="button-container">
               <button className="project-page-button">VIEW DEMO</button>
-              <button className="project-page-button">VIEW CODE</button>
+              <button className="project-page-button">SOURCE CODE</button>
+              <button className="project-page-button">LIVE VERSION </button>
             </div>
           </div>
         </div>

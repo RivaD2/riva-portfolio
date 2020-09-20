@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectComponent from '../Components/ProjectComponent';
+import Modal from "./Components/ModalComponent"
 import './ProjectsPage.css';
 
 class Projects extends React.Component {
@@ -7,7 +8,8 @@ class Projects extends React.Component {
     super(props)
   
     this.state = {
-      offset: 0
+      offset: 0,
+      modalImage: undefined
     };
 
     this.projectList = [
@@ -55,6 +57,11 @@ class Projects extends React.Component {
   render() {
     return (
     <div className="projects-container">
+      {/* rather than if statement I did an inline boolean
+      if this is falsy, React will ignore it */}
+      {this.state.modalImage !== undefined &&
+        (<Modal img_url={this.state.modalImage}></Modal>)
+      }
       <header 
           className='header-background'
           style={{ backgroundPositionY: this.state.offset / 2}}
