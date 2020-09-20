@@ -30,7 +30,7 @@ class Projects extends React.Component {
     ]
   
   }
-
+//code for Paralax
   componentDidMount() {
     window.addEventListener('scroll', this.parallaxShift);
   }
@@ -74,11 +74,12 @@ class Projects extends React.Component {
         </header>
         {this.projectList.map(projectData => {
           console.log(projectData);
-          return (
+          return [
             //I passed projectData (an obj) into the object Component as a prop
             //A prop is the react word for data that is passed into a Component
-            <ProjectComponent projectData={projectData}></ProjectComponent>
-          )
+            <ProjectComponent projectData={projectData}></ProjectComponent>,
+            <div className="parallax-divider-container"/>
+          ]
         })
         }
     </div>
