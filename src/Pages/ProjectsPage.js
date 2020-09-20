@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectComponent from '../Components/ProjectComponent';
-import Modal from "./Components/ModalComponent"
+import Modal from "../Components/ModalComponent"
 import './ProjectsPage.css';
 
 class Projects extends React.Component {
@@ -80,7 +80,6 @@ class Projects extends React.Component {
          </div>
         </header>
         {this.projectList.map(projectData => {
-          console.log(projectData);
           return [
             //I passed projectData (an obj) into the object Component as a prop
             //A prop is the react word for data that is passed into a Component

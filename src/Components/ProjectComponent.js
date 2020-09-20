@@ -3,7 +3,14 @@ import './ProjectComponent.css';
 
 class ProjectComponent extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
+        /* I created a new version of onDemoClick where 'this'
+            will always refer to the Component instance and not the function created
+            by <button onClick>.*/
+        this.onDemoClickCallback = this.onDemoClick.bind(this);
+    }
+    onDemoClick() {
+      console.log(this.props.projectData.title + ' was clicked!');
     }
     render() { return (
         <div className="project-container">
@@ -31,7 +38,10 @@ class ProjectComponent extends React.Component {
             </div>
             <div className="button-spacer"></div>
             <div className="button-container">
-              <button className="project-page-button">VIEW DEMO</button>
+              {/* the onDemoClick is a method that will tell the parent(ProjectsPage) that
+              this particular componenets button was clicked. I am not passing in the function
+              at the top but rather the function that is created with .bind()*/}
+              <button className="project-page-button" onClick={this.onDemoClickCallback}>VIEW DEMO</button>
               <button className="project-page-button">SOURCE CODE</button>
               <button className="project-page-button">LIVE VERSION </button>
             </div>
