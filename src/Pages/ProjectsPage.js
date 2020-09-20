@@ -16,16 +16,19 @@ class Projects extends React.Component {
       {
         title : 'Movie Night',
         img_url: '/images/movie-night-image.png', 
+        github_url:'https://github.com/RivaD2/Movie-Night',
         tools_used:'Balsamiq,HTML, CSS,JavaScript, EJS, ES6, Nodemon, Postgresql, Express.js, Heroku, Github, Trello, and public API from themoviedb.org. Credit for the background images used on this project goes to Netflix.',
         text_desc:'This app makes it easy to pick a movie from a recommendation list based of ratings. The user can choose which movies to watch based of this list and add them to a watchlist. The project used a public API to get movie data and the user can choose which movies to watch based of this list. They can then add movies to the watchlist and delete movies from the watchlist. This involved setting up a server,using various SQL commands, creating GET and POST routes and storing data in a database.'
       },
       {title: 'Raw Materials', 
       img_url: 'images/raw-materials-image.png', 
+      github_url:'https://github.com/RivaD2/Raw-Material',
       tools_used:'HTML, jQuery, JavaScript, CSS, local storage ',
       text_desc:'A smooth looking, modern online shopping experience for high-end quality morning beverage products. Users can add items to a cart and save the items. They can delete the items and the amount due is upated. '
       },
       {title: 'Bus Mall', 
       img_url: 'images/busMall-image.png',
+      github_url:'https://github.com/RivaD2/Bus-Mall',
       tools_used:'HTML, CSS, vanilla JavaScript',
       text_desc:'The BusMall project challenge was to build an app that displays potential products to individuals in focus groups (three products at a time, side-by-side-by-side)The app’s purpose is to have group members choose which product, of the three displayed images, that they would be most likely to purchase. I had to store, calculate, and visually display the resulting data using Chart.js'
       }
@@ -65,14 +68,15 @@ class Projects extends React.Component {
     })
   }
 
-  //name of component is always the same as name of file
-  //each component is combo of JS and HTML
-  /*There are two things that components have that make them React components
-    - props: is how a parent communicates to child. They are read only from childs perspective
-    -state: how a component manages itself so it can read, write, edit its own state and no other
-    components know about its state
+  /*name of component is always the same as name of file
+    -each component is combo of JS and HTML
+    -There are two things that components have that make them React components
+        - props: is how a parent communicates to child. They are read only from childs perspective
+        -state: how a component manages itself so it can read, write, edit its own state and no other
+                components know about its state
     - each componenet is self-contained and props is how they are connected
     */
+
    //parens tell react that I am switching from JS to HTML
   render() {
     return (

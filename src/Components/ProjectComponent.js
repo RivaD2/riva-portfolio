@@ -4,9 +4,9 @@ import './ProjectComponent.css';
 class ProjectComponent extends React.Component {
     constructor(props) {
         super(props);
-        /* I created a new version of onDemoClick where 'this'
-            will always refer to the Component instance and not the function created
-            by <button onClick>.*/
+        /* I created a new version of onDemoClick using the bind() method
+          -'this' will always refer to the Component instance and not the function created
+            by <button onClick>. */
         this.onDemoClickCallback = this.onDemoClick.bind(this);
     }
     onDemoClick() {
@@ -40,10 +40,15 @@ class ProjectComponent extends React.Component {
             <div className="button-spacer"></div>
             <div className="button-container">
               {/* the onDemoClick is a method that will tell the parent(ProjectsPage) that
-              this particular componenets button was clicked. I am not passing in the function
-              at the top but rather the function that is created with .bind()*/}
+              this particular componenets button was clicked.
+              -I am not passing in the function at the top
+              - I pass in  the function that is created with .bind()*/}
               <button className="project-page-button" onClick={this.onDemoClickCallback}>VIEW DEMO</button>
-              <button className="project-page-button">SOURCE CODE</button>
+              {/* I passed in the string as a prop so that when button is clicked
+                  - user will be taken to github page for repo.
+                  - I used target to open new tab
+                  - target has a name so that view code buttons will use the same tab */}
+              <a href={this.props.projectData.github_url} target="RivaD2" className="project-page-button">SOURCE CODE</a>
               <button className="project-page-button">LIVE VERSION </button>
             </div>
           </div>
