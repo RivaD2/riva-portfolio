@@ -4,9 +4,45 @@
     height:100vh;
     left:0;
     top:0;
-    background-color: rgba(26, 25, 25, 0.5);
+    background-color: rgba(102, 98, 98, 0.85);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    z-index: 100;
+}
+
+.modal-content {
+    width:80vw;
+    height:80vh;
+    display:flex;
+    flex-direction:row;
+    background-color:rgb(24, 22, 22);
+    padding:8px;
+    border: 3px solid rgb(177, 243, 245);
+
+}
+
+.modal-img {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-basis:50%;
 }
 
 .modal-gif {
-    height:80vh;
+   width:100%;
+}
+
+.modal-details {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
+    flex-basis:50%;
+}
+
+.modal-title {
+    color: rgb(177, 243, 245);
+    font-size: 36pt;
+    text-align:center;
 }

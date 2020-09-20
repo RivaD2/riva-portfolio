@@ -9,7 +9,7 @@ class Projects extends React.Component {
   
     this.state = {
       offset: 0,
-      modalImage: undefined
+      projectData: undefined
     };
 
     this.projectList = [
@@ -53,10 +53,10 @@ class Projects extends React.Component {
     - The components can call the showModal function and pass in their specific img_url
     */
   
-  showModal = (img_url) => {
+  showModal = (projectData) => {
     //to change a state of something, I have to call 'setState' can't say this.state;
     this.setState({
-      modalImage: img_url
+      projectData: projectData
     })
   }
 
@@ -64,7 +64,7 @@ class Projects extends React.Component {
 
   hideModal = () => {
     this.setState({
-      modalImage: undefined
+      projectData: undefined
     })
   }
 
@@ -83,12 +83,12 @@ class Projects extends React.Component {
     <div className="projects-container">
       {/* rather than if statement I did an inline boolean
       if the conditional is falsy, React will render nothing */}
-      {this.state.modalImage !== undefined &&
+      {this.state.projectData !== undefined &&
       /* passed in img_url and hideModal function as props
         -Inside the ModalComponent code, the img_url tells the component what image to show
         -Inside the ModalComponent code, the hideModal function tells the component HOW to close the modal
         by calling the function*/
-        (<Modal img_url={this.state.modalImage} hideModal={this.hideModal}></Modal>)
+        (<Modal projectData={this.state.projectData} hideModal={this.hideModal}></Modal>)
       }
       <header 
           className='header-background'
