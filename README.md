@@ -1,6 +1,6 @@
 ### My Portfolio
 
-###  I had a lot of fun building this project on my own time. I really focused on learning React and familarizing myself with Bootstrap and other CSS Frameworks like Materialize.I ultimately chose not to use these front-end frameworks and built the CSS out myself. I wanted a speciic look and feel for this site, and I didn't want to spend time working against the CSS that these frameworks provide. 
+###  I had a lot of fun building this project on my own time. I really focused on learning React and familarizing myself with Bootstrap and other CSS Frameworks like Materialize.I ultimately chose not to use these front-end frameworks and built the CSS out myself. I wanted a speciic look and feel for this site, and I didn't want to spend time working against the styles that these frameworks provide. 
 
 ### TOOLS USED ON THE FRONT END:
 
