@@ -1,13 +1,14 @@
 ### My Portfolio
 
-###  I had a lot of fun building this project on my own time. I really focused on learning React and familarizing myself with Bootstrap and other CSS Frameworks like Materialize.
+###  I had a lot of fun building this project on my own time. I really focused on learning React and familarizing myself with Bootstrap and other CSS Frameworks like Materialize.I ultimately chose not to use these front-end frameworks and built the CSS out myself. I wanted a speciic look and feel for this site, and I didn't want to spend time working against the CSS that these frameworks provide. 
+
 ### TOOLS USED ON THE FRONT END:
 
 * React app
-* Responsive CSS frameworks
 * Various CSS3 animations
 * Node.js to run server on backend 
 * NASA API's to access the NASA Image and Video Library for some of my photos
+* Axios HTTP request library 
 
 ### TOOLS USED ON THE BACK END:
 * Node.js
@@ -19,11 +20,11 @@
 * ES6
 
 ### Credit for Code How-To's:
-* https://codepen.io/cmarcelly/pen/vOQxGp for reference on how to build vector text (I utilized some of the CSS for my vector image that was created in Photoshop)
+* https://codepen.io/cmarcelly/pen/vOQxGp for reference on how to build vector text (I utilized some of the CSS for my vector image on `home.js` and created a vector image based off the image in this example.)
 * http://pixelcog.github.io/parallax.js/ for reference to parallax scroll (libary not utilized as all parallax was built by scratch)
   * https://www.youtube.com/watch?v=d34GsFz-HkY which is the same reference as above but this video helped me to understand how the scroll works
 * https://react-bootstrap.github.io/getting-started/introduction/ for reference on how to use Bootstrap in React
-* credit to Google images for Project.js page header image
+* credit to Google images for `Project.js page` header image
 * https://www.youtube.com/watch?v=U7ACjZpk-jk for the code on how to build a falling arrow with pure Css3 Animation effect
 
 
