@@ -1,6 +1,8 @@
 ### My Portfolio
 
-###  I had a lot of fun building this project on my own time. I really focused on learning React and familarizing myself with Bootstrap and other CSS Frameworks like Materialize.I ultimately chose not to use these front-end frameworks and built the CSS out myself. I wanted a speciic look and feel for this site, and I didn't want to spend time working against the styles that these frameworks provide. 
+###  I had so much fun building this project on my own time. I really focused on learning React, ES6, getting more practice with Node.js and writing clean dynamic code. I wanted to incorporate a back-end for this project and took my portfolio to another level by making requests to NASA's API for images using Axios. 
+
+### While building out this project, I became familiar with CSS Frameworks like Bootstrap and Materialize but I ultimately chose not to use these front-end frameworks and built the CSS out myself. I wanted a specific look and feel for my site, and I didn't want to spend time working against the styles that these frameworks provide.
 
 ### TOOLS USED ON THE FRONT END:
 
