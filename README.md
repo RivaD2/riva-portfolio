@@ -4,7 +4,7 @@
 
 ### While building out this project, I became familiar with CSS Frameworks like Bootstrap and Materialize but I ultimately chose not to use these front-end frameworks and built the CSS out myself. I wanted a specific look and feel for my site, and I didn't want to spend time working against the styles that these frameworks provide.
 
-### TOOLS USED ON THE FRONT END:
+### TOOLS USED ON THE FRONT-END:
 
 * React app
 * Various CSS3 animations
@@ -12,7 +12,7 @@
 * NASA API's to access the NASA Image and Video Library for some of my photos
 * Axios HTTP request library 
 
-### TOOLS USED ON THE BACK END:
+### TOOLS USED ON THE BACK-END:
 * Node.js
 
 ### LANGUAGES USED:
