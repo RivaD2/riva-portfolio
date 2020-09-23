@@ -19,8 +19,13 @@ axios.interceptors.request.use(
   )
 
   export default {
-    getNasaImage() {
+    getNasaImage(image_id) {
         //this get needs to change to whatever my API is not the APOD API
-      return axios.get(`${nasaEndpoint}planetary/apod`)
+        //This API will return an object which is the response body
+        //The Object has a 'collection' property which has an 'href' property
+        //When I get the response body from the call, I need to dig into the response body and return href
+      return axios.get(`${nasaEndpoint}/asset/${image_id}`).then(response => {
+        return response.data.collection.items[2].href;
+      })
     },
   }

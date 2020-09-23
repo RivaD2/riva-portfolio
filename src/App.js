@@ -1,15 +1,32 @@
 import React from 'react';
 import Projects from "./Pages/ProjectsPage";
 import Home from "./Pages/HomePage";
+import HttpClient from "./HttpClient";
 import './App.css';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
     //creating state so that app can know some stuff
     this.state = {
-      displayedPage : 'Projects'
+      displayedPage : 'Home'
     }
   }
+  //This method will be called after it is instantiated and will be called once
+  componentDidMount() {
+    //This is a promise so I have to get the result of the promise
+     //This returns the image URL
+    HttpClient.getNasaImage('iss027e008219').then(image_url => {
+      // I need to save the URL to the app.js so I can fetch it once and remember it
+      //React will rerender when props or state change
+      //if I said 'this.image_URL' that wouldn't work as Component won't rerender
+      //instead, I store the image_url IN THE STATE
+      console.log('Found the picture of the Moon!', image_url);
+      this.setState({homepageBackgroundUrl: image_url});
+      //I've saved URL in state and now It will be passed to homepage Component
+    })
+  }
+
   //the render function renders html for the component 
   render() {
     return (
@@ -20,7 +37,7 @@ class App extends React.Component {
         {this.state.displayedPage === 'Projects'?
           (<Projects/>)
          :
-          (<Home/>)
+          (<Home backgroundImage={this.state.homepageBackgroundUrl} />)
         }
         <div className="navbar-container" id="mySidenav">
           <div id="resume" className="sidenav-item">
