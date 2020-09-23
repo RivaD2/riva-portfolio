@@ -16,7 +16,7 @@ class App extends React.Component {
   componentDidMount() {
     //This is a promise so I have to get the result of the promise
      //This returns the image URL
-    HttpClient.getNasaImage('iss027e008219').then(image_url => {
+    HttpClient.getNasaImage('PIA01391').then(image_url => {
       // I need to save the URL to the app.js so I can fetch it once and remember it
       //React will rerender when props or state change
       //if I said 'this.image_URL' that wouldn't work as Component won't rerender
