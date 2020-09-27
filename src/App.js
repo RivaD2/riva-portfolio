@@ -9,7 +9,7 @@ class App extends React.Component {
     super(props);
     //creating state so that app can know some stuff
     this.state = {
-      displayedPage : 'Home'
+      displayedPage : 'Projects'
     }
   }
   //This method will be called after it is instantiated and will be called once
@@ -25,6 +25,11 @@ class App extends React.Component {
       this.setState({homepageBackgroundUrl: image_url});
       //I've saved URL in state and now It will be passed to homepage Component
     })
+    //make new http requests for each image for projects.page
+    //store all images in array
+    //pass array into (<Projects />) as a prop
+    //in projectsPagejs, include index as arg to maps method
+    //
   }
 
   //the render function renders html for the component 
@@ -35,7 +40,7 @@ class App extends React.Component {
         {/* using ternary operators for if else. The value of state will be checked
         and the Projects component or Home component will be rendered depending on value. */}
         {this.state.displayedPage === 'Projects'?
-          (<Projects/>)
+          (<Projects parallaxImgArray="" />)
          :
           (<Home backgroundImage={this.state.homepageBackgroundUrl} />)
         }

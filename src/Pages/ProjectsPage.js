@@ -107,13 +107,20 @@ class Projects extends React.Component {
             <div></div>
          </div>
         </header>
-        {this.projectList.map(projectData => {
+        {this.projectList.map((projectData,index) => {
           return [
             //I passed projectData (an obj) into the object Component as a prop
             //A prop is the react word for data that is passed into a Component
             //Each project Component will have access to showModal function in its props
             <ProjectComponent projectData={projectData} showModal={this.showModal}></ProjectComponent>,
-            <div className="parallax-divider-container"/>
+            <div className="parallax-divider-container">
+            <div className="image-container">
+            <div className="api-image"
+              style={{ backgroundImage: `url(${this.props.parralaxImgArray[index]})` }}>
+
+            </div>
+          </div>
+          </div>
           ]
         })
         }
