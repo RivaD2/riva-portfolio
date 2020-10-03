@@ -25,7 +25,7 @@ axios.interceptors.request.use(
         //The Object has a 'collection' property which has an 'href' property
         //When I get the response body from the call, I need to dig into the response body and return href
       return axios.get(`${nasaEndpoint}/asset/${image_id}`).then(response => {
-        return response.data.collection.items[2].href;
+        return response.data.collection.items[0].href;
       })
     },
   }

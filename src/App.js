@@ -9,28 +9,42 @@ class App extends React.Component {
     super(props);
     //creating state so that app can know some stuff
     this.state = {
-      displayedPage : 'Projects'
+      displayedPage : 'Projects',
+      //setting backgroundImage to undefined until I fetch images
+      projectPageNasaImages: new Array(3),
+      homepageBackgroundUrl: ''
     }
   }
   //This method will be called after it is instantiated and will be called once
   componentDidMount() {
-    //This is a promise so I have to get the result of the promise
-     //This returns the image URL
-    HttpClient.getNasaImage('PIA01391').then(image_url => {
-      // I need to save the URL to the app.js so I can fetch it once and remember it
-      //React will rerender when props or state change
-      //if I said 'this.image_URL' that wouldn't work as Component won't rerender
-      //instead, I store the image_url IN THE STATE
-      console.log('Found the picture of the Moon!', image_url);
-      this.setState({homepageBackgroundUrl: image_url});
-      //I've saved URL in state and now It will be passed to homepage Component
+
+    // For each image, I need to make an async call
+    const imageIdArray = ['PIA01391', 'PIA04221', 'PIA18919','PIA16884'];
+    /*using parallel promises so thatwill return a new promise that will be resolved when all
+      promises in array are resolved*/
+    const promiseForImages = Promise.all(
+      imageIdArray.map(image => {
+        //This returns the image URL
+        return HttpClient.getNasaImage(image);
+      })
+    )
+    promiseForImages.then(imagesArray => {
+       /* 
+        - I need to save the URL to the app.js so I can fetch it once and remember it
+        - React will rerender when props or state change
+        - The Componenet wont't rerender if I just change a property on it
+        - Instead, I store the homepageBackgroundURl/projectPageNasaImages IN THE STATE
+      */
+      this.setState({
+        //I've saved URL in state and now It will be passed to homepage Component
+         homepageBackgroundUrl: imagesArray[0],
+        //getting all images from imagesArray except for first index (that is the homepage image);
+        projectPageNasaImages: imagesArray.slice(1)
+      })
     })
-    //make new http requests for each image for projects.page
-    //store all images in array
-    //pass array into (<Projects />) as a prop
-    //in projectsPagejs, include index as arg to maps method
-    //
   }
+
+
 
   //the render function renders html for the component 
   render() {
@@ -39,8 +53,8 @@ class App extends React.Component {
         {/* curly braces mean we are using JS */}
         {/* using ternary operators for if else. The value of state will be checked
         and the Projects component or Home component will be rendered depending on value. */}
-        {this.state.displayedPage === 'Projects'?
-          (<Projects parallaxImgArray="" />)
+        {this.state.displayedPage === 'Projects' ?
+          (<Projects parallaxImgArray={ this.state.projectPageNasaImages} />)
          :
           (<Home backgroundImage={this.state.homepageBackgroundUrl} />)
         }

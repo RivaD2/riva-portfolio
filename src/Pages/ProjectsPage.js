@@ -116,7 +116,7 @@ class Projects extends React.Component {
             <div className="parallax-divider-container">
             <div className="image-container">
             <div className="api-image"
-              style={{ backgroundImage: `url(${this.props.parralaxImgArray[index]})` }}>
+              style={{ backgroundImage: `url(${this.props.parallaxImgArray[index]})` }}>
 
             </div>
           </div>

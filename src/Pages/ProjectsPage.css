@@ -76,3 +76,12 @@
     height:60vh;
 }
 
+.image-container {
+    height:100%;
+}
+
+.api-image {
+    height:100%;
+    background-size:cover;
+    background-position:center center;
+}
