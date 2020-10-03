@@ -2,7 +2,7 @@
 .project-container {
     display:flex;
     flex-direction:row;
-    border:2px solid white;
+    border:2px solid black;
     min-height: 469px;
 }
 
