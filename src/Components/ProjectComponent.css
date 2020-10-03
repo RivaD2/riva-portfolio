@@ -6,18 +6,20 @@
     min-height: 469px;
 }
 
-.project-image {
-    height:80vh;
+.image-container {
+    min-height:80vh;
     width:50vw;
     background-size:350px;
     background-position: center;
     display:flex;
     flex-direction:row;
     background-repeat: no-repeat; 
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    flex-shrink:0;
 }
 .project-gif {
-    width: 80%;
+    width: 70%;
 }
 
 .movie-container {
@@ -27,7 +29,7 @@
 }
 
 .project-title {
-    color: rgb(177, 243, 245);
+    color:rgb(177, 243, 245);
     font-size: 36pt;
     text-align:center;
 }

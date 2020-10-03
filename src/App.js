@@ -9,7 +9,7 @@ class App extends React.Component {
     super(props);
     //creating state so that app can know some stuff
     this.state = {
-      displayedPage : 'Home',
+      displayedPage : 'Projects',
       //setting backgroundImage to undefined until I fetch images
       projectPageNasaImages: new Array(3),
       homepageBackgroundUrl: ''
@@ -19,7 +19,7 @@ class App extends React.Component {
   componentDidMount() {
 
     // For each image, I need to make an async call
-    const imageIdArray = ['PIA00143', 'PIA10373', 'PIA15625','PIA16884'];
+    const imageIdArray = ['PIA00143', 'PIA10373', 'PIA15625','PIA12000'];
     /*using parallel promises so thatwill return a new promise that will be resolved when all
       promises in array are resolved*/
     const promiseForImages = Promise.all(

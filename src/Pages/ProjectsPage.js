@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectComponent from '../Components/ProjectComponent';
 import Modal from "../Components/ModalComponent"
 import './ProjectsPage.css';
+import Parallax from '../lib/Parallax';
 
 class Projects extends React.Component {
   constructor(props) {
@@ -113,14 +114,12 @@ class Projects extends React.Component {
             //A prop is the react word for data that is passed into a Component
             //Each project Component will have access to showModal function in its props
             <ProjectComponent projectData={projectData} showModal={this.showModal}></ProjectComponent>,
-            <div className="parallax-divider-container">
-            <div className="image-container">
-            <div className="api-image"
-              style={{ backgroundImage: `url(${this.props.parallaxImgArray[index]})` }}>
+            <Parallax className="parallax-divider-container" shift={1.5}>
+              <div className="api-image"
+                style={{ backgroundImage: `url(${this.props.parallaxImgArray[index]})` }}>
 
-            </div>
-          </div>
-          </div>
+              </div>
+            </Parallax>
           ]
         })
         }

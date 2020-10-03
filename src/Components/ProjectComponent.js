@@ -16,9 +16,8 @@ class ProjectComponent extends React.Component {
     render() { return (
         <div className="project-container">
           <div className="image-container">
-            <div className="project-image">
+
               <img src={this.props.projectData.img_url} alt="project-gif"className="project-gif"></img>
-            </div>
           </div>
           <div className="movie-container">
             <div className="project-title">{this.props.projectData.title}</div>
