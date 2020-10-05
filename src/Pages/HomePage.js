@@ -8,18 +8,16 @@ function Home(props) {
   const backgroundImage = `url('${props.backgroundImage}')`;
   console.log('Rendering Home Image with props', props)
   console.log('backgroundImage is', backgroundImage);
-    return (
-        <div className="home-container" style={{backgroundImage}}>
-        <div className="wrapper">
-          <div className="banner-text">
-            <div className="greeting-text">HELLO, I'M RIVA DAVIDOWSKI</div>
-            <p className="greeting-text-two">Front End Focused Engineer with Full Stack Experience</p>
-            <p className="animation-text"><span></span></p>
-           <button className="project-button">VIEW PROJECTS</button>
-          </div>
-        </div>
-        </div>
-
-    )
+  return (
+    <div className="home-container" style={{backgroundImage}}>
+      <div>
+        <div className="greeting-text">RIVA DAVIDOWSKI</div>
+        <p className="greeting-text-two">Front End Focused Engineer with Full Stack Experience</p>
+      </div>
+      <div>
+        <button className="project-button">VIEW PROJECTS</button>
+      </div> 
+    </div>
+  )
 }
 export default Home;

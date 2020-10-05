@@ -74,11 +74,8 @@
 .parallax-divider-container {
     background-color:black;
     height:60vh;
-    border: 2px solid black;
-}
-
-.image-container {
-    height:100%;
+    border: 2px solid rgb(178, 227, 241);
+    border-width: 2px 0;
 }
 
 .api-image {

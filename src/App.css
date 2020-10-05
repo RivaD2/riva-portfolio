@@ -54,7 +54,7 @@
 .sidenav-item:hover a { 
   left: 60px; /* On mouse-over, make the elements appear as they should */
   opacity:1;
-  color:rgb(177, 243, 245);
+  color:rgb(42, 177, 218);
 }
 
 .header-logo {

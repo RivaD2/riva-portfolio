@@ -4,6 +4,7 @@
     flex-direction:row;
     border:2px solid black;
     min-height: 469px;
+
 }
 
 .image-container {
@@ -29,7 +30,7 @@
 }
 
 .project-title {
-    color:rgb(177, 243, 245);
+    color:rgb(178, 227, 241);
     font-size: 36pt;
     text-align:center;
 }
@@ -49,8 +50,8 @@ box-sizing: border-box;
   height:50px;
   width: 175px;
   padding: 8px;
-  color: rgb(177, 243, 245);
-  border: 2px solid #fff;
+  color: rgb(42, 177, 218);
+  border: 2px solid rgb(14, 169, 216);
   outline: none;
   text-decoration: none;
   background-color:black;

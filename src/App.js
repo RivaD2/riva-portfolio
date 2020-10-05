@@ -19,7 +19,7 @@ class App extends React.Component {
   componentDidMount() {
 
     // For each image, I need to make an async call
-    const imageIdArray = ['PIA00143', 'PIA10373', 'PIA15625','PIA12000'];
+    const imageIdArray = ['GSFC_20171208_Archive_e001427', 'PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500'];
     /*using parallel promises so thatwill return a new promise that will be resolved when all
       promises in array are resolved*/
     const promiseForImages = Promise.all(
