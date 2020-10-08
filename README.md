@@ -1,23 +1,21 @@
 ### My Portfolio
 
-###  I had so much fun building this project on my own time. I really focused on learning React, ES6, getting more practice with Node.js and writing clean dynamic code. I wanted to incorporate a back-end for this project and took my portfolio to another level by making requests to NASA's API for images using Axios. 
+**I had so much fun building this project on my own time. I really focused on learning React, ES6, getting more practice with Node.js and writing clean dynamic code. I wanted to incorporate a back-end for this project and took my portfolio to another level by making requests to NASA's API for images using Axios.**
 
-### While building out this project, I became familiar with CSS Frameworks like Bootstrap and Materialize but I ultimately chose not to use these front-end frameworks and built the CSS out myself. I wanted a specific look and feel for my site, and I didn't want to spend time working against the styles that these frameworks provide.
+**While building out this project, I became familiar with CSS Frameworks like Bootstrap and Materialize but I ultimately chose not to use these front-end frameworks and built the CSS out myself. I wanted a specific look and feel for my site, and I didn't want to spend time working against the styles that these frameworks provide**
 
-### TOOLS USED ON THE FRONT-END:
+### ON THE FRONT-END:
 
 * React app
-* Various CSS3 animations
-* Node.js to run server on backend 
+* HTML, Javascript, ES6
+### ON THE BACK-END:
+* Node.js
 * NASA API's to access the NASA Image and Video Library for some of my photos
 * Axios HTTP request library 
 
-### TOOLS USED ON THE BACK-END:
-* Node.js
-
 ### LANGUAGES USED:
 * HTML
-* CSS
+* CSS/CSS3 animations
 * JavaScript
 * ES6
 
