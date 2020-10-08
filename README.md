@@ -21,7 +21,7 @@
 
 ### Credit for Code How-To's:
 * https://codepen.io/cmarcelly/pen/vOQxGp for reference on how to build vector text (I utilized some of the CSS for my vector image on `home.js` and created a vector image based off the image in this example.)
-* http://pixelcog.github.io/parallax.js/ for reference to parallax scroll (libary not utilized as all parallax was built by scratch)
+* http://pixelcog.github.io/parallax.js/ for reference to parallax scroll 
   * https://www.youtube.com/watch?v=d34GsFz-HkY which is the same reference as above but this video helped me to understand how the scroll works
 * https://react-bootstrap.github.io/getting-started/introduction/ for reference on how to use Bootstrap in React
 * credit to Google images for `Project.js page` header image
