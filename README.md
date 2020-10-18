@@ -1,6 +1,6 @@
 ### My Portfolio
 
-**I had so much fun building this project on my own time. I really focused on learning React, ES6, and adding backend functionality. Because my portoflio is space themed, making requests to NASA's API for images using Axios brings the portfolio to a different level.**
+**I had so much fun building this project on my own time. I really focused on learning React, ES6, and adding backend functionality. Because my portoflio is space- themed, making requests to NASA's API for images using Axios brings the portfolio to a different level.**
 
 **While building out this project, I familiarized myself with CSS Frameworks like Bootstrap and Materialize but I ultimately chose not to use these front-end frameworks and built the CSS out myself. I wanted a specific look and feel for my site, and I didn't want to spend time working against the styles that these frameworks provide**
 
