@@ -28,7 +28,7 @@
     - **Click on the Source Code Button**: The user will be redirected to the source code for each project on Github
     - **Click on View Live Version Button**: The user will be taken to the respective link to run through the deployed version of the app themselves
       
-- The sticky nav bar allows the user to easily jump to my resume, Github, LinkedIn profile and contact me.
+- The sticky nav bar allows the user to easily jump to my resume, Github, LinkedIn profile and provides a link for them to contact me.
       
 ### Credit for Code How-To's:
 
