@@ -24,8 +24,7 @@
 - From the home page, click on the Projects button to be directed to the Projects Page
 - On the Projects page, for every project listed the user can do several things: 
     - **Hover over the image to see a GIF of the project**: This provides the visitor with the ability to see a snapshot of my project at a glance.
-    - **Click on the View Demo button**: This provides the user with a demo of me running through the entire project and
-    provides a full description of how the app works as I move through it.
+    - **Click on the View Demo button**: This opens a modal and provides the user with a demo of me running through the entire project. A full description of how         the app works is provided as I move through it step-by-step.
     - **Click on the Source Code Button**: The user will be redirected to the source code for each project on Github
     - **Click on View Live Version Button**: The user will be taken to the respective link to run through the deployed version of the app themselves
       
