@@ -1,8 +1,8 @@
 ### My Portfolio
 
-**I had so much fun building this project on my own time. I really focused on learning React, ES6, getting more practice with Node.js and writing clean dynamic code. I wanted to incorporate a back-end for this project and took my portfolio to another level by making requests to NASA's API for images using Axios.**
+**I had so much fun building this project on my own time. I really focused on learning React, ES6, and adding backend functionality. Because my portoflio is space themed, making requests to NASA's API for images using Axios brings the portfolio to a different level.**
 
-**While building out this project, I became familiar with CSS Frameworks like Bootstrap and Materialize but I ultimately chose not to use these front-end frameworks and built the CSS out myself. I wanted a specific look and feel for my site, and I didn't want to spend time working against the styles that these frameworks provide**
+**While building out this project, I familiarized myself with CSS Frameworks like Bootstrap and Materialize but I ultimately chose not to use these front-end frameworks and built the CSS out myself. I wanted a specific look and feel for my site, and I didn't want to spend time working against the styles that these frameworks provide**
 
 ### ON THE FRONT-END:
 
@@ -19,7 +19,20 @@
 * JavaScript
 * ES6
 
+### HOW IT WORKS: 
+
+- From the home page, click on the Projects button to be directed to the Projects Page
+- On the Projects page, for every project listed the user can do several things: 
+    - **Hover over the image to see a GIF of the project**: This provides the visitor with the ability to see a snapshot of my project at a glance.
+    - **Click on the View Demo button**: This provides the user with a demo of me running through the entire project and
+    provides a full description of how the app works as I move through it.
+    - **Click on the Source Code Button**: The user will be redirected to the source code for each project on Github
+    - **Click on View Live Version Button**: The user will be taken to the respective link to run through the deployed version of the app themselves
+      
+- The sticky nav bar allows the user to easily jump to my resume, Github, LinkedIn profile and contact me.
+      
 ### Credit for Code How-To's:
+
 * https://codepen.io/cmarcelly/pen/vOQxGp for reference on how to build vector text (I utilized some of the CSS for my vector image on `home.js` and created a vector image based off the image in this example.)
 * http://pixelcog.github.io/parallax.js/ for reference to parallax scroll 
   * https://www.youtube.com/watch?v=d34GsFz-HkY which is the same reference as above but this video helped me to understand how the scroll works
