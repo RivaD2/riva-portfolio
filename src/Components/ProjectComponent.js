@@ -36,7 +36,6 @@ class ProjectComponent extends React.Component {
             <div className="button-container">
               <button className="project-page-button" onClick={this.onDemoClickCallback}>VIEW DEMO</button>
               <a href={this.props.projectData.github_url} target="RivaD2" className="project-page-button">SOURCE CODE</a>
-              <button className="project-page-button">LIVE VERSION </button>
             </div>
           </div>
         </div>

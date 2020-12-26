@@ -10,7 +10,7 @@
     background-color: rgb(12, 12, 12);
     border: 4px solid black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(145, 228, 228, 0.068));
-    font-family: 'Wallpoet', cursive;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction:column;
     justify-content: space-between;
@@ -50,7 +50,7 @@
   }
   
   .project-button:hover {
-    background-color:rgb(223, 231, 231);
+    background-color:rgb(203, 238, 238);
     color:black;
   }
   

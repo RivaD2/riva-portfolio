@@ -8,7 +8,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      displayedPage : 'HomePage',
+      displayedPage : 'ProjectsPage',
       //setting backgroundImage to undefined until I fetch images
       projectPageNasaImages: new Array(3),
       homepageBackgroundUrl: ''
