@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 
-function Parallax(props) {
+const Parallax = props  => {
   const relativeShift = props.shift || 1.2;
   const [bounds, setBounds] = useState([])
   const [containerRef, setContainerRef] = useState()
@@ -18,7 +18,7 @@ function Parallax(props) {
     setBounds([startY - screenHeight, endY + screenHeight]);
     setShiftOffset(element.offsetHeight * relativeShift - element.offsetHeight)
     window.addEventListener('scroll', onScroll);
-  }, []);
+  }, [relativeShift]);
   useEffect(() => {
     if (!containerRef || scrollY < bounds[0] || scrollY > bounds[1]) {
         return;
@@ -32,7 +32,7 @@ function Parallax(props) {
         let pctOffset = 1 - (topOffset / screenHeight);
         style.transform = "translateY(" + (shiftOffset * pctOffset * -1) + "px)";
     }
-  }, [scrollY])
+  }, [scrollY]);
 
   return (
     <div ref={containerRefCallback} className={props.className}

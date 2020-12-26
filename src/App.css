@@ -1,9 +1,7 @@
 .App {
-  
   font-family: 'Wallpoet', cursive;
   background-color:rgb(24, 22, 22);
 }
-
 
 .column-container {
   display:flex;
@@ -47,8 +45,8 @@
 }
 
 .sidenav-image {
-  width:44px;
-  height:44px;
+  width:50px;
+  height:50px;
 }
 
 .sidenav-item:hover a { 

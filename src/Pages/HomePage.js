@@ -9,7 +9,8 @@ const Home = props => {
     <div className="home-container" style={{backgroundImage}}>
       <div>
         <div className="greeting-text">RIVA DAVIDOWSKI</div>
-        <p className="greeting-text-two">Front End Focused Engineer with Full Stack Experience</p>
+        {/* <p className="greeting-text-two">Front End Focused Engineer</p>
+        <p> with Full Stack Experience</p> */}
       </div>
       <div>
         <button className="project-button">VIEW PROJECTS</button>

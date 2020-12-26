@@ -19,6 +19,9 @@
   .greeting-text {
     color: white;
     font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
   }
   
   .greeting-text-two{
@@ -47,7 +50,7 @@
   }
   
   .project-button:hover {
-    background-color:rgb(177, 243, 245);
+    background-color:rgb(223, 231, 231);
     color:black;
   }
   

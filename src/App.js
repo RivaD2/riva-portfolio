@@ -8,7 +8,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      displayedPage : 'Projects',
+      displayedPage : 'HomePage',
       //setting backgroundImage to undefined until I fetch images
       projectPageNasaImages: new Array(3),
       homepageBackgroundUrl: ''
@@ -40,7 +40,7 @@ class App extends React.Component {
         <div className="navbar-container" id="mySidenav">
           <div id="resume" className="sidenav-item">
             <img src="/images/cv-icon.png" alt="resume" className="sidenav-image"/>
-            <a href="https://github.com/RivaD2" className="header-logo">Resume</a>
+            <a href="https://docs.google.com/document/d/1mjVhHz7QWpni4FIcUyMg8wtVrNVlW3scv7IxtfEiHVw/edit?usp=sharing" className="header-logo">Resume</a>
           </div>
           <div id="linkedin" className="sidenav-item">
           <img src="/images/linkedin-logo.png" alt="linkedin" className="sidenav-image"/>
@@ -49,10 +49,6 @@ class App extends React.Component {
           <div id="github" className="sidenav-item">
           <img src="/images/github-image2.png" alt="github" className="sidenav-image"/>
             <a href="https://github.com/RivaD2" className="header-logo">Github</a>
-          </div>
-          <div id="contact" className="sidenav-item">
-          <img src="/images/email-icon.png" alt="contact" className="sidenav-image"/>
-            <a href="https://github.com/RivaD2" className="header-logo">Contact</a>
           </div>
         </div>
       </div>

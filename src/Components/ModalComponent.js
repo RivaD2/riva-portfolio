@@ -2,9 +2,6 @@ import React from 'react';
 import './ModalComponent.css';
 
 class ModalComponent extends React.Component {
-    constructor(props) {
-        super(props)
-    }
     render() {
         return (
             // onClick attr will call the method that is passed in as prop which is hideModal
