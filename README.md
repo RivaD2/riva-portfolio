@@ -1,28 +1,31 @@
 ### My Portfolio
 
-**I had so much fun building this project on my own time. I really focused on learning React, ES6, and adding backend functionality. Because my portoflio is space- themed, making requests to NASA's API for images using Axios brings the portfolio to a different level.**
+**I had so much fun building this project on my own time. I really focused on learning React, ES6, and adding backend functionality. Because my portfolio is space- themed, making requests to NASA's API for images using Axios brings the portfolio to a different level.**
 
 **While building out this project, I familiarized myself with CSS Frameworks like Bootstrap and Materialize but I ultimately chose not to use these front-end frameworks and built the CSS out myself. I wanted a specific look and feel for my site, and I didn't want to spend time working against the styles that these frameworks provide**
 
-### ON THE FRONT-END:
+### ON THE FRONT-END
 
 * React app
 * HTML, Javascript, ES6
-### ON THE BACK-END:
+  
+### ON THE BACK-END
+
 * Node.js
 * NASA API's to access the NASA Image and Video Library for some of my photos
-* Axios HTTP request library 
+* Axios HTTP request library
 
-### LANGUAGES USED:
+### LANGUAGES USED
+
 * HTML
 * CSS/CSS3 animations
 * JavaScript
 * ES6
 
-### HOW IT WORKS: 
+### HOW IT WORKS
 
 - From the home page, click on the Projects button to be directed to the Projects Page
-- On the Projects page, for every project listed the user can do several things: 
+- On the Projects page, for every project listed the user can do several things:
     - **Hover over the image to see a GIF of the project**: This provides the visitor with the ability to see a snapshot of my project at a glance.
     - **Click on the View Demo button**: This opens a modal and provides the user with a demo of me running through the entire project. A full description of how         the app works is provided as I move through it step-by-step.
     - **Click on the Source Code Button**: The user will be redirected to the source code for each project on Github
