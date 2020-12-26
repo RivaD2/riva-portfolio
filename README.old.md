@@ -1,2 +1,0 @@
-# riva-portfolio
-Personal portfolio 
