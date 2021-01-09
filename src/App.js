@@ -1,6 +1,6 @@
 import React from 'react';
 import Projects from "./Pages/ProjectsPage";
-import Home from "./Pages/HomePage";
+import HomePage from "./Pages/HomePage";
 import HttpClient from "./HttpClient";
 import './App.css';
 
@@ -27,15 +27,22 @@ class App extends React.Component {
          homepageBackgroundUrl: imagesArray[0],
         projectPageNasaImages: imagesArray.slice(1)
       })
+    });
+  };
+
+  setPage = page => {
+    this.setState({
+      displayedPage: page
     })
-  }
+  };
+
   render() {
     return (
       <div className="App">
         {this.state.displayedPage === 'Projects' ?
           (<Projects parallaxImgArray={ this.state.projectPageNasaImages} />)
          :
-          (<Home backgroundImage={this.state.homepageBackgroundUrl} />)
+          (<HomePage setPage={this.setPage} backgroundImage={this.state.homepageBackgroundUrl} />)
         }
         <div className="navbar-container" id="mySidenav">
           <div id="resume" className="sidenav-item">
