@@ -33,7 +33,7 @@ const Parallax = props  => {
         let pctOffset = 1 - (topOffset / screenHeight);
         style.transform = "translateY(" + (shiftOffset * pctOffset * -1) + "px)";
     }
-  }, [scrollY, bounds, containerRef, shiftOffset]);
+  }, [scrollY]);
 
   return (
     <div ref={containerRefCallback} className={props.className}
