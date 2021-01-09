@@ -1,0 +1,60 @@
+.navbar-container {
+    position: absolute;
+    left: 0;
+    top:25%;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: flex-start;
+  }
+  
+  .sidenav-item {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center;
+    width: 100px;
+    margin-bottom:15px;
+    position:relative;
+    cursor:pointer;
+  }
+  
+  .sidenav-item a  {
+    position: absolute;
+    left:0px;
+    opacity:0;
+    transition: 0.3s; /* Add transition on hover */
+    padding-left: 15px; /* 15px padding */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    color: rgb(177, 243, 245);
+    font-weight:bold;
+    font-family:'Orbitron', sans-serif;
+   
+  }
+  
+  .sidenav-image {
+    width:50px;
+    height:50px;
+  }
+
+  .sidenav-icon {
+    background-color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+  }
+  
+  .sidenav-item:hover a { 
+    left: 60px; /* On mouse-over, make the elements appear as they should */
+    opacity:1;
+    color:rgb(42, 177, 218);
+  }
+  
+  .header-logo {
+    height: 60px;
+    justify-content: left;
+  }
