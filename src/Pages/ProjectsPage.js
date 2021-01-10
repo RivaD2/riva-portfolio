@@ -3,6 +3,7 @@ import ProjectComponent from '../components/ProjectComponent';
 import Modal from "../components/ModalComponent"
 import Parallax from '../lib/Parallax';
 import SvgHeader from '../components/SvgHeader';
+import ArrowBox from '../components/ArrowBox';
 import './ProjectsPage.css';
 
 class Projects extends React.Component {
@@ -81,11 +82,7 @@ class Projects extends React.Component {
             <SvgHeader />
           </div>
           <p className = "header-text-projects">PROJECTS</p>
-          <div className="arrow-box">
-            <div></div>
-            <div></div>
-            <div></div>
-         </div>
+          <ArrowBox />
         </section>
         </header>
         {this.projectList.map((projectData,index) => {
