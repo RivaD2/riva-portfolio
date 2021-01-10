@@ -14,8 +14,11 @@
 
 .header-text-projects {
     -webkit-text-stroke: 1px black;
-    color:#fff;
+    color:rgb(178, 227, 241);
     font-family:'Orbitron', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 40px;
 }
 
 .info-container {
@@ -23,6 +26,10 @@
     font-size:28pt;
     -webkit-text-stroke: 1px black;
     color:#fff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .arrow-box {
@@ -31,7 +38,6 @@
     align-items: center;
     top:50%;
     left:50%;
-    padding-top:20%;
  }
  
 .arrow-box div {
@@ -84,3 +90,8 @@
     background-size:cover;
     background-position:center center;
 }
+
+.svg-smaller {
+    transform: scale(0.5);
+    
+  }

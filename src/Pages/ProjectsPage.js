@@ -1,8 +1,9 @@
 import React from 'react';
 import ProjectComponent from '../components/ProjectComponent';
 import Modal from "../components/ModalComponent"
-import './ProjectsPage.css';
 import Parallax from '../lib/Parallax';
+import SvgHeader from '../components/SvgHeader';
+import './ProjectsPage.css';
 
 class Projects extends React.Component {
     state = {
@@ -76,14 +77,16 @@ class Projects extends React.Component {
           className='info-container'
           style={{ marginBottom: offset / 3 }}
           >
-          <h1>RIVA DAVIDOWSKI</h1>
+          <div className="svg-smaller">
+            <SvgHeader />
+          </div>
           <p className = "header-text-projects">PROJECTS</p>
-        </section>
           <div className="arrow-box">
             <div></div>
             <div></div>
             <div></div>
          </div>
+        </section>
         </header>
         {this.projectList.map((projectData,index) => {
             return [

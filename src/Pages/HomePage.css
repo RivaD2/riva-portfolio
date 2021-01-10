@@ -53,4 +53,15 @@
     background-color:rgb(203, 238, 238);
     color:black;
   }
+
+  .svg-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+
+  path {
+    animation: draw 3s linear forwards;
+  }
   

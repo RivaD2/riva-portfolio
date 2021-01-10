@@ -8,12 +8,14 @@ const HomePage = props => {
   return (
     <div className="home-container" style={{backgroundImage: image}}>
       <div>
-        <div class="Name">
+        <div className="svg-container">
          <SvgHeader />
         </div>
       </div>
       <div>
-        <button onClick={() => setPage('Projects')} className="project-button">VIEW PROJECTS</button>
+        <button 
+          onClick={() => setPage('Projects')} 
+          className="project-button">VIEW PROJECTS</button>
       </div> 
     </div>
   )
