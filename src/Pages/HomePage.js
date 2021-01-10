@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomePage.css';
+import SvgHeader from '../components/SvgHeader';
 
 const HomePage = props => {
   const {backgroundImage, setPage} = props;
@@ -7,7 +8,9 @@ const HomePage = props => {
   return (
     <div className="home-container" style={{backgroundImage: image}}>
       <div>
-        <div className="greeting-text">RIVA DAVIDOWSKI</div>
+        <div class="Name">
+         <SvgHeader />
+        </div>
       </div>
       <div>
         <button onClick={() => setPage('Projects')} className="project-button">VIEW PROJECTS</button>

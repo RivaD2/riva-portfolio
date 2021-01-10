@@ -1,6 +1,6 @@
 import React from 'react';
-import ProjectComponent from '../Components/ProjectComponent';
-import Modal from "../Components/ModalComponent"
+import ProjectComponent from '../components/ProjectComponent';
+import Modal from "../components/ModalComponent"
 import './ProjectsPage.css';
 import Parallax from '../lib/Parallax';
 

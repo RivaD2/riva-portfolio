@@ -2,7 +2,7 @@ import React from 'react';
 import Projects from "./Pages/ProjectsPage";
 import HomePage from "./Pages/HomePage";
 import HttpClient from "./HttpClient";
-import Navigation from './Components/Navigation';
+import Navigation from './components/Navigation';
 import './App.css';
 
 class App extends React.Component {
