@@ -1,13 +1,15 @@
 ### My Portfolio
 
-**I had so much fun building this project on my own time. I really focused on learning React, ES6, and adding backend functionality. Because my portfolio is space- themed, making requests to NASA's API for images using Axios brings the portfolio to a different level.**
+**I had so much fun building this project on my own time. I really focused on solidifying my skills in React, ES6, and adding backend functionality. Because my portfolio is space- themed, making requests to NASA's API for images using Axios brings the portfolio to a different level.**
 
 **While building out this project, I familiarized myself with CSS Frameworks like Bootstrap and Materialize but I ultimately chose not to use these front-end frameworks and built the CSS out myself. I wanted a specific look and feel for my site, and I didn't want to spend time working against the styles that these frameworks provide**
 
 ### ON THE FRONT-END
 
-* React app
-* HTML, Javascript, ES6
+* React
+* Javascript, ES6
+* Browser Router from `react-dom`
+* Semantic-UI (for home nav icon)
   
 ### ON THE BACK-END
 
@@ -41,6 +43,7 @@
 * https://react-bootstrap.github.io/getting-started/introduction/ for reference on how to use Bootstrap in React
 * credit to Google images for `Project.js page` header image
 * https://www.youtube.com/watch?v=U7ACjZpk-jk for the code on how to build a falling arrow with pure Css3 Animation effect
+* For svg creation: https://danmarshall.github.io/google-font-to-svg-path/
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
