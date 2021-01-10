@@ -1,12 +1,9 @@
-  
-
-  path {
+ path {
       fill: white;
       fill-opacity: 0;
       stroke: white;
       stroke-width: 3;
       stroke-linecap: round;
-  
       stroke-dasharray: 860;
       stroke-dashoffset: 860;
   }

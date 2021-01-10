@@ -5,6 +5,15 @@ import HttpClient from "./HttpClient";
 import Navigation from './components/Navigation';
 import './App.css';
 
+/* Todo: 
+Bring in Browser Router to handle internal navigation
+Remove ternary ops that are no longer needed after using Browser Router
+Todo: Add images to modals on ProjectsPage, adjust them and do GIF for each modal
+Complete the about me page
+Fix lag with api images/parallax scroll sticking
+Clean up styles, take a look and see what can be improved
+Don't forget to add third project when it is completed*/
+
 class App extends React.Component {
   state = {
       displayedPage : 'HomePage',
