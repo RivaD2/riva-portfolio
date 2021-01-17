@@ -9,16 +9,11 @@ class Project extends React.Component {
     onDemoClick = () => {
       this.props.showModal(this.props.projectData);
     }
-
-    onImageHover = imageProp => {
-      this.setState({
-        image: this.props.projectData[imageProp]
-      })
-    }
-
+    
   render() { 
     const {
       title, 
+      img_url,
       tools_used, 
       text_desc, 
       github_url
@@ -28,11 +23,9 @@ class Project extends React.Component {
         <div className="project-container">
           <div className="image-container">
               <img 
-                src={this.state.image} 
-                onMouseEnter={() => this.onImageHover('gif_url')} 
+                src={img_url} 
                 alt="project-gif"
                 className="project-gif"
-                onMouseLeave={() => this.onImageHover('img_url')}
               />
           </div>
           <div className="detail-container">
@@ -54,7 +47,7 @@ class Project extends React.Component {
             </div>
             <div className="button-spacer"></div>
             <div className="button-container">
-              <button className="project-page-button" onClick={this.onDemoClickCallback}>VIEW DEMO</button>
+              <button className="project-page-button" onClick={this.onDemoClick}>VIEW DEMO</button>
               <a href={github_url} target="RivaD2" className="project-page-button">SOURCE CODE</a>
             </div>
           </div>

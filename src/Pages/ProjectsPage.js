@@ -18,8 +18,8 @@ class Projects extends React.Component {
         img_url: '',
         gif_url: '',
         github_url:'',
-        tools_used:'',
-        text_desc:''
+        tools_used:'React, Redux, Axios, Semantic-UI, MongoDB',
+        text_desc:'Spoof Government website inspired by the popular show Parks and Recreation.'
       },
       {
         title: 'Project Pinstrat', 
@@ -27,10 +27,12 @@ class Projects extends React.Component {
         gif_url:'/images/pinstrat-gif.gif', 
         github_url:'https://github.com/RivaD2/project-pinstrat',
         tools_used:'MongoDB, bcrypt, Express, Node.js',
-        text_desc:'Backend server and database interface for Pinstrat(our client), including encrypted request data and filtered results'
+        text_desc:'Project Pinstrat involved building a back-end server and database interface for Pinstrat(our client) as well as encrypted request data and filtered results. ' + 
+        ' I set up all crud routes, the database and the Mongoose Schema. I also worked with ' + 
+        ' the client to implement encryption on the request to prevent access to game data that players haven\'t unlocked during gameplay.'
       },
       {
-        title: '', 
+        title: 'TBD', 
         img_url: '',
         if_url: '',
         github_url:'',
@@ -51,7 +53,7 @@ class Projects extends React.Component {
     });
   };
 
-  showModal = (projectData) => {
+  showModal = projectData => {
     this.setState({
       projectData: projectData
     })
@@ -88,6 +90,7 @@ class Projects extends React.Component {
           <ArrowBox />
         </section>
         </header>
+
         {this.projectList.map((projectData,index) => {
             return [
               <Project projectData={projectData} showModal={this.showModal}/>,
@@ -103,4 +106,5 @@ class Projects extends React.Component {
     )
   }
 }
+
 export default Projects;

@@ -31,7 +31,7 @@
 
 .project-title {
     color:rgb(178, 227, 241);
-    font-size: 36pt;
+    font-size: 30pt;
     text-align:center;
     font-family: 'Orbitron', sans-serif;
 }
@@ -48,8 +48,8 @@ box-sizing: border-box;
   font-weight: bold;
   font-family: 'Orbitron', sans-serif;
   margin:0 auto;
-  height:50px;
-  width: 175px;
+  height:40px;
+  width: 160px;
   padding: 8px;
   color: rgb(42, 177, 218);
   border: 2px solid rgb(14, 169, 216);
@@ -60,6 +60,7 @@ box-sizing: border-box;
   flex-direction:row;
   justify-content: center;
   align-items:center;
+  border-radius: 8px;
 }
   
 .project-page-button{
@@ -73,13 +74,13 @@ box-sizing: border-box;
 
 #tools-used-desc b {
    text-align:left;
-   font-size: 12pt;
+   font-size: 10pt;
    text-transform: uppercase;
 }
 
 .project-text{
     color: rgb(221, 211, 211);
-    font-size:12pt;
+    font-size:10pt;
     line-height: 1.5em;
     font-family: 'Roboto', sans-serif;
 }

@@ -9,7 +9,7 @@ class Modal extends React.Component {
                 <div className="modal-content">
                     <div className="modal-img">
                         <img 
-                          src={this.props.projectData.img_url} 
+                          src={this.props.projectData.gif_url} 
                           alt="project-gif"
                           className="modal-gif"
                         />
