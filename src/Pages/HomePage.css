@@ -3,8 +3,8 @@
     margin:0;
     padding:0;
     text-align: center;
-    -webkit-background-size:cover;
-    background-size: 800px;
+    /* -webkit-background-size:cover; */
+    background-size: auto 80%;
     background-position: center center;
     background-repeat:no-repeat;
     background-color: rgb(12, 12, 12);
@@ -31,18 +31,20 @@
   .project-button {
     font-size: 15px;
     font-weight: bold;
-    font-family: 'Wallpoet', cursive;
+    font-family: 'Orbitron', sans-serif;
     text-align: center;
     margin:0 auto;
     display: block;
-    height:50px;
-    width: 175px;
+    height:48px;
+    width: 168px;
     padding: 8px;
     color: rgb(42, 177, 218);
     border: 2px solid  rgb(14, 169, 216);
     outline: none;
     text-decoration: none;
     background-color:black;
+    border-radius: 8px;
+    margin-bottom: 20px;
   }
     
   .project-button{
@@ -58,7 +60,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -50%) scale(0.6);
   }
 
   path {

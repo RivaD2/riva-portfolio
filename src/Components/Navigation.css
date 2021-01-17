@@ -14,12 +14,12 @@
     justify-content:flex-start;
     align-items:center;
     width: 100px;
-    margin-bottom:15px;
+    margin-bottom:8px;
     position:relative;
     cursor:pointer;
   }
   
-  .sidenav-item a  {
+  .sidenav-item a {
     position: absolute;
     left:0px;
     opacity:0;
@@ -30,12 +30,11 @@
     border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
     color: rgb(177, 243, 245);
     font-family:'Orbitron', sans-serif;
-   
   }
-  
+
   .sidenav-image {
-    width:50px;
-    height:50px;
+    width:40px;
+    height:40px;
   }
 
   .sidenav-icon {
@@ -52,8 +51,9 @@
     opacity:1;
     color:rgb(42, 177, 218);
   }
-  
+
   .header-logo {
     height: 60px;
     justify-content: left;
   }
+  
