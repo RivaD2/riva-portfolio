@@ -24,6 +24,10 @@
 * JavaScript
 * ES6
 
+**OTHER TOOLS**
+
+- Gifski
+
 ### HOW IT WORKS
 
 - From the home page, click on the Projects button to be directed to the Projects Page

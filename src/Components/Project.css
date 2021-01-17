@@ -23,7 +23,7 @@
     width: 70%;
 }
 
-.movie-container {
+.detail-container {
     display:flex;
     flex-direction:column;
    justify-content: space-around;

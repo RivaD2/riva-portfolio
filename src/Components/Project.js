@@ -1,26 +1,41 @@
 import React from 'react';
-import './ProjectComponent.css';
+import './Project.css';
 
-class ProjectComponent extends React.Component {
+class Project extends React.Component {
+  state = {
+    image:this.props.projectData.img_url,
+  }
+
     onDemoClick = () => {
       this.props.showModal(this.props.projectData);
     }
 
-    render() { 
-      const {
-        img_url, 
-        title, 
-        tools_used, 
-        text_desc, 
-        github_url
-      } = this.props.projectData;
+    onImageHover = imageProp => {
+      this.setState({
+        image: this.props.projectData[imageProp]
+      })
+    }
 
+  render() { 
+    const {
+      title, 
+      tools_used, 
+      text_desc, 
+      github_url
+    } = this.props.projectData;
+    
       return (
         <div className="project-container">
           <div className="image-container">
-              <img src={img_url} alt="project-gif"className="project-gif"></img>
+              <img 
+                src={this.state.image} 
+                onMouseEnter={() => this.onImageHover('gif_url')} 
+                alt="project-gif"
+                className="project-gif"
+                onMouseLeave={() => this.onImageHover('img_url')}
+              />
           </div>
-          <div className="movie-container">
+          <div className="detail-container">
             <div className="project-title">{title}</div>
             <div className="tools-desc-container">
               <div id="tools-used-desc" className="project-text"> <b>TOOLS USED:</b>  
@@ -48,4 +63,4 @@ class ProjectComponent extends React.Component {
   }
 }
 
-export default ProjectComponent;
+export default Project;
