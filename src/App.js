@@ -1,16 +1,14 @@
 import React from 'react';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom'
 import Projects from "./Pages/ProjectsPage";
 import HomePage from "./Pages/HomePage";
 import HttpClient from "./HttpClient";
 import NavBar from './components/Navigation';
-import About from './components/About';
 import './App.css';
 
 /* Todo: 
 Bring in Browser Router to handle internal navigation
 Remove ternary ops that are no longer needed after using Browser Router
-Todo: Add images to modals on ProjectsPage, adjust them and do GIF for each modal
 Complete the about me page
 Fix lag with api images/parallax scroll sticking
 Clean up styles, take a look and see what can be improved
@@ -58,10 +56,8 @@ class App extends React.Component {
             (<HomePage setPage={setPage}  backgroundImage={homepageBackgroundUrl} />)
           }
           <NavBar setPage={setPage}/>
-            <Route path="/" exact component={HomePage}/>
-            <Route path="/about" exact component={About}/>
         </div>
-      </BrowserRouter>
+        </BrowserRouter>
     );
   }
 };

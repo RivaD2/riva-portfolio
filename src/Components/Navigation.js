@@ -1,9 +1,10 @@
 import React from 'react';
 import './Navigation.css';
-import {Link} from 'react-router-dom';
+import {Link, Switch} from 'react-router-dom';
 
 const Navigation  = props => {
     return (
+      <Switch>
       <div className="navbar-container" id="mySidenav">
         <div id="resume" className="sidenav-item">
           <img 
@@ -11,7 +12,11 @@ const Navigation  = props => {
             alt="resume" 
             className="sidenav-image"
           />
-          <a href="https://docs.google.com/document/d/1mjVhHz7QWpni4FIcUyMg8wtVrNVlW3scv7IxtfEiHVw/edit?usp=sharing" className="header-logo">Resume</a>
+          <Link
+            to={{pathname:"https://docs.google.com/document/d/1mjVhHz7QWpni4FIcUyMg8wtVrNVlW3scv7IxtfEiHVw/edit?usp=sharing"}} 
+            className="header-logo">
+              Resume
+          </Link>
         </div>
         <div id="linkedin" className="sidenav-item">
           <img 
@@ -19,7 +24,11 @@ const Navigation  = props => {
             alt="linkedin" 
             className="sidenav-image"
           />
-          <a href="https://www.linkedin.com/in/riva-davidowski-rivad/" className="header-logo">LinkedIn</a>
+          <Link 
+            to={{pathname:"https://www.linkedin.com/in/riva-davidowski-rivad/"}}
+            className="header-logo">
+              LinkedIn
+          </Link>
         </div>
         <div id="github" className="sidenav-item">
           <img 
@@ -27,7 +36,7 @@ const Navigation  = props => {
             alt="github" 
             className="sidenav-image"
           />
-          <a href="https://github.com/RivaD2" className="header-logo">Github</a>
+          <Link to={{pathname:"https://github.com/RivaD2"}} className="header-logo">Github</Link>
          </div>
         <div id="home" className="sidenav-item">
             <div className="sidenav-image sidenav-icon">
@@ -38,10 +47,11 @@ const Navigation  = props => {
         <div id="about-me" className="sidenav-item">
           <div className="sidenav-image sidenav-icon">
             <i className={'address book icon'}></i>
-            </div>
+          </div>
             <Link to="/about" className="header-logo" onClick={() => props.setPage('About')}>About</Link>
         </div>
-      </div>
+        </div>
+        </Switch>
     )
 }
 

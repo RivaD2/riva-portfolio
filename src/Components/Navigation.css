@@ -19,7 +19,7 @@
     cursor:pointer;
   }
   
-  .sidenav-item a {
+  .sidenav-item Link a {
     position: absolute;
     left:0px;
     opacity:0;
@@ -46,7 +46,7 @@
     padding-top: 8px;
   }
   
-  .sidenav-item:hover a { 
+  .sidenav-item:hover Link { 
     left: 60px; /* On mouse-over, make the elements appear as they should */
     opacity:1;
     color:rgb(42, 177, 218);
