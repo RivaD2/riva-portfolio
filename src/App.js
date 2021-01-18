@@ -1,8 +1,10 @@
 import React from 'react';
+import {BrowserRouter, Route} from 'react-router-dom';
 import Projects from "./Pages/ProjectsPage";
 import HomePage from "./Pages/HomePage";
 import HttpClient from "./HttpClient";
-import Navigation from './components/Navigation';
+import NavBar from './components/Navigation';
+import About from './components/About';
 import './App.css';
 
 /* Todo: 
@@ -48,15 +50,18 @@ class App extends React.Component {
     const {projectPageNasaImages, homepageBackgroundUrl, displayedPage} = this.state;
     const {setPage} = this;
     return (
-      <div className="App">
-        {displayedPage === 'Projects' ?
-          (<Projects parallaxImgArray={projectPageNasaImages} />)
-         :
-          (<HomePage setPage={setPage} backgroundImage={homepageBackgroundUrl} />)
-        }
-       <Navigation setPage={setPage}/>
-      </div>
-        
+      <BrowserRouter>
+        <div className="App">
+          {displayedPage === 'Projects' ?
+            (<Projects parallaxImgArray={projectPageNasaImages} />)
+           :
+            (<HomePage setPage={setPage}  backgroundImage={homepageBackgroundUrl} />)
+          }
+          <NavBar setPage={setPage}/>
+            <Route path="/" exact component={HomePage}/>
+            <Route path="/about" exact component={About}/>
+        </div>
+      </BrowserRouter>
     );
   }
 };
