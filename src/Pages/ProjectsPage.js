@@ -75,22 +75,15 @@ class Projects extends React.Component {
           hideModal={this.hideModal}
         />)
       }
-      <header 
-        className='header-background'
-        style={{ backgroundPositionY: offset / 2}}
-        >
-        <section
-          className='info-container'
-          style={{ marginBottom: offset / 3 }}
-          >
+      <header className='header-background'style={{ backgroundPositionY: offset / 2}}>
+        <section className='info-container'style={{ marginBottom: offset / 3 }}>
           <div className="svg-smaller">
             <SvgHeader />
           </div>
-          <p className = "header-text-projects">PROJECTS</p>
+            <p className="header-text-projects">PROJECTS</p>
           <ArrowBox />
         </section>
-        </header>
-
+      </header>
         {this.projectList.map((projectData,index) => {
             return [
               <Project projectData={projectData} showModal={this.showModal}/>,
@@ -100,7 +93,7 @@ class Projects extends React.Component {
                 </div>
               </Parallax>
             ]
-        })
+         })
         }
     </div>
     )

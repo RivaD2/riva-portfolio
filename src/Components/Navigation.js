@@ -3,7 +3,6 @@ import './Navigation.css';
 import {Link} from 'react-router-dom';
 
 const Navigation  = props => {
-  const setPage = props;
     return (
       <div className="navbar-container" id="mySidenav">
         <div id="resume" className="sidenav-item">

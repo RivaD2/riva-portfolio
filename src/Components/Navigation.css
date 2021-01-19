@@ -1,7 +1,7 @@
 .navbar-container {
     position: absolute;
     left: 0;
-    top:25%;
+    top:8%;
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
@@ -17,7 +17,7 @@
     margin-bottom:8px;
     position:relative;
     cursor:pointer;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   
   .sidenav-item a {
@@ -29,7 +29,8 @@
     text-decoration: none; /* Remove underline */
     font-size: 15px; /* Increase font size */
     border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
-    color: rgb(177, 243, 245);
+    color: rgb(42, 177, 218);
+    font-weight:bold;
     font-family:'Orbitron', sans-serif;
   }
 
@@ -47,12 +48,13 @@
     align-items: center;
     justify-content: center;
     padding-top: 8px;
+    padding-left:4px;
   }
   
   .sidenav-item:hover a { 
     left: 60px; /* On mouse-over, make the elements appear as they should */
     opacity:1;
-    color:rgb(42, 177, 218);
+    color:rgb(177, 243, 245);
   }
 
   .header-logo {

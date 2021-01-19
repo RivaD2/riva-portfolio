@@ -2,7 +2,8 @@
 .project-container {
     display:flex;
     flex-direction:row;
-    border:2px solid rgb(177, 243, 245);
+    border-top:1px solid rgb(177, 243, 245);
+    border-bottom:1px solid rgb(177, 243, 245);
     min-height: 469px;
 
 }

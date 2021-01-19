@@ -48,7 +48,12 @@ class Project extends React.Component {
             <div className="button-spacer"></div>
             <div className="button-container">
               <button className="project-page-button" onClick={this.onDemoClick}>VIEW DEMO</button>
-              <a href={github_url} target="RivaD2" className="project-page-button">SOURCE CODE</a>
+              <a 
+                href={github_url} 
+                target="RivaD2" 
+                className="project-page-button">
+                  SOURCE CODE
+              </a>
             </div>
           </div>
         </div>

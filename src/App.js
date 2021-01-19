@@ -1,7 +1,7 @@
 import React from 'react';
 import {Router} from 'react-router-dom'
 import Projects from "./Pages/ProjectsPage";
-import About from './Pages/About';
+// import About from './Pages/About';
 import HomePage from "./Pages/HomePage";
 import HttpClient from "./HttpClient";
 import NavBar from './components/Navigation';
@@ -9,17 +9,14 @@ import history from './history';
 import './App.css';
 
 /* Todo: 
-Bring in Browser Router to handle internal navigation
 Remove ternary ops that are no longer needed after using Browser Router
 Complete the about me page
 Fix lag with api images/parallax scroll sticking
-Clean up styles, take a look and see what can be improved
-Don't forget to add third project when it is completed*/
+*/
 
 class App extends React.Component {
   state = {
       displayedPage : 'HomePage',
-      //setting backgroundImage to undefined until I fetch images
       projectPageNasaImages: new Array(3),
       homepageBackgroundUrl: ''
     }
@@ -51,7 +48,6 @@ class App extends React.Component {
     const {setPage} = this;
 
     return (
-     
         <div className="App">
           {displayedPage === 'Projects' ?
             (<Projects parallaxImgArray={projectPageNasaImages} />)
