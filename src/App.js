@@ -1,6 +1,7 @@
 import React from 'react';
 import {Router} from 'react-router-dom'
 import Projects from "./Pages/ProjectsPage";
+import About from './Pages/About';
 import HomePage from "./Pages/HomePage";
 import HttpClient from "./HttpClient";
 import NavBar from './components/Navigation';
@@ -48,17 +49,20 @@ class App extends React.Component {
   render() {
     const {projectPageNasaImages, homepageBackgroundUrl, displayedPage} = this.state;
     const {setPage} = this;
+
     return (
-      <Router history={history}>
+     
         <div className="App">
           {displayedPage === 'Projects' ?
             (<Projects parallaxImgArray={projectPageNasaImages} />)
            :
             (<HomePage setPage={setPage}  backgroundImage={homepageBackgroundUrl} />)
           }
-          <NavBar setPage={setPage}/>
+           <Router history={history}>
+           <NavBar setPage={setPage}/>
+           {/* <About setPage={setPage}/> */}
+          </Router>
         </div>
-        </Router>
     );
   }
 };
