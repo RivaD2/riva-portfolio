@@ -1,11 +1,11 @@
 import React from 'react';
-import {Router} from 'react-router-dom'
 import Projects from "./Pages/ProjectsPage";
-// import About from './Pages/About';
 import HomePage from "./Pages/HomePage";
 import HttpClient from "./HttpClient";
 import NavBar from './components/Navigation';
 import history from './history';
+import {Router} from 'react-router-dom';
+import Routes from './routes';
 import './App.css';
 
 /* Todo: 
@@ -54,10 +54,10 @@ class App extends React.Component {
            :
             (<HomePage setPage={setPage}  backgroundImage={homepageBackgroundUrl} />)
           }
-           <Router history={history}>
-           <NavBar setPage={setPage}/>
-           {/* <About setPage={setPage}/> */}
-          </Router>
+          <Router history={history}>
+            <Routes />
+            <NavBar setPage={setPage}/>
+          </Router>,
         </div>
     );
   }

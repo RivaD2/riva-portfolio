@@ -62,7 +62,7 @@ const Navigation  = props => {
             <Link 
               to="/about" 
               className="header-logo">
-                 {/* onClick={() => props.setPage('About')}> */}
+                {/* <button onClick={() => props.history.push("/")}>Home</button> */}
                   About
             </Link>
         </div>
