@@ -1,17 +1,15 @@
-import React from 'react';
-import {Route, Switch} from 'react-router-dom';
-import HomePage from './Pages/HomePage';
-import About from './Pages/About';
+// import React from 'react';
+// import {Route, Switch} from 'react-router-dom';
+// import HomePage from './Pages/HomePage';
+// import About from './Pages/About';
+// import ProjectsPage from './Pages/ProjectsPage';
 
-const Routes = () => {
-  return (
-    <div>
-      <Switch>
-      <Route exact path="/" component={HomePage} />
-      <Route exact path="/about" component={About} />
-      </Switch>
-    </div>
-  )
-}
+// const Routes = () => {
+//   return (
+//     <div>
+   
+//     </div>
+//   )
+// }
 
-export default Routes;
+// export default Routes;

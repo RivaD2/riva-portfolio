@@ -1,9 +1,10 @@
 import React from 'react';
 import './HomePage.css';
 import SvgHeader from '../components/SvgHeader';
+import {Link} from 'react-router-dom';
 
 const HomePage = props => {
-  const {backgroundImage, setPage} = props;
+  const {backgroundImage} = props;
   const image = `url('${backgroundImage}')`;
   return (
     <div className="home-container" style={{backgroundImage: image}}>
@@ -13,9 +14,10 @@ const HomePage = props => {
         </div>
       </div>
       <div>
+        <Link to="/projects">
         <button 
-          onClick={() => setPage('Projects')} 
           className="project-button">VIEW PROJECTS</button>
+        </Link>
       </div> 
     </div>
   )

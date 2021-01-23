@@ -50,8 +50,7 @@ const Navigation  = props => {
             </div>
           <Link 
             to="/" 
-            className="header-logo" 
-            onClick={() => props.setPage('Homepage')}>
+            className="header-logo">
               Home
           </Link>
         </div>
@@ -62,7 +61,6 @@ const Navigation  = props => {
             <Link 
               to="/about" 
               className="header-logo">
-                {/* <button onClick={() => props.history.push("/")}>Home</button> */}
                   About
             </Link>
         </div>

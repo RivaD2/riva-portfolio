@@ -3,9 +3,10 @@ import Projects from "./Pages/ProjectsPage";
 import HomePage from "./Pages/HomePage";
 import HttpClient from "./HttpClient";
 import NavBar from './components/Navigation';
+import About from './Pages/About';
 import history from './history';
+import {Route, Switch} from 'react-router-dom';
 import {Router} from 'react-router-dom';
-import Routes from './routes';
 import './App.css';
 
 /* Todo: 
@@ -16,7 +17,6 @@ Fix lag with api images/parallax scroll sticking
 
 class App extends React.Component {
   state = {
-      displayedPage : 'HomePage',
       projectPageNasaImages: new Array(3),
       homepageBackgroundUrl: ''
     }
@@ -37,27 +37,23 @@ class App extends React.Component {
     });
   };
 
-  setPage = page => {
-    this.setState({
-      displayedPage: page
-    })
-  };
-  
   render() {
-    const {projectPageNasaImages, homepageBackgroundUrl, displayedPage} = this.state;
-    const {setPage} = this;
+    const {projectPageNasaImages, homepageBackgroundUrl} = this.state;
 
     return (
         <div className="App">
-          {displayedPage === 'Projects' ?
-            (<Projects parallaxImgArray={projectPageNasaImages} />)
-           :
-            (<HomePage setPage={setPage}  backgroundImage={homepageBackgroundUrl} />)
-          }
           <Router history={history}>
-            <Routes />
-            <NavBar setPage={setPage}/>
-          </Router>,
+            <Switch>
+              <Route exact path="/"> 
+                <HomePage backgroundImage={homepageBackgroundUrl} /> 
+              </Route>
+              <Route exact path="/about" component={About} />
+              <Route exact path="/projects">
+                <Projects parallaxImgArray={projectPageNasaImages} />
+              </Route>
+            </Switch>
+            <NavBar/>
+          </Router>
         </div>
     );
   }
