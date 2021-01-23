@@ -10,9 +10,9 @@ import {Router} from 'react-router-dom';
 import './App.css';
 
 /* Todo: 
-Remove ternary ops that are no longer needed after using Browser Router
+
 Complete the about me page
-Fix lag with api images/parallax scroll sticking
+Revamp to include mobile design
 */
 
 class App extends React.Component {

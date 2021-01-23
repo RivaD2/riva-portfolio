@@ -1,0 +1,47 @@
+.about-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  background-color:black;
+  height:100vh;
+  justify-content: space-between;
+}
+
+.headshot {
+  height: 400px;
+}
+
+.project-page-button {
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  margin:0 auto;
+  height:40px;
+  width: 160px;
+  padding: 8px;
+  color: rgb(42, 177, 218);
+  border: 2px solid rgb(14, 169, 216);
+  outline: none;
+  text-decoration: none;
+  background-color:black;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items:center;
+  border-radius: 8px;
+}
+    
+.project-page-button{
+  transition: all .2s ease-in-out;
+}
+    
+.project-page-button:hover {
+  background-color:rgb(177, 243, 245);
+  color:black;
+}
+
+.svg-smaller {
+  transform: scale(0.45);
+}

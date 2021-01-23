@@ -1,21 +1,24 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
+import SvgHeader from '../components/SvgHeader';
+import './About.css';
 
 export default class About extends React.Component {
-showAbout = (about) => {
-  this.setState({
-    about
-  })
-}
 render() {
     return (
         <div className="about-container">
-          <div className="headshot">
-          <img src="./Riva.jpg" alt="profile" />
+          <div className="headshot-container">
+          <img src="/images/riva-banner-image.png" alt="profile" className="headshot"/>
+          </div>
+          <div className="svg-smaller">
+            <SvgHeader />
+          </div>
+          <Link to="./projects">
             <button 
                 className="project-button">
-                HOME
+                Projects
             </button>
-          </div>
+            </Link>
         </div> 
     )
   }

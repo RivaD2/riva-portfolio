@@ -1,69 +1,70 @@
 .home-container {
-    min-height:100vh;
-    margin:0;
-    padding:0;
-    text-align: center;
-    /* -webkit-background-size:cover; */
-    background-size: auto 80%;
-    background-position: center center;
-    background-repeat:no-repeat;
-    background-color: rgb(12, 12, 12);
-    border: 4px solid black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(145, 228, 228, 0.068));
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction:column;
-    justify-content: space-between;
-  }
+  min-height:100vh;
+  margin:0;
+  padding:0;
+  text-align: center;
+  /* -webkit-background-size:cover; */
+  background-size: auto 80%;
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-color: rgb(12, 12, 12);
+  border: 4px solid black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(145, 228, 228, 0.068));
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+}
   
-  .greeting-text {
-    color: white;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-  }
+.greeting-text {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
   
-  .greeting-text-two{
-    font-size: 40px;
-    color:white;
-  }
-  .project-button {
-    font-size: 12px;
-    font-weight: bold;
-    font-family: 'Orbitron', sans-serif;
-    text-align: center;
-    margin:0 auto;
-    display: block;
-    height:40px;
-    width: 150px;
-    padding: 8px;
-    color: rgb(42, 177, 218);
-    border: 2px solid  rgb(14, 169, 216);
-    outline: none;
-    text-decoration: none;
-    background-color:black;
-    border-radius: 8px;
-    margin-bottom: 20px;
-  }
+.greeting-text-two{
+  font-size: 40px;
+  color:white;
+}
+
+.project-button {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  margin:0 auto;
+  display: block;
+  height:40px;
+  width: 150px;
+  padding: 8px;
+  color: rgb(42, 177, 218);
+  border: 2px solid  rgb(14, 169, 216);
+  outline: none;
+  text-decoration: none;
+  background-color:black;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
     
-  .project-button{
-      transition: all .2s ease-in-out;
-  }
+.project-button{
+    transition: all .2s ease-in-out;
+}
   
-  .project-button:hover {
-    background-color:rgb(203, 238, 238);
-    color:black;
-  }
+.project-button:hover {
+  background-color:rgb(203, 238, 238);
+  color:black;
+}
 
-  .svg-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0.6);
-  }
+.svg-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.6);
+}
 
-  path {
-    animation: draw 5s linear forwards;
-  }
+path {
+  animation: draw 5s linear forwards;
+}
   
