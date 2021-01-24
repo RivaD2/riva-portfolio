@@ -2,8 +2,8 @@
 .project-container {
     display:flex;
     flex-direction:row;
-    border-top:1px solid rgb(177, 243, 245);
-    border-bottom:1px solid rgb(177, 243, 245);
+    border-top:1px solid blanchedalmond; /* rgb(177, 243, 245); */
+    border-bottom:1px solid blanchedalmond;/*rgb(177, 243, 245);*/
     min-height: 469px;
 }
 
@@ -27,12 +27,12 @@
 .detail-container {
     display:flex;
     flex-direction:column;
-   justify-content: space-around;
+    justify-content: space-around;
 }
 
 .project-title {
     color:rgb(178, 227, 241);
-    font-size: 30pt;
+    font-size: 38pt;
     text-align:center;
     font-family: 'Orbitron', sans-serif;
 }
@@ -53,8 +53,8 @@
   height:40px;
   width: 160px;
   padding: 8px;
-  color: rgb(42, 177, 218);
-  border: 2px solid rgb(14, 169, 216);
+  color: rgb(177, 243, 245);
+  border: 2px solid rgb(177, 243, 245);
   outline: none;
   text-decoration: none;
   background-color:black;
@@ -76,18 +76,21 @@
 
 #tools-used-desc b {
    text-align:left;
-   font-size: 10pt;
+   font-size: 12pt;
    text-transform: uppercase;
+   color:rgb(177, 243, 245);
 }
 
 .project-text{
-    color: rgb(221, 211, 211);
-    font-size:10pt;
+    /* color: rgb(221, 211, 211); */
+    font-size:12pt;
     line-height: 1.5em;
     font-family: 'Roboto', sans-serif;
+    color: blanchedalmond;
 }
 #text-desc b {
     text-transform: uppercase;
+    color:rgb(177, 243, 245);
 }
 
 @media (max-width: 600px) {
@@ -127,5 +130,9 @@
 
   .project-page-button {
     font-size:10px;
+  }
+  
+  .tools-desc-container {
+   margin-top:20px;
   }
 }

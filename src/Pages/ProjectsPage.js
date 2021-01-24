@@ -27,26 +27,27 @@ class Projects extends React.Component {
         gif_url:'/images/pinstrat-gif.gif', 
         github_url:'https://github.com/RivaD2/project-pinstrat',
         tools_used:'MongoDB, bcrypt, Express, Node.js',
-        text_desc:'Project Pinstrat involved building a back-end server and database interface for Pinstrat(our client) as well as encrypted request data and filtered results. ' + 
-        ' I set up all crud routes, the database and the Mongoose Schema. I also worked with ' + 
+        text_desc:'Project Pinstrat involved building a back-end server and database interface for Pinstrat(our client) as well as encrypted request data and filtered results. ',
+        demo_desc: 'I set up all crud routes, the database and the Mongoose Schema. I also worked with ' + 
         ' the client to implement encryption on the request to prevent access to game data that players haven\'t unlocked during gameplay.'
       },
       {
         title: 'Greener', 
         img_url: '',
-        if_url: '',
-        github_url:'',
-        tools_used:'React Native, Redux, Expo Google Sign In, Expo Google Oauth, Axios, Axios',
-        text_desc:'A game site modeled after Tomogatchi designed to help people relax. I focused on implementing front-end to back-end OAuth, extracting logic to resuable components ' +
-        'and building buttons for the different actions related to plantcare.'
+        gif_url: '',
+        github_url:'https://github.com/RivaD2/GreenerFrontEnd',
+        tools_used:'React Native, Redux, Expo Google Sign In, Expo Google Oauth, Axios',
+        text_desc:'A game site modeled after Tamagatchi designed to help people relax. ' +
+        'Login is possible through a form submission or OAuth. This app allows the user to perform actions on the plant and gain currency.'
       },
       {
         title: 'Movie Night', 
         img_url: '',
-        if_url: '',
-        github_url:'',
-        tools_used:'PostgreSql, CSS, Vanilla JS, the Movie Database Api (TMDb)',
-        text_desc:''
+        gif_url: '',
+        github_url:'https://github.com/RivaD2/Movie-Night',
+        tools_used:'PostgreSQL, Vanilla JS, Express, the Movie Database Api (TMDb)',
+        text_desc:'Movie Night makes it easy for a user to pick a movie from a recommendation list based of ratings. ' + 
+        'The user can choose which movies to watch based of this list and add them to a watchlist.'
       }
     ]
 

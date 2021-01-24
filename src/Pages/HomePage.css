@@ -39,8 +39,8 @@
   height:40px;
   width: 150px;
   padding: 8px;
-  color: rgb(42, 177, 218);
-  border: 2px solid  rgb(14, 169, 216);
+  color: rgb(177, 243, 245);
+  border: 2px solid  rgb(177, 243, 245);
   outline: none;
   text-decoration: none;
   background-color:black;
@@ -53,7 +53,7 @@
 }
   
 .project-button:hover {
-  background-color:rgb(203, 238, 238);
+  background-color:rgb(177, 243, 245);
   color:black;
 }
 
@@ -74,7 +74,7 @@ path {
     display:flex;
     flex-direction:column;
   }
-  
+
   .svg-container {
     position:absolute;
     top: 50%;
