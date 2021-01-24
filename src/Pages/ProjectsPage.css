@@ -97,9 +97,8 @@
 /* Mobile */
 @media (max-width: 600px) {
   .header-background {
-    height:80vh;
     background-repeat: no-repeat; 
-    background-size:contain;
+    background-size:cover;
     background-position: center center;
     display:flex;
     flex-direction:column;
@@ -114,7 +113,6 @@
 
   .svg-projects {
    transform: scale(0.3);
-   padding-top:200px;
   }
 
   .arrow-box {

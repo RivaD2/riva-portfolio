@@ -47,5 +47,15 @@
 
 .svg-about {
   transform: scale(0.45);
-  display:flex;
+}
+
+@media (max-width:600px) {
+  .svg-about {
+    transform: scale(0.3);
+    margin-left:-158px;
+  }
+  
+  .headshot-container {
+    padding-top:80px;
+  }
 }
