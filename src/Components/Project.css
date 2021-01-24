@@ -5,7 +5,6 @@
     border-top:1px solid rgb(177, 243, 245);
     border-bottom:1px solid rgb(177, 243, 245);
     min-height: 469px;
-
 }
 
 .image-container {
@@ -20,6 +19,7 @@
     align-items: center;
     flex-shrink:0;
 }
+
 .project-gif {
     width: 70%;
 }
@@ -87,4 +87,27 @@
 }
 #text-desc b {
     text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+  .project-container {
+    display:flex;
+    flex-direction:column;
+    min-height: 200px;
+  }
+
+  .image-container {
+    min-height:80vh;
+    width:50vw;
+    background-size:100px;
+    background-position: left;;
+    display:flex;
+    flex-direction:column; 
+  } 
+
+  .project-title {
+    font-size: 20pt;
+    text-align:center;
+    font-family: 'Orbitron', sans-serif;
+  }
 }

@@ -45,7 +45,7 @@
   text-decoration: none;
   background-color:black;
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
     
 .project-button{
@@ -67,4 +67,18 @@
 path {
   animation: draw 5s linear forwards;
 }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media (max-width: 600px) {
+  .home-container {
+    display:flex;
+    flex-direction:column;
+  }
   
+  .svg-container {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%) scale(0.3);
+  }
+ };

@@ -61,4 +61,36 @@
   height: 60px;
   justify-content: left;
 }
+
+/* Mobile */
+@media (max-width: 600px) {
+  .navbar-container {
+    top:8%;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items: flex-end;
+  }
+
+  .sidenav-item {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center;
+    cursor:pointer;
+  }
+
+  .sidenav-item a {
+    position: absolute;
+    left:0px;
+    font-size: 12px; /* Increase font size */
+  }
+
+  .header-logo {
+    height: 30px;
+    justify-content: left;
+  }
+}
+
+
   

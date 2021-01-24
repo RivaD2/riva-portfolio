@@ -6,20 +6,20 @@ import './About.css';
 export default class About extends React.Component {
 render() {
     return (
-        <div className="about-container">
+      <div className="about-container">
           <div className="headshot-container">
-          <img src="/images/riva-banner-image.png" alt="profile" className="headshot"/>
-          </div>
-          <div className="svg-smaller">
-            <SvgHeader />
-          </div>
-          <Link to="./projects">
-            <button 
-                className="project-button">
-                Projects
-            </button>
-            </Link>
-        </div> 
+            <div className="svg-smaller">
+              <SvgHeader />
+            </div>
+        </div>
+        <div className="text-container">Text</div>
+        <Link to="./projects">
+          <button 
+              className="project-button">
+              Projects
+          </button>
+          </Link>
+      </div> 
     )
   }
 }

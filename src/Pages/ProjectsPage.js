@@ -44,9 +44,11 @@ class Projects extends React.Component {
   componentDidMount() {
     window.addEventListener('scroll', this.parallaxShift);
   }
+  
   componentWillUnmount() {
     window.removeEventListener('scroll', this.parallaxShift);
   }
+
   parallaxShift = () => {
     this.setState({
       offset: window.pageYOffset
@@ -70,10 +72,7 @@ class Projects extends React.Component {
     return (
     <div className="projects-container">
       {projectData &&
-        (<Modal 
-          projectData={projectData} 
-          hideModal={this.hideModal}
-        />)
+        (<Modal projectData={projectData} hideModal={this.hideModal}/>)
       }
       <header className='header-background'style={{ backgroundPositionY: offset / 2}}>
         <section className='info-container'style={{ marginBottom: offset / 3 }}>

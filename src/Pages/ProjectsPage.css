@@ -92,3 +92,56 @@
 .svg-smaller {
   transform: scale(0.45);
 }
+
+
+/* Mobile */
+@media (max-width: 600px) {
+  .header-background {
+    height:40vh;
+    background-repeat: no-repeat; 
+    background-size:contain;
+    background-position: center center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+  }
+  
+  .header-text-projects {
+    font-size: 25px;
+  }
+  
+  .info-container {
+    width:200px;
+    font-size:20pt;
+  }
+  .svg-smaller {
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%) scale(0.2);
+  }
+
+  .arrow-box {
+    top:40%;
+    left:40%;
+  }
+   
+  .arrow-box div {
+    display:flex;
+    width:15px;
+    height:15px;
+  }
+
+  .parallax-divider-container {
+    background-color:black;
+    height:30vh;
+    border-width: 2px 0;
+  }
+
+  .info-container {
+    width:200px;
+    font-size:15pt;
+  }
+  
+}
