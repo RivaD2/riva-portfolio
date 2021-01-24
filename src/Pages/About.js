@@ -8,7 +8,7 @@ render() {
     return (
       <div className="about-container">
           <div className="headshot-container">
-            <div className="svg-smaller">
+            <div className="svg-about">
               <SvgHeader />
             </div>
         </div>

@@ -43,6 +43,7 @@
     justify-content:space-evenly;
     align-items: center;
 }
+
 .project-page-button {
   box-sizing: border-box;
   font-size: 15px;
@@ -94,10 +95,11 @@
     display:flex;
     flex-direction:column;
     min-height: 200px;
+    padding:20px 10px;
   }
 
   .image-container {
-    min-height:80vh;
+    min-height:0;
     width:50vw;
     background-size:100px;
     background-position: left;;
@@ -107,7 +109,19 @@
 
   .project-title {
     font-size: 20pt;
-    text-align:center;
+    text-align:left;
     font-family: 'Orbitron', sans-serif;
+    padding-top:30px;
+    padding-bottom:10px;
+  }
+
+  .project-gif {
+    width: 60%;
+  }
+
+  .detail-container {
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
   }
 }

@@ -69,21 +69,15 @@
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
-    align-items: flex-end;
+    align-items:center;
   }
 
   .sidenav-item {
     display:flex;
     flex-direction: row;
-    justify-content:flex-start;
+    width:auto;
     align-items:center;
     cursor:pointer;
-  }
-
-  .sidenav-item a {
-    position: absolute;
-    left:0px;
-    font-size: 12px; /* Increase font size */
   }
 
   .header-logo {

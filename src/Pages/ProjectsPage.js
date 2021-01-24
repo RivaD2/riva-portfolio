@@ -44,7 +44,7 @@ class Projects extends React.Component {
   componentDidMount() {
     window.addEventListener('scroll', this.parallaxShift);
   }
-  
+
   componentWillUnmount() {
     window.removeEventListener('scroll', this.parallaxShift);
   }
@@ -76,7 +76,7 @@ class Projects extends React.Component {
       }
       <header className='header-background'style={{ backgroundPositionY: offset / 2}}>
         <section className='info-container'style={{ marginBottom: offset / 3 }}>
-          <div className="svg-smaller">
+          <div className="svg-projects">
             <SvgHeader />
           </div>
             <p className="header-text-projects">PROJECTS</p>
