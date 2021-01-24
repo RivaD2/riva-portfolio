@@ -29,7 +29,7 @@ class App extends React.Component {
   
   //This method will be called after it is instantiated and will be called once
   componentDidMount() {
-    const imageIdArray = ['GSFC_20171208_Archive_e001427', 'PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500'];
+    const imageIdArray = ['GSFC_20171208_Archive_e001427', 'PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'PIA15625'];
     const promiseForImages = Promise.all(
       imageIdArray.map(image => {
         return HttpClient.getNasaImage(image);

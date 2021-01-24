@@ -6,7 +6,7 @@
   top:0;
   background-color: rgba(102, 98, 98, 0.85);
   z-index: 100;
-  padding: 10vw 10vh;
+  padding: 10vh 10vw;
 }
 
 .modal-body {
@@ -15,8 +15,6 @@
   justify-content: center;
   align-items:center;
   position:relative;
-  width:80vw;
-  height:80vh;
   background-color:rgb(24, 22, 22);
   padding:8px;
   border: 3px solid rgb(177, 243, 245);
@@ -36,7 +34,8 @@
 }
 
 .modal-gif {
-  width:100%;
+  width:75%; 
+  border:1px solid blanchedalmond;
 }
 
 .modal-details {
@@ -46,6 +45,7 @@
   align-items:center;
   flex-basis:50%;
   color: blanchedalmond;
+  font-size:12pt;
 }
 
 .modal-title {
@@ -53,6 +53,8 @@
   font-size: 26pt;
   text-align:center;
   flex-grow:0;
+  flex-basis: 80px;
+  padding-top: 20px;
 }
 
 .close-icon {
@@ -61,4 +63,29 @@
   position:absolute;
   top:10px;
   right:10px;
+}
+
+@media (max-width:600px) {
+
+  .modal-content {
+    flex-direction:column;
+  }
+
+  .modal-title {
+    font-size: 20pt;
+  }
+
+  .modal-details {
+    font-size:12pt;
+    padding-top:30px;
+  }
+
+  .modal-gif {
+    width:60%;
+    padding-top:10px;
+  }
+
+  .close-icon {
+    font-size:20px;
+  }
 }
