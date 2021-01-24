@@ -124,4 +124,8 @@
     flex-direction:column;
     justify-content:left;
   }
+
+  .project-page-button {
+    font-size:10px;
+  }
 }

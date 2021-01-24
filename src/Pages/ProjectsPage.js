@@ -51,13 +51,16 @@ class Projects extends React.Component {
     ]
 
   componentDidMount() {
+    console.log(window.innerWidth);
+    // Turns off parallax for mobile
+    if(window.innerWidth < 600) return;
     window.addEventListener('scroll', this.parallaxShift);
   }
 
   componentWillUnmount() {
     window.removeEventListener('scroll', this.parallaxShift);
   }
-
+// Setting parallax offset for header
   parallaxShift = () => {
     this.setState({
       offset: window.pageYOffset
@@ -95,11 +98,15 @@ class Projects extends React.Component {
         {this.projectList.map((projectData,index) => {
             return [
               <Project projectData={projectData} showModal={this.showModal}/>,
-              <Parallax className="parallax-divider-container" shift={1.5}>
+              <Parallax 
+                className="parallax-divider-container" 
+                shift={1.5}
+                minWidth={600}
+              >
                 <div className="api-image"
                   style={{backgroundImage: `url(${this.props.parallaxImgArray[index]})`}}>
                 </div>
-              </Parallax>
+             </Parallax>
             ]
          })
         }

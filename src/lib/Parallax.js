@@ -11,6 +11,10 @@ const Parallax = props  => {
   }
   const containerRefCallback = useCallback(element => {
     if(!element) return;
+    if(props.minWidth && window.innerWidth < props.minWidth) {
+      element.children[0].style.height = element.offsetHeight + 'px';
+      return;
+    }
     setContainerRef(element);
     let startY, endY, screenHeight = window.innerHeight;
     startY = element.offsetTop;
@@ -19,7 +23,7 @@ const Parallax = props  => {
     setBounds([startY - screenHeight, endY + screenHeight]);
     setShiftOffset(element.offsetHeight * relativeShift - element.offsetHeight)
     window.addEventListener('scroll', onScroll);
-  }, [relativeShift]);
+  }, [relativeShift, props.minWidth]);
   useEffect(() => {
     if (!containerRef || scrollY < bounds[0] || scrollY > bounds[1]) {
         return;
