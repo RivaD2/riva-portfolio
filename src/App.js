@@ -17,7 +17,8 @@ Make nav images clickable
 Add icon to close modal rather than button
 Fix Native app and drop in
 Fix movie night and drop in
-Add Aqaba project and drop in
+Add Aqaba project and drop in 
+Edit text for projects and add text into modals for project contributions
 */
 
 class App extends React.Component {

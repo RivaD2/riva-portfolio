@@ -18,9 +18,14 @@
   position:relative;
   cursor:pointer;
   margin-left: 10px;
+  color:black;
+}
+
+.sidenav-item:hover {
+  color:black;
 }
   
-.sidenav-item a {
+.sidenav-item .header-logo {
   position: absolute;
   left:0px;
   opacity:0;
@@ -29,7 +34,6 @@
   text-decoration: none; /* Remove underline */
   font-size: 15px; /* Increase font size */
   border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
-  color: rgb(42, 177, 218);
   font-weight:bold;
   font-family:'Orbitron', sans-serif;
 }
@@ -51,7 +55,7 @@
   padding-left:4px;
 }
 
-.sidenav-item:hover a { 
+.sidenav-item:hover .header-logo { 
   left: 60px; /* On mouse-over, make the elements appear as they should */
   opacity:1;
   color:rgb(177, 243, 245);
@@ -65,11 +69,11 @@
 /* Mobile */
 @media (max-width: 600px) {
   .navbar-container {
-    top:8%;
+    top:20px;
     display:flex;
     flex-direction:row;
-    justify-content:flex-end;
-    align-items:center;
+    justify-content:space-around;
+    width: 100vw;
   }
 
   .sidenav-item {
@@ -78,6 +82,7 @@
     width:auto;
     align-items:center;
     cursor:pointer;
+    margin:0;
   }
 
   .header-logo {
@@ -85,7 +90,7 @@
     justify-content: left;
   }
 
-  .sidenav-item:hover a {
+  .sidenav-item:hover .header-logo {
     display: none !important
   }
 }
