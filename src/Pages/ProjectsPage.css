@@ -90,7 +90,7 @@
 }
 
 .svg-projects {
-  transform: scale(0.145);
+  transform: scale(0.45);
 }
 
 
@@ -124,19 +124,14 @@
    
   .arrow-box div {
     display:flex;
-    width:15px;
-    height:15px;
-  }
-
-  .parallax-divider-container {
-    background-color:black;
-    height:30vh;
-    border-width: 2px 0;
+    width:10px;
+    height:10px;
   }
 
   .info-container {
     width:200px;
     font-size:15pt;
   }
+
   
 }

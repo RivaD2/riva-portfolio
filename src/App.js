@@ -12,7 +12,12 @@ import './App.css';
 /* Todo: 
 
 Complete the about me page
-Revamp to include mobile design
+Continue mobile design and turn off parallax 
+Make nav images clickable
+Add icon to close modal rather than button
+Fix Native app and drop in
+Fix movie night and drop in
+Add Aqaba project and drop in
 */
 
 class App extends React.Component {

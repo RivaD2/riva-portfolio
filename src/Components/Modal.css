@@ -5,20 +5,27 @@
     left:0;
     top:0;
     background-color: rgba(102, 98, 98, 0.85);
-    display:flex;
-    justify-content: center;
-    align-items:center;
     z-index: 100;
+    padding: 10vw 10vh;
+}
+
+.modal-body {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  position:relative;
+  width:80vw;
+  height:80vh;
+  background-color:rgb(24, 22, 22);
+  padding:8px;
+  border: 3px solid rgb(177, 243, 245);
 }
 
 .modal-content {
-    width:80vw;
-    height:80vh;
-    display:flex;
-    flex-direction:row;
-    background-color:rgb(24, 22, 22);
-    padding:8px;
-    border: 3px solid rgb(177, 243, 245);
+  display:flex;
+  flex-direction:row;
+  flex-grow:1;
 
 }
 
@@ -43,6 +50,15 @@
 
 .modal-title {
     color: rgb(177, 243, 245);
-    font-size: 36pt;
+    font-size: 26pt;
     text-align:center;
+    flex-grow:0;
+}
+
+.close-icon {
+  color:rgb(185, 181, 181);
+  font-size:30px;
+  position:absolute;
+  top:10px;
+  right:10px;
 }

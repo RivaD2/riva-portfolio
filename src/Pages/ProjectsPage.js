@@ -14,12 +14,12 @@ class Projects extends React.Component {
 
     projectList = [
       {
-        title : 'Pawnee Parks',
+        title : 'Aqaba',
         img_url: '',
         gif_url: '',
         github_url:'',
         tools_used:'React, Redux, Axios, Semantic-UI, MongoDB',
-        text_desc:'Spoof Government website inspired by the popular show Parks and Recreation.'
+        text_desc:'Aqaba by Miram Mirini is a fragrance site I really enjoy. I decided to rebuild the site and give it a completely new look.' 
       },
       {
         title: 'Project Pinstrat', 
@@ -32,11 +32,20 @@ class Projects extends React.Component {
         ' the client to implement encryption on the request to prevent access to game data that players haven\'t unlocked during gameplay.'
       },
       {
-        title: 'TBD', 
+        title: 'Greener', 
         img_url: '',
         if_url: '',
         github_url:'',
-        tools_used:'',
+        tools_used:'React Native, Redux, Expo Google Sign In, Expo Google Oauth, Axios, Axios',
+        text_desc:'A game site modeled after Tomogatchi designed to help people relax. I focused on implementing front-end to back-end OAuth, extracting logic to resuable components ' +
+        'and building buttons for the different actions related to plantcare.'
+      },
+      {
+        title: 'Movie Night', 
+        img_url: '',
+        if_url: '',
+        github_url:'',
+        tools_used:'PostgreSql, CSS, Vanilla JS, the Movie Database Api (TMDb)',
         text_desc:''
       }
     ]
