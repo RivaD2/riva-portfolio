@@ -30,14 +30,14 @@
 }
 
 .project-button {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
   font-family: 'Orbitron', sans-serif;
   text-align: center;
   margin:0 auto;
   display: block;
   height:40px;
-  width: 150px;
+  width: 170px;
   padding: 8px;
   color: rgb(177, 243, 245);
   border: 2px solid  rgb(177, 243, 245);

@@ -11,14 +11,12 @@ import './App.css';
 
 /* Todo: 
 
-Complete the about me page
-Continue mobile design and turn off parallax 
-Make nav images clickable
-Add icon to close modal rather than button
-Fix Native app and drop in
-Fix movie night and drop in
-Add Aqaba project and drop in 
-Edit text for projects and add text into modals for project contributions
+Complete the about me page after image creation
+Add button on ProjectsPage to jump user back to top
+Fix Native app, drop in image of Terriarum page and add gif and demo desc to modal
+Fix movie night and drop in image of Details page and add gif and demo desc to modal
+Add Aqaba project when finished and drop in to projects and modal with demo desc
+Double check modal for mobile after gifs and demo desc added
 */
 
 class App extends React.Component {

@@ -16,7 +16,7 @@ render() {
         <Link to="./projects">
           <button 
               className="project-button">
-              Projects
+              PROJECTS
           </button>
           </Link>
       </div> 

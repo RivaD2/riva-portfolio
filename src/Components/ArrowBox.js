@@ -1,4 +1,5 @@
 import React from 'react';
+import './ArrowBox.css';
 
 const ArrowBox = () => {
     return (
