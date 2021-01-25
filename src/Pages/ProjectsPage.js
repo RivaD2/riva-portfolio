@@ -116,6 +116,9 @@ class Projects extends React.Component {
             ]
          })
         }
+        <div className="to-top-container">
+         <button className="project-page-button to-top" onClick={() => window.scrollTo(0,0)}>BACK TO TOP</button>
+        </div>
     </div>
     )
   }
