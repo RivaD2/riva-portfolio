@@ -12,7 +12,6 @@ import './App.css';
 /* Todo: 
 
 Complete the about me page after image creation
-Add button on ProjectsPage to jump user back to top
 Fix Native app, drop in image of Terriarum page and add gif and demo desc to modal
 Fix movie night and drop in image of Details page and add gif and demo desc to modal
 Add Aqaba project when finished and drop in to projects and modal with demo desc
@@ -27,7 +26,7 @@ class App extends React.Component {
   
   //This method will be called after it is instantiated and will be called once
   componentDidMount() {
-    const imageIdArray = ['GSFC_20171208_Archive_e001427', 'PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'PIA15625'];
+    const imageIdArray = ['GSFC_20171208_Archive_e001427', 'PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'GSFC_20171208_Archive_e000720'];
     const promiseForImages = Promise.all(
       imageIdArray.map(image => {
         return HttpClient.getNasaImage(image);

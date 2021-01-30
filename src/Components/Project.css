@@ -2,15 +2,16 @@
 .project-container {
     display:flex;
     flex-direction:row;
-    border-top:1px solid blanchedalmond; /* rgb(177, 243, 245); */
-    border-bottom:1px solid blanchedalmond;/*rgb(177, 243, 245);*/
+    border-top:1px solid blanchedalmond; 
+    border-bottom:1px solid blanchedalmond;
+    align-items:center;
     min-height: 469px;
 }
 
 .image-container {
-    min-height:80vh;
-    width:50vw;
-    background-size:350px;
+    width:40vw;
+    height:50vh;
+    background-size:contain;
     background-position: center;
     display:flex;
     flex-direction:row;

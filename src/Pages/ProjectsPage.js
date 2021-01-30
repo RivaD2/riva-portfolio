@@ -36,13 +36,14 @@ class Projects extends React.Component {
       },
       {
         title: 'Greener', 
-        img_url: '',
-        gif_url: '',
+        img_url: '/images/greenerLogin.png',
+        gif_url: '/images/greenerLogin.gif',
         github_url:'https://github.com/RivaD2/GreenerFrontEnd',
         tools_used:'React Native, Redux, Expo Google Sign In, Expo Google Oauth, Axios',
         text_desc:'A game site modeled after Tamagatchi designed to help people relax. ' +
-        'Login is possible through a form submission or OAuth. This app allows the user to perform actions on the plant and gain currency.',
-        demo_desc:'',
+        'Login is possible through a form submission or OAuth. This app allows the user to perform actions on the plant to gain currency.',
+        demo_desc:'Through this week long project I implemented front-end to back-end OAuth using Google as the OAuth provider. ' + 
+        ' I also was responsible for extracting Terriarum logic into its own component and the action buttons that increment in game currency on the client-side.',
       },
       {
         title: 'Movie Night', 
