@@ -21,12 +21,9 @@ class Project extends React.Component {
     
       return (
         <div className="project-container">
-          <div className="image-container" style={{backgroundImage:`url(${img_url})`}}>
-              {/* <img 
-                src={img_url} 
-                alt="project-gif"
-                className="project-gif"
-              /> */}
+          <div className="image-container-wrap">
+            <div className="image-container" style={{backgroundImage:`url(${img_url})`}}>
+          </div>
           </div>
           <div className="detail-container">
             <div className="project-title">{title}</div>

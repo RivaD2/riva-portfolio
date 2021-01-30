@@ -35,8 +35,10 @@
 .project-title {
     color:rgb(178, 227, 241);
     font-size: 38pt;
+    line-height:48pt;
     text-align:center;
     font-family: 'Orbitron', sans-serif;
+    padding-bottom:40px;
 }
 
 .button-container {
@@ -44,6 +46,7 @@
     flex-direction:row;
     justify-content:space-evenly;
     align-items: center;
+    padding-top:40px;
 }
 
 .project-page-button {
