@@ -12,12 +12,14 @@ class Modal extends React.Component {
                     <i className={'window close outline icon'}></i>
                   </div>
                   <div className="modal-content">
-                    <div className="modal-img">
-                      <img 
+                    <div className="modal-image-wrapper">
+                    <div className="modal-img" style={{backgroundImage:`url(${this.props.projectData.gif_url})`}}>
+                    </div>
+                      {/* <img 
                         src={this.props.projectData.gif_url} 
                         alt="project-gif"
                         className="modal-gif"
-                      />
+                      /> */}
                       </div>
                         <div className="modal-details">
                           {this.props.projectData.demo_desc}

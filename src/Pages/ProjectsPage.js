@@ -30,9 +30,10 @@ class Projects extends React.Component {
         github_url:'https://github.com/RivaD2/project-pinstrat',
         tools_used:'MongoDB, bcrypt, Express, Node.js',
         text_desc:'Project Pinstrat involved building a back-end server and database interface for Pinstrat(our client) as well as encrypted request data and filtered results. ',
-        demo_desc: 'My contributions: ' + 
-        '- set up all crud routes, the database and the Mongoose Schema. I also worked with ' + 
-        ' the client to implement encryption on the request to prevent access to game data that players haven\'t unlocked during gameplay.'
+        demo_desc: 'For this project I took on the role as PM and was responsbile for communicating client needs to the rest of our team. I also ' + 
+        'set up all routes, the database and the MongoDB Schema and Model. I worked with ' + 
+        ' the client to implement encryption on the request to prevent access to game data that players haven\'t unlocked during gameplay.' + 'Originally, the client (another developer) had all ' + 
+        'game data in a JSON file. It was our job to create a DB so his data was secure and add filtering and encryption of game data.'
       },
       {
         title: 'Greener', 
@@ -42,8 +43,8 @@ class Projects extends React.Component {
         tools_used:'React Native, Redux, Expo Google Sign In, Expo Google Oauth, Axios',
         text_desc:'A game site modeled after Tamagatchi designed to help people relax. ' +
         'Login is possible through a form submission or OAuth. This app allows the user to perform actions on the plant to gain currency.',
-        demo_desc:'Through this week long project I implemented front-end to back-end OAuth using Google as the OAuth provider. ' + 
-        ' I also was responsible for extracting Terriarum logic into its own component and the action buttons that increment in game currency on the client-side.',
+        demo_desc:'Through this week long project I implemented front-end to back-end OAuth via Google. ' + 
+        ' I also extracted  all Terriarum logic into its own component for reuse and created the action buttons that increment in-game currency for the user.'
       },
       {
         title: 'Movie Night', 

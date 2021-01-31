@@ -13,7 +13,6 @@
   display:flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
   position:relative;
   background-color:rgb(24, 22, 22);
   padding:8px;
@@ -31,11 +30,17 @@
   justify-content:center;
   align-items:center;
   flex-basis:50%;
+  width:30vw;
+  height:60vh;
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink:0;
 }
 
-.modal-gif {
-  width:75%; 
-  border:1px solid blanchedalmond;
+.modal-image-wrapper {
+  padding-right:22px;
+  padding-bottom:30px;
 }
 
 .modal-details {
