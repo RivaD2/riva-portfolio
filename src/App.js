@@ -12,10 +12,8 @@ import './App.css';
 /* Todo: 
 
 Complete the about me page after image creation
-Fix Native app, drop in image of Terriarum page and add gif and demo desc to modal
-Fix movie night and drop in image of Details page and add gif and demo desc to modal
 Add Aqaba project when finished and drop in to projects and modal with demo desc
-Double check modal for mobile after gifs and demo desc added
+Fix gif and text spacing in modal for mobile
 */
 
 class App extends React.Component {

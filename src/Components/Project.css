@@ -21,6 +21,11 @@
     flex-shrink:0;
 }
 
+.image-container-wrap {
+  padding-right:42px;
+  padding-left:22px;
+}
+
 .project-gif {
     width: 70%;
     border:1px solid blanchedalmond;
@@ -108,9 +113,7 @@
 
   .image-container {
     min-height:0;
-    width:50vw;
-    background-size:100px;
-    background-position: left;;
+    width:80vw;
     display:flex;
     flex-direction:column; 
   } 

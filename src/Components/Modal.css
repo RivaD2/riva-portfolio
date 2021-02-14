@@ -46,11 +46,12 @@
 .modal-details {
   display:flex;
   flex-direction:column;
-  justify-content: space-between;
+  justify-content: center;
   align-items:center;
   flex-basis:50%;
   color: blanchedalmond;
   font-size:12pt;
+  white-space:pre-line;
 }
 
 .modal-title {
@@ -71,9 +72,13 @@
 }
 
 @media (max-width:600px) {
+  .modal-body {
+    max-height:80vh;
 
+  }
   .modal-content {
     flex-direction:column;
+    overflow-y:auto;
   }
 
   .modal-title {
@@ -84,10 +89,11 @@
     font-size:12pt;
     padding-top:30px;
   }
-
-  .modal-gif {
-    width:60%;
+  
+  .modal-img {
+    width:76vw;
     padding-top:10px;
+    height:auto;
   }
 
   .close-icon {
