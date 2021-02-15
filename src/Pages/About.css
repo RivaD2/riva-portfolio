@@ -37,6 +37,10 @@
  max-width: 400px;
 }
 
+.hobby-text {
+ padding-top: 20px;
+}
+
 .about-project-button.project-button {
   width:auto;
 }

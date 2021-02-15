@@ -2,11 +2,11 @@ import React from 'react';
 import './Navigation.css';
 import {Link} from 'react-router-dom';
 
-const Navigation  = props => {
+const Navigation  = () => {
     return (
       <div className="navbar-container" id="mySidenav">
         <Link id="resume" className="sidenav-item"
-          to={{pathname:"https://docs.google.com/document/d/1mjVhHz7QWpni4FIcUyMg8wtVrNVlW3scv7IxtfEiHVw/edit?usp=sharing"}} 
+          to={{pathname:"/images/RivaDavidowski_Resume.pdf"}} 
           target="#"
         >
           <img 
