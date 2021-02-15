@@ -4,19 +4,41 @@
   align-items: center;
   justify-content:center;
   background-color: rgb(43, 40, 40);
-  height:100vh;
+  min-height:100vh;
   justify-content: space-between;
 }
 
 .headshot-container {
   width: 100vw;
-  height: 400px;
+  min-height: 400px;
   background-color: black;
   text-align: center;
+  padding-bottom:20px
 }
 
+.profile-image {
+  border: 2px solid rgb(178, 227, 241);
+  border-radius: 100%;
+}
 .svg-about {
   transform: scale(0.45);
+}
+
+.text-container {
+  color:whitesmoke;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding: 30px 10px 40px 10px;
+  font-size: 12pt;
+}
+
+.bio-info {
+ max-width: 400px;
+}
+
+.about-project-button.project-button {
+  width:auto;
 }
 
 @media (max-width:600px) {
