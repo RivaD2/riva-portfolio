@@ -19,6 +19,7 @@ class Modal extends React.Component {
                         muted 
                         playsInline 
                         loop 
+                        controls="true"
                         className="modal-img"
                       >
                         <source src={this.props.projectData.gif_url} type="video/webm"/>

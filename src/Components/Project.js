@@ -6,9 +6,9 @@ class Project extends React.Component {
     image:this.props.projectData.img_url,
   }
 
-    onDemoClick = () => {
-      this.props.showModal(this.props.projectData);
-    }
+  onDemoClick = () => {
+    this.props.showModal(this.props.projectData);
+  }
     
   render() { 
     const {
@@ -36,7 +36,6 @@ class Project extends React.Component {
           
             <div className ="desc-container"></div>
             <div className="project-desc">
-              {/* <p id="movie-night-title-desc">MOVIE NIGHT</p> */}
               <div id="text-desc" className="project-text"><b>ABOUT {title}:</b>
                 <blockquote>{text_desc}
                 </blockquote> 

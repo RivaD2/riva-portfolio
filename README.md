@@ -1,6 +1,6 @@
 ### Developer Portfolio
 
-### Deployed site: [RivaDavidowski.com](rivadavidowski.com)
+### Deployed site: [rivadavidowski.com](rivadavidowski.com)
 
 **While building out my space-themed portfolio, I focused my efforts on solidifying my skills in React, ES6, CSS, and using Axios for AJAX requests.**
 

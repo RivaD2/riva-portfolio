@@ -64,7 +64,6 @@ class Projects extends React.Component {
     ]
 
   componentDidMount() {
-    console.log(window.innerWidth);
     // Turns off parallax for mobile
     if(window.innerWidth < 600) return;
     window.addEventListener('scroll', this.parallaxShift);
