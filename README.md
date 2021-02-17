@@ -1,19 +1,20 @@
-### My Portfolio
+### Developer Portfolio
 
-**While building out my portfolio, I solidified my skills in React, ES6, and CSS. Because my portfolio is space-themed, I decided to make requests to NASA's API for images using Axios**
+### Deployed site: [RivaDavidowski.com](rivadavidowski.com)
 
-**While building out this project, I familiarized myself with CSS Frameworks like Bootstrap, Semantic-UI and Materialize but I ultimately chose not to use these front-end frameworks and built the CSS out myself**
+**While building out my space-themed portfolio, I focused my efforts on solidifying my skills in React, ES6, CSS, and using Axios for AJAX requests.**
 
-### ON THE FRONT-END
+**Most of the CSS is built out from scratch. However, I decided to incorporate a couple of Semantic-UI icons in my navigation bar and in the Modal.**
+
+
+### Tools Used:
 
 * React
+* React-Router-DOM
 * Semantic-UI 
-  
-### ON THE BACK-END
-
-* Node.js
-* NASA API's to access the NASA Image and Video Library for some of my photos
-* Axios HTTP request library
+* NASA Image and Video Library
+* Axios
+* AWS for deploying site
 
 ### LANGUAGES USED
 
@@ -23,16 +24,17 @@
 
 **OTHER TOOLS**
 
-- Gifski , MP4 to WEBM Converter
+- Gifski
+-  MP4 to WebM Converter (changed all Gifs into WebM's)
 
-### HOW IT WORKS
+### HOW IT WORKS:
 
-- From the home page, click on the Projects button to be directed to the Projects Page
-- On the Projects page, for every project listed the user can do the following:
-    - **Click on the View Demo button**: This opens a modal and provides the user with a gif of me demoing a project. A  description of how the app works is provided as I move through it.
-    - **Click on the Source Code Button**: The user will be redirected to the source code for each project on Github
-      
-- The sticky nav bar allows the user to easily jump to my resume, Github, LinkedIn profile and provides a link for them to contact me.
+- To use, visit the deployed site at: [rivadavidowski.com](rivadavidowski.com)
+- You can also check it out by cloning the repo and running `npm i` via the command line. 
+- From the landing page, click on the Projects button to be directed to the Projects Page.
+- On the Projects page, falling arrow indicates that scroll down is needed. For every project listed the user can do the following:
+    - **Click on the View Demo button**: This opens a modal and provides the user with a WebM of the project. A brief description of the project is provided along with my specific contributions.
+    - **Click on the Source Code Button**: The user will be redirected to the source code for each project on Github.
       
 ### Credit for Code How-To's:
 
@@ -43,6 +45,7 @@
 * credit to Google images for `Project.js page` header image
 * https://www.youtube.com/watch?v=U7ACjZpk-jk for the code on how to build a falling arrow with pure CSS3 Animation effect
 * For svg creation: https://danmarshall.github.io/google-font-to-svg-path/
+* Parallax Scroll provided by another developer, my partner and friend, Anthony van Winkle.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
