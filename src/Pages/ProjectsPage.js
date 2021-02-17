@@ -16,7 +16,7 @@ class Projects extends React.Component {
       {
         title : 'Aqaba',
         img_url: '/images/aqaba.png',
-        gif_url: '/videos/aqaba.webm',
+        webm_url: './images/aqaba.webm',
         github_url:'', 
         tools_used:'React, React-Spring, React Responsive Carousel, React Router DOM, Axios, Material-UI, CSS, and my API-server',
         text_desc:'Aqaba by Miram Mirani is a fragrance site that carries a product I\'m interested in: Aqaba perfumes. ' +
@@ -28,7 +28,7 @@ class Projects extends React.Component {
       {
         title: 'Greener', 
         img_url: '/images/greenerLogin.png',
-        gif_url: '/videos/greenerLogin.webm',
+        webm_url: './images/greenerLogin.webm',
         github_url:'https://github.com/RivaD2/GreenerFrontEnd',
         tools_used:'React Native, Redux, Expo, Sign In With Google, Google App Auth, Axios',
         text_desc:'A casual game app modeled after Tamagatchi designed to help people relax. ' +
@@ -39,8 +39,8 @@ class Projects extends React.Component {
       },
       {
         title: 'Project Pinstrat', 
-        img_url: '/images/pinstrat-jpg.jpg',
-        gif_url:'/videos/pinstrat.webm', 
+        img_url: 'images/pinstrat-jpg.jpg',
+        webm_url:'./images/pinstrat.webm', 
         github_url:'https://github.com/RivaD2/project-pinstrat',
         tools_used:'MongoDB, Mongoose, Bcrypt, Express.js, Node.js',
         text_desc:'Project Pinstrat involved building a back-end server and database interface for Pinstrat (our client, an existing in-production application) as well as encrypting HTTP request data and filtering results. ',
@@ -52,7 +52,7 @@ class Projects extends React.Component {
       {
         title: 'Movie Night', 
         img_url: './images/home.png',
-        gif_url: './videos/movie-night.webm',
+        webm_url: './images/movie-night.webm',
         github_url:'https://github.com/RivaD2/Movie-Night',
         tools_used:'PostgreSQL, EJS, Express.js, the Movie Database API (TMDb)',
         text_desc:'Movie Night makes it easy for a user to pick a movie from a recommendation list based on ratings. ' + 
