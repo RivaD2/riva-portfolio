@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import SvgHeader from '../components/SvgHeader';
+import SvgHeader from '../Components/SvgHeader';
 import './About.css';
 
 export default class About extends React.Component {

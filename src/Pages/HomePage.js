@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomePage.css';
-import SvgHeader from '../components/SvgHeader';
+import SvgHeader from '../Components/SvgHeader';
 import {Link} from 'react-router-dom';
 
 const HomePage = props => {

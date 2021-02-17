@@ -1,9 +1,9 @@
 import React from 'react';
-import Project from '../components/Project';
-import Modal from "../components/Modal"
+import Project from '../Components/Project';
+import Modal from "../Components/Modal"
 import Parallax from '../lib/Parallax';
-import SvgHeader from '../components/SvgHeader';
-import ArrowBox from '../components/ArrowBox';
+import SvgHeader from '../Components/SvgHeader';
+import ArrowBox from '../Components/ArrowBox';
 import './ProjectsPage.css';
 
 class Projects extends React.Component {

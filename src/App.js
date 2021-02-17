@@ -2,19 +2,12 @@ import React from 'react';
 import Projects from "./Pages/ProjectsPage";
 import HomePage from "./Pages/HomePage";
 import HttpClient from "./HttpClient";
-import NavBar from './components/Navigation';
+import NavBar from './Components/Navigation';
 import About from './Pages/About';
 import history from './history';
 import {Route, Switch} from 'react-router-dom';
 import {Router} from 'react-router-dom';
 import './App.css';
-
-/* Todo: 
-
-Complete the about me page after image creation
-Add Aqaba project when finished and drop in to projects and modal with demo desc
-Fix gif and text spacing in modal for mobile
-*/
 
 class App extends React.Component {
   state = {
