@@ -23,6 +23,7 @@ class Modal extends React.Component {
                         className="modal-img"
                       >
                         <source src={this.props.projectData.webm_url} type="video/webm"/>
+                        <source src={this.props.projectData.mp4_url} type="video/mp4" />
                       </video>
                     </div>
                       </div>
