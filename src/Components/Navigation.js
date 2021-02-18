@@ -5,7 +5,9 @@ import {Link} from 'react-router-dom';
 const Navigation  = () => {
     return (
       <div className="navbar-container" id="mySidenav">
-        <a href={"/images/RivaDavidowski_Resume.pdf"}  
+        <Link 
+        to={{pathname:"/images/RivaDavidowski_Resume.pdf"}}
+        target="blank" 
         id="resume" 
         className="sidenav-item"
           
@@ -18,10 +20,11 @@ const Navigation  = () => {
           <div className="header-logo">
             Resume
           </div>
-        </a> 
+        </Link> 
         <Link 
           to={{pathname:"https://www.linkedin.com/in/riva-davidowski-rivad/"}}
-          target="#" id="linkedin"
+          target="#" 
+          id="linkedin"
           className="sidenav-item"
         >
           <img 
@@ -35,7 +38,8 @@ const Navigation  = () => {
         </Link>
         <Link 
           to={{pathname:"https://github.com/RivaD2"}} 
-          target="#" id="github" 
+          target="#" 
+          id="github" 
           className="sidenav-item"
         >
           <img 
