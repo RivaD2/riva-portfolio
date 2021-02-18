@@ -1,12 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import RivaResume from '../../src/RivaDavidowski_Resume.pdf'
 import './Navigation.css';
 
 const Navigation  = () => {
     return (
       <div className="navbar-container" id="mySidenav">
-        <a href={RivaResume}
+        <Link
+        to={{pathname:"https://raw.githubusercontent.com/RivaD2/riva-portfolio/master/public/images/RivaDavidowski_Resume.pdf"}}
         id="resume" 
         className="sidenav-item"
         >
@@ -18,7 +18,7 @@ const Navigation  = () => {
           <div className="header-logo">
             Resume
           </div>
-        </a> 
+        </Link> 
         <Link 
           to={{pathname:"https://www.linkedin.com/in/riva-davidowski-rivad/"}}
           target="#" 
