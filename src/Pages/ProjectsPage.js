@@ -30,7 +30,7 @@ class Projects extends React.Component {
         title: 'Greener', 
         img_url: '/images/greenerLogin.png',
         webm_url: '/images/greenerLogin.webm',
-        mp4_url: '/images/greenerLogin.mp4',
+        mp4_url: 'https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/greenerLogin.mp4',
         github_url:'https://github.com/RivaD2/GreenerFrontEnd',
         tools_used:'React Native, Redux, Expo, Sign In With Google, Google App Auth, Axios',
         text_desc:'A casual game app modeled after Tamagatchi designed to help people relax. ' +
@@ -43,7 +43,7 @@ class Projects extends React.Component {
         title: 'Project Pinstrat', 
         img_url: 'images/pinstrat-jpg.jpg',
         webm_url:'/images/pinstrat.webm', 
-        mp4_url: '/images/pinstrat.mp4',
+        mp4_url: 'https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/pinstrat.mp4',
         github_url:'https://github.com/RivaD2/project-pinstrat',
         tools_used:'MongoDB, Mongoose, Bcrypt, Express.js, Node.js',
         text_desc:'Project Pinstrat involved building a back-end server and database interface for Pinstrat (our client, an existing in-production application) as well as encrypting HTTP request data and filtering results. ',
@@ -55,7 +55,7 @@ class Projects extends React.Component {
       {
         title: 'Movie Night', 
         img_url: './images/home.png',
-        webm_url: '/images/movie-night.webm',
+        webm_url: 'https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/movie-night.webm',
         mp4_url: '/images/movie-night.mp4',
         github_url:'https://github.com/RivaD2/Movie-Night',
         tools_used:'PostgreSQL, EJS, Express.js, the Movie Database API (TMDb)',
