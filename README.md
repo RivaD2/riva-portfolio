@@ -1,6 +1,6 @@
 ### Developer Portfolio
 
-### Deployed site: [rivadavidowski.com](rivadavidowski.com)
+### Deployed site: [rivadavidowski.com](https://www.rivadavidowski.com/)
 
 **While building out my space-themed portfolio, I focused my efforts on solidifying my skills in React, ES6, CSS, and using Axios for AJAX requests.**
 
@@ -25,11 +25,11 @@
 **OTHER TOOLS**
 
 - Gifski
--  MP4 to WebM Converter (changed all Gifs into WebM's)
+-  mp4 to WebM Converter (changed all Gifs into WebM's and mp4's)
 
 ### HOW IT WORKS:
 
-- To use, visit the deployed site at: [rivadavidowski.com](rivadavidowski.com)
+- To use, visit the deployed site at: [rivadavidowski.com](https://www.rivadavidowski.com/)
 - You can also check it out by cloning the repo and running `npm i` via the command line. 
 - From the landing page, click on the Projects button to be directed to the Projects Page.
 - On the Projects page, falling arrow indicates that scroll down is needed. For every project listed the user can do the following:

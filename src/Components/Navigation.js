@@ -1,11 +1,12 @@
 import React from 'react';
-import './Navigation.css';
 import {Link} from 'react-router-dom';
+import RivaResume from '../../src/RivaDavidowski_Resume.pdf'
+import './Navigation.css';
 
 const Navigation  = () => {
     return (
       <div className="navbar-container" id="mySidenav">
-        <a href="/images/RivaDavidowski_Resume.pdf"
+        <a href={RivaResume}
         id="resume" 
         className="sidenav-item"
         >
