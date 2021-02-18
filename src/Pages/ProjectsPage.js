@@ -17,7 +17,7 @@ class Projects extends React.Component {
         title : 'Aqaba',
         img_url: '/images/aqaba.png',
         webm_url: '/images/aqaba.webm',
-        mp4_url: '/images/aqaba.mp4',
+        mp4_url: 'https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/aqaba.mp4',
         github_url:'https://github.com/RivaD2/aqaba', 
         tools_used:'React, React-Spring, React Responsive Carousel, React Router DOM, Axios, Material-UI, CSS, and my API-server',
         text_desc:'Aqaba by Miram Mirani is a fragrance site that carries a product I\'m interested in: Aqaba perfumes. ' +
