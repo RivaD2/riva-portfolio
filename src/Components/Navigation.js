@@ -6,7 +6,8 @@ const Navigation  = () => {
     return (
       <div className="navbar-container" id="mySidenav">
         <Link
-        to={{pathname:"https://raw.githubusercontent.com/RivaD2/riva-portfolio/master/public/images/RivaDavidowski_Resume.pdf"}}
+        to={{pathname:"https://docs.google.com/document/d/1n62VPLj99ntJl5JMbh3I_3doLoJ3Zo5lKY4E4y7gZwo/edit?usp=sharing"}}
+        target="#"
         id="resume" 
         className="sidenav-item"
         >
