@@ -24,7 +24,8 @@ render() {
             <li>Hangin' around on static trapeze (I love all circus arts)</li>
             <li>Handstands, lots and lots of handstands</li>
             <li>Tending to my many plants and playing with my cat Ragnar</li>
-            <li>Sketching and working with acrylic and watercolors</li>
+            <li>Studying languages, specifically Russian and German</li>
+            <li>Sketching and painting with acrylic and watercolors</li>
             <li>Coding!</li>
           </p>
         </div>
