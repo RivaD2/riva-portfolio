@@ -4,14 +4,14 @@ import SvgHeader from '../Components/SvgHeader';
 import './About.css';
 
 export default class About extends React.Component {
-render() {
+  render() {
     return (
       <div className="about-container">
-          <div className="headshot-container">
-            <div className="svg-about">
-              <SvgHeader />
-            </div>
-            <img src="/images/riva.png" alt="headshot" className="profile-image"/>
+        <div className="headshot-container">
+          <div className="svg-about">
+            <SvgHeader />
+          </div>
+          <img src="/images/riva.png" alt="headshot" className="profile-image"/>
         </div>
         <div className="text-container">
           <p className="bio-info">My background has been varied and I've had the opportunity to build high-end lighting fixtures at an architectural/design firm, walk people through HoloLens demos at Microsoft, and cook as a line chef on two of Seattle's food trucks.</p>
@@ -34,7 +34,7 @@ render() {
               className="project-button about-project-button">
               BACK TO PROJECTS
           </button>
-          </Link>
+        </Link>
       </div> 
     )
   }

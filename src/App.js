@@ -12,20 +12,20 @@ class App extends React.Component {
 
   render() {
     return (
-        <div className="App">
-          <Router history={history}>
-            <Switch>
-              <Route exact path="/"> 
-                <HomePage /> 
-              </Route>
-              <Route exact path="/about" component={About} />
-              <Route exact path="/projects">
-                <Projects />
-              </Route>
-            </Switch>
-            <NavBar/>
-          </Router>
-        </div>
+      <div className="App">
+        <Router history={history}>
+          <Switch>
+            <Route exact path="/"> 
+              <HomePage /> 
+            </Route>
+            <Route exact path="/about" component={About} />
+            <Route exact path="/projects">
+              <Projects />
+            </Route>
+          </Switch>
+          <NavBar/>
+        </Router>
+      </div>
     );
   }
 };
