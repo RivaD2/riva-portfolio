@@ -13,7 +13,7 @@ class Modal extends React.Component {
                   </div>
                   <div className="modal-content">
                     <div className="modal-image-wrapper">
-                    <div className="modal-img" >
+                    <div className="modal-img">
                       <video 
                         autoPlay 
                         muted 

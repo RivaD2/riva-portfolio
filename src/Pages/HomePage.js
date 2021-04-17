@@ -1,13 +1,21 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './HomePage.css';
 import SvgHeader from '../Components/SvgHeader';
+import HttpClient from '../HttpClient';
 import {Link} from 'react-router-dom';
 
 const HomePage = props => {
-  const {backgroundImage} = props;
-  const image = `url('${backgroundImage}')`;
+  const [backgroundUrl, setBackgroundUrl] = useState('');
+  
+  useEffect(() => { 
+    (async () => {
+      const imageUrl = await HttpClient.getNasaImage('GSFC_20171208_Archive_e001427');
+      setBackgroundUrl(`url('${imageUrl}')`);
+    })();
+  }, []);
+
   return (
-    <div className="home-container" style={{backgroundImage: image}}>
+    <div className="home-container" style={{backgroundImage: backgroundUrl}}>
       <div>
         <div className="svg-container">
          <SvgHeader />

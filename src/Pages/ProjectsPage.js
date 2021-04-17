@@ -1,4 +1,5 @@
 import React from 'react';
+import HttpClient from '../HttpClient';
 import Project from '../Components/Project';
 import Modal from "../Components/Modal"
 import Parallax from '../lib/Parallax';
@@ -9,7 +10,8 @@ import './ProjectsPage.css';
 class Projects extends React.Component {
     state = {
       offset: 0,
-      projectData: undefined
+      projectData: undefined,
+      projectPageNasaImages: new Array(3),
     };
 
     projectList = [
@@ -68,6 +70,17 @@ class Projects extends React.Component {
     ]
 
   componentDidMount() {
+    const imageIdArray = ['PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'GSFC_20171208_Archive_e000720'];
+    const promiseForImages = Promise.all(
+      imageIdArray.map(image => {
+        return HttpClient.getNasaImage(image);
+      })
+    )
+    promiseForImages.then(imagesArray => {
+      this.setState({
+        projectPageNasaImages: imagesArray
+      })
+    });
     // Turns off parallax for mobile
     if(window.innerWidth < 600) return;
     window.addEventListener('scroll', this.parallaxShift);
@@ -97,6 +110,7 @@ class Projects extends React.Component {
 
   render() {
     const {projectData, offset} = this.state;
+
     return (
     <div className="projects-container">
       {projectData &&
@@ -120,7 +134,7 @@ class Projects extends React.Component {
                 minWidth={600}
               >
                 <div className="api-image"
-                  style={{backgroundImage: `url(${this.props.parallaxImgArray[index]})`}}>
+                  style={{backgroundImage: `url(${this.state.projectPageNasaImages[index]})`}}>
                 </div>
              </Parallax>
             ]
