@@ -19,12 +19,12 @@ class Projects extends React.Component {
         webm_url: '/images/aqaba.webm',
         mp4_url: 'https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/aqaba.mp4',
         github_url:'https://github.com/RivaD2/aqaba', 
-        tools_used:'React, React-Spring, React Responsive Carousel, React Router DOM, Axios, Material-UI, CSS, and my API-server',
+        tools_used:'React, React-Spring, React Responsive Carousel, React Router DOM, OAuth 2.0 with Google APIs, Axios, Material-UI, CSS, and my API-server',
         text_desc:'Aqaba by Miram Mirani is a fragrance site that carries a product I\'m interested in: Aqaba perfumes. ' +
         'I decided to rebuild the site and give it a completely new, modern look while still keeping the Jordanian influence and appeal of the original site. ',
-        demo_desc: 'My goals for this ongoing project are to solidify my knowledge of Function components, Class-based components, component hierarchy, ' + 
+        demo_desc: 'This ongoing project has helped to solidify my knowledge of Function components, Class-based components, component hierarchy, ' + 
         'state management, and incorporating third party libraries. \n\n I want this site to feel more modern that the current Aqaba site, with clean navigation, design, and functionality. I\'ve successfully been able to hit my MVP for this e-commerce site but continue to work on additional features. \n\n' +  
-        'Future goals of this project include: implementing OAuth login so a user can sign in with Google, refactoring components to use Redux or Context API for state management, and building out additional pages and features to complete the e-commerce flow.',
+        'Future goals of this project include: finishing OAuth login using Google Developers API, refactoring components to use Redux or Context API for state management, and completing the checkout page to complete the e-commerce flow.',
       },
       {
         title: 'Greener', 
@@ -37,7 +37,7 @@ class Projects extends React.Component {
         'The app allows the user to perform actions on a plant to gain currency for upgrading and expanding their terrarium. Login is possible through form submission or OAuth. ',
         demo_desc:'Through this week-long project I implemented front-end to back-end OAuth via Google. \n\n ' + 
         ' I refactored duplicated logic into a standalone component for reuse, and created the action buttons that reward in-game currency to the user. \n\n' + 
-        'This was a challenging project because we all had different ideas of what our MVP scope should have been. Working on this project solidified to me the importance of writing clean code and how code reviews help us not only to become better developers, but also provide insight into coding patterns, feature tasks progress, and cohesion of the project as a whole.'
+        'Working on this project solidified to me the importance of writing clean code and provided insight into coding patterns and how to manage feature tasks progress.'
       },
       {
         title: 'Project Pinstrat', 

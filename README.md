@@ -2,9 +2,9 @@
 
 ### Deployed site: [rivadavidowski.com](https://www.rivadavidowski.com/)
 
-**While building out my space-themed portfolio, I focused my efforts on solidifying my skills in React, ES6, CSS, and using Axios for AJAX requests.**
+**While building out my space-themed portfolio, I focused my efforts on solidifying my knowledge of React and incorporated the Nasa Image and Video Library API to aid me in theming.**
 
-**Most of the CSS is built out from scratch. However, I decided to incorporate a couple of Semantic-UI icons in my navigation bar and in the Modal.**
+**Most of the CSS is built out from scratch. However, I made use of Semantic-UI icons in my navigation bar and in the modal.**
 
 
 ### Tools Used:
@@ -19,22 +19,22 @@
 ### LANGUAGES USED
 
 * CSS/CSS3 animations
-* JavaScript
-* ES6
+* JavaScript/ES6
 
 **OTHER TOOLS**
 
-- Gifski
--  mp4 to WebM Converter (changed all Gifs into WebM's and mp4's)
+-  mp4 to WebM Converter
 
 ### HOW IT WORKS:
 
 - To use, visit the deployed site at: [rivadavidowski.com](https://www.rivadavidowski.com/)
 - You can also check it out by cloning the repo and running `npm i` via the command line. 
 - From the landing page, click on the Projects button to be directed to the Projects Page.
+- Use the navbar to visit my Github repo, LinkedIn profile, view my resume, or learn more about me via my about page.
 - On the Projects page, falling arrow indicates that scroll down is needed. For every project listed the user can do the following:
     - **Click on the View Demo button**: This opens a modal and provides the user with a WebM of the project. A brief description of the project is provided along with my specific contributions.
     - **Click on the Source Code Button**: The user will be redirected to the source code for each project on Github.
+
       
 ### Credit for Code How-To's:
 
