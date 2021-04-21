@@ -18,7 +18,7 @@ class Projects extends React.Component {
     {
       title : 'Aqaba',
       img_url: '/images/aqaba.png',
-      webm_url: '/images/aqaba.webm',
+      webm_url: '/images/aqaba(1).webm',
       mp4_url: 'https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/aqaba.mp4',
       github_url:'https://github.com/RivaD2/aqaba', 
       tools_used:'React, React-Spring, React Responsive Carousel, React Router DOM, OAuth 2.0 with Google APIs, Axios, Material-UI, CSS, and my API-server',
@@ -26,7 +26,7 @@ class Projects extends React.Component {
       'I decided to rebuild the site and give it a completely new, modern look while still keeping the Jordanian influence and appeal of the original site. ',
       demo_desc: 'This ongoing project has helped to solidify my knowledge of Function components, Class-based components, component hierarchy, ' + 
       'state management, and incorporating third party libraries. \n\n I want this site to feel more modern that the current Aqaba site, with clean navigation, design, and functionality. I\'ve successfully been able to hit my MVP for this e-commerce site but continue to work on additional features. \n\n' +  
-      'Future goals of this project include: finishing OAuth login using Google Developers API, refactoring components to use Redux or Context API for state management, and completing the checkout page to complete the e-commerce flow.',
+      'Future goals of this project include: finishing OAuth login using Google Developers API, refactoring components to use Redux or Context API for state management, completing the checkout page to complete the e-commerce flow, and additional CSS styling.',
     },
     {
       title: 'Greener', 
