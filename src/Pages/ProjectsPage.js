@@ -71,24 +71,23 @@ class Projects extends React.Component {
           <ArrowBox />
         </section>
       </header>
-        {projectListData.map((projectListData,index) => {
-            return [
-              <Project projectData={projectListData} showModal={this.showModal}/>,
-              <Parallax 
-                className="parallax-divider-container" 
-                shift={1.5}
-                minWidth={600}
-              >
-                <div className="api-image"
-                  style={{backgroundImage: `url(${this.state.projectPageNasaImages[index]})`}}>
-                </div>
-             </Parallax>
-            ]
-         })
-        }
-        <div className="to-top-container">
-         <button className="project-page-button to-top" onClick={() => window.scrollTo(0,0)}>BACK TO TOP</button>
-        </div>
+      {projectListData.map((projectListData,index) => {
+        return [
+          <Project projectData={projectListData} showModal={this.showModal}/>,
+          <Parallax 
+            className="parallax-divider-container" 
+            shift={1.5}
+            minWidth={600}
+           >
+            <div className="api-image"
+              style={{backgroundImage: `url(${this.state.projectPageNasaImages[index]})`}}>
+            </div>
+          </Parallax>
+        ]})
+      }
+      <div className="to-top-container">
+        <button className="project-page-button to-top" onClick={() => window.scrollTo(0,0)}>BACK TO TOP</button>
+      </div>
     </div>
     )
   }
