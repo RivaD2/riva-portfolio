@@ -16,7 +16,8 @@ class Project extends React.Component {
       img_url,
       tools_used, 
       text_desc, 
-      github_url
+      github_url,
+      deployed_url
     } = this.props.projectData;
     
     return (
@@ -41,8 +42,17 @@ class Project extends React.Component {
               </blockquote> 
             </div>   
           </div>
-          <div className="button-spacer"></div>
+          <div className="button-spacer"></div> 
           <div className="button-container">
+            {deployed_url !== undefined &&(
+                <a
+                href={deployed_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-page-button">
+                DEPLOYED SITE
+              </a>
+            )}
             <button className="project-page-button" onClick={this.onDemoClick}>VIEW DEMO</button>
             <a 
               href={github_url} 
