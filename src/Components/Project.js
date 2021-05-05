@@ -44,7 +44,7 @@ class Project extends React.Component {
           </div>
           <div className="button-spacer"></div> 
           <div className="button-container">
-            {deployed_url !== undefined &&(
+            {deployed_url !== undefined && (
                 <a
                 href={deployed_url}
                 target="_blank"
@@ -52,7 +52,7 @@ class Project extends React.Component {
                 className="project-page-button">
                 DEPLOYED SITE
               </a>
-            )}
+              )}
             <button className="project-page-button" onClick={this.onDemoClick}>VIEW DEMO</button>
             <a 
               href={github_url} 
