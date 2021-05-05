@@ -1,4 +1,4 @@
-[
+export const projectListData = [
   {
     "title": "Aqaba",
     "img_url": "/images/aqaba.png",
@@ -42,3 +42,4 @@
     "demo_desc": "I took the lead role in the overall styling of this project and created the MovieDetail page, which presents movie information and the option to add it to the watchlist, and the Watchlist page, which enables a user to see and delete movies from the watchlist. \n Initially this project used Superagent to query the Movie Database API and fetch from the local PostgreSQL database. \n Recently I migrated the backend from PostgreSQL to my personal MongoDB API server by creating a new Mongoose Schema and Model to mirror the table from PostgreSQL. From there, I refactored the routes to use Axios instead of Superagent."
   }
 ]
+
