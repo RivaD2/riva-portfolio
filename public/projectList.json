@@ -19,7 +19,7 @@
     "deployed_url":"https://www.rivadavidowski.com/",
     "tools_used":"React, Nasa Image and Video Library API, Axios, React Router DOM, Semantic-UI, and CSS3 Animations",
     "text_desc":"Look familiar? My developer portfolio showcases projects I'm current working on (Aqaba) and my individual contributions to past projects I had the opportunity to work on.",
-    "demo_desc": "During this ongoing project, I've built modals from scratch, gained exposure to SVG's and various video formats, and incorported both Class-based and Functional components using React. \n \n I've seen first hand how reusuable components can transform an application and how my code has evolved and changed from one project to the next."
+    "demo_desc": "During this ongoing project, I've built modals from scratch, gained exposure to SVG's and various video formats, continued to explore asynchronous methods and AJAX calls, and incorported both Class-based and Functional components using React. \n \n I've seen first hand how reusable components can transform an application and how my code has evolved from one project to the next."
   },
   {
     "title": "Greener", 
