@@ -28,9 +28,7 @@ export default {
     return response.data.collection.items[2].href;
   },
   getProjectListData:  async () => {
-    console.log('looking for data')
     const response = await axios.get('/projectList.json');
-    console.log('what is response for projectListData', response);
     return response.data;
   }
 }

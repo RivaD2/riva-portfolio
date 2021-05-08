@@ -49,6 +49,7 @@
   justify-content: center;
   align-items:center;
   flex-basis:50%;
+  padding-bottom: 30px;
   color: blanchedalmond;
   font-size:12pt;
   white-space:pre-line;
@@ -57,11 +58,11 @@
 
 .modal-title {
   color: rgb(177, 243, 245);
-  font-size: 26pt;
+  font-size: 32pt;
   text-align:center;
   flex-grow:0;
   flex-basis: 80px;
-  padding-top: 20px;
+  padding-top: 32px;
 }
 
 .close-icon {

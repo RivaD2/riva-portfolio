@@ -37,7 +37,6 @@ class Projects extends React.Component {
   }
 
   fetchProjectDetails = async () => {
-    console.log('fetchingProjectDetails')
     const projectListData = await HttpClient.getProjectListData();
     this.setState({
       projectListData
