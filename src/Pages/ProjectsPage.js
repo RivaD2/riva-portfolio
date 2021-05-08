@@ -1,7 +1,6 @@
 import React from 'react';
 import HttpClient from '../HttpClient';
 import Project from '../Components/Project';
-import {projectListData} from '../projectList';
 import Modal from "../Components/Modal"
 import Parallax from '../lib/Parallax';
 import SvgHeader from '../Components/SvgHeader';
@@ -14,9 +13,18 @@ class Projects extends React.Component {
     offset: 0,
     projectData: undefined,
     projectPageNasaImages: new Array(3),
+    projectListData: []
   };
 
-  componentDidMount = async () => {
+  componentDidMount = () => {
+    this.fetchNasaImages();
+    this.fetchProjectDetails();
+    // Turns off parallax for mobile
+    if(window.innerWidth < 600) return;
+    window.addEventListener('scroll', this.parallaxShift);
+  }
+
+  fetchNasaImages = async () => {
     const imageIdArray = ['PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'GSFC_20171208_Archive_e000720'];
     const imagesArray = await Promise.all(
       imageIdArray.map(image => {
@@ -26,9 +34,14 @@ class Projects extends React.Component {
     this.setState({
       projectPageNasaImages: imagesArray
     })
-    // Turns off parallax for mobile
-    if(window.innerWidth < 600) return;
-    window.addEventListener('scroll', this.parallaxShift);
+  }
+
+  fetchProjectDetails = async () => {
+    console.log('fetchingProjectDetails')
+    const projectListData = await HttpClient.getProjectListData();
+    this.setState({
+      projectListData
+    })
   }
 
   componentWillUnmount() {
@@ -56,7 +69,6 @@ class Projects extends React.Component {
 
   render() {
     const {projectData, offset} = this.state;
-
     return (
     <div className="projects-container">
       {projectData &&
@@ -71,7 +83,7 @@ class Projects extends React.Component {
           <ArrowBox />
         </section>
       </header>
-      {projectListData.map((projectListData,index) => {
+      {this.state.projectListData.map((projectListData,index) => {
         return [
           <Project projectData={projectListData} showModal={this.showModal}/>,
           <Parallax 

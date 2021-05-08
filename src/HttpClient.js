@@ -21,9 +21,16 @@ axios.interceptors.request.use(
   }
 )
 
+
 export default {
-  async getNasaImage(image_id) {
+  getNasaImage: async (image_id) => {
     const response = await axios.get(`${nasaEndpoint}/asset/${image_id}`)
     return response.data.collection.items[2].href;
+  },
+  getProjectListData:  async () => {
+    console.log('looking for data')
+    const response = await axios.get('/projectList.json');
+    console.log('what is response for projectListData', response);
+    return response.data;
   }
 }

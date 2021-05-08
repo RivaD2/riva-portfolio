@@ -1,4 +1,4 @@
-export const projectListData = [
+[
   {
     "title": "Aqaba",
     "img_url": "/images/aqaba.png",
@@ -8,7 +8,7 @@ export const projectListData = [
     "deployed_url":"",
     "tools_used":"React, React-Spring, React Responsive Carousel, React Router DOM, OAuth 2.0 with Google APIs, Axios, Material-UI, CSS, and my API-server",
     "text_desc":"Aqaba by Miram Mirani is a fragrance site that carries a product I'm interested in: Aqaba perfumes. I decided to rebuild the site and give it a completely new, modern look while still keeping the Jordanian influence and appeal of the original site.",
-    "demo_desc": "This ongoing project has helped to solidify my knowledge of Functional components, Class-based components, component hierarchy, state management, and incorporating third party libraries. \n  I want this site to feel more modern that the current Aqaba site, with clean navigation, design, and functionality. I've successfully been able to hit my MVP for this e-commerce site but continue to work on additional features. \n  Future goals of this project include: finishing OAuth login using Google Developers API, refactoring components to use Redux or Context API for state management, completing the checkout page to complete the e-commerce flow, and additional CSS styling.",
+    "demo_desc": "This ongoing project has helped to solidify my knowledge of Functional components, Class-based components, component hierarchy, state management, and incorporating third party libraries. \n  I want this site to feel more modern that the current Aqaba site, with clean navigation, design, and functionality. I've successfully been able to hit my MVP for this e-commerce site but continue to work on additional features. \n  Future goals of this project include: finishing OAuth login using Google Developers API, refactoring components to use Redux or Context API for state management, completing the checkout page to complete the e-commerce flow, and additional CSS styling."
   },
   {
     "title": "Developer Portfolio",
@@ -19,7 +19,7 @@ export const projectListData = [
     "deployed_url":"https://www.rivadavidowski.com/",
     "tools_used":"React, Nasa Image and Video Library API, Axios, React Router DOM, Semantic-UI, and CSS3 Animations",
     "text_desc":"Look familiar? My developer portfolio showcases projects I'm current working on (Aqaba) and my individual contributions to past projects I had the opportunity to work on.",
-    "demo_desc": "During this ongoing project, I've built modals from scratch, gained exposure to SVG's and various video formats, and incorported both Class-based and Functional components using React. \n I've seen first hand how reusuable components can transform an application and how my code has evolved and changed from one project to the next.",
+    "demo_desc": "During this ongoing project, I've built modals from scratch, gained exposure to SVG's and various video formats, and incorported both Class-based and Functional components using React. \n I've seen first hand how reusuable components can transform an application and how my code has evolved and changed from one project to the next."
   },
   {
     "title": "Greener", 
