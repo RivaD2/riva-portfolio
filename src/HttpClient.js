@@ -21,7 +21,6 @@ axios.interceptors.request.use(
   }
 )
 
-
 export default {
   getNasaImage: async (image_id) => {
     const response = await axios.get(`${nasaEndpoint}/asset/${image_id}`)

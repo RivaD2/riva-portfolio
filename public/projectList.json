@@ -11,7 +11,7 @@
     "demo_desc": "This ongoing project has helped to solidify my knowledge of Functional components, Class-based components, component hierarchy, state management, and incorporating third party libraries. \n \n  I want this site to feel more modern that the current Aqaba site, with clean navigation, design, and functionality. I've successfully been able to hit my MVP for this e-commerce site but continue to work on additional features. \n  \n Future goals of this project include: finishing OAuth login using Google Developers API, refactoring components to use Redux or Context API for state management, completing the checkout page to complete the e-commerce flow, and additional CSS styling."
   },
   {
-    "title": "Developer Portfolio",
+    "title": " My Portfolio",
     "img_url": "/images/portfolio-home.png",
     "webm_url": "",
     "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/portfolio-demo.mp4",

@@ -84,11 +84,12 @@ class Projects extends React.Component {
       </header>
       {this.state.projectListData.map((projectListData,index) => {
         return [
-          <Project projectData={projectListData} showModal={this.showModal}/>,
+          <Project projectData={projectListData} showModal={this.showModal} key={projectListData.title}/>,
           <Parallax 
             className="parallax-divider-container" 
             shift={1.5}
             minWidth={600}
+            key={'parallax' + projectListData.title}
            >
             <div className="api-image"
               style={{backgroundImage: `url(${this.state.projectPageNasaImages[index]})`}}>
