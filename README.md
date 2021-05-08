@@ -2,7 +2,7 @@
 
 ### Deployed site: [rivadavidowski.com](https://www.rivadavidowski.com/)
 
-**While building out my space-themed portfolio, I focused my efforts on solidifying my knowledge of React and incorporated the Nasa Image and Video Library API to aid me in theming.**
+**While building out my space-themed portfolio, I focused my efforts on solidifying my knowledge of React and incorporated the Nasa Image and Video Library API to aid in theming.**
 
 **Most of the CSS is built out from scratch. However, I made use of Semantic-UI icons in my navigation bar and in the modal.**
 
@@ -24,6 +24,7 @@
 **OTHER TOOLS**
 
 -  mp4 to WebM Converter
+-  TinyPNG
 
 ### HOW IT WORKS:
 
