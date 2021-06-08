@@ -15,15 +15,16 @@ class Modal extends React.Component {
             <div className="modal-image-wrapper">
               <div className="modal-img">
                 <video 
-                  autoPlay 
+                  controls
                   muted 
                   playsInline 
                   loop 
                   preload="auto"
                   className="modal-img"
+                  title="Picture of each project's home page"
                 >
-                  <source src={this.props.projectData.webm_url} type="video/webm"/>
-                  <source src={this.props.projectData.mp4_url} type="video/mp4" />
+                  <source src={this.props.projectData.webm_url} type="video/webm" title="Video showing demo of each project"/>
+                  <source src={this.props.projectData.mp4_url} type="video/mp4" title="Video showing demo of each project"/>
                 </video>
               </div>
             </div>

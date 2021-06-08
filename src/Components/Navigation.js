@@ -56,7 +56,10 @@ const Navigation  = () => {
         className="sidenav-item"
       >
         <div className="sidenav-image sidenav-icon">
-          <i className={'home icon'}></i>
+          <i 
+           className={'home icon'} 
+           title="Icon for home page" 
+           aria-labelledby="Icon of house to represent home page"></i>
         </div>
         <div className="header-logo">
           Home
@@ -68,7 +71,10 @@ const Navigation  = () => {
         className="sidenav-item"
       >
         <div className="sidenav-image sidenav-icon">
-          <i className={'address book icon'}></i>
+          <i 
+            className={'address book icon'}
+            title="Icon for personal information"
+            aria-labelledby="Icon of person to represent about me section of website"></i>
         </div>
         <div className="header-logo">
           About

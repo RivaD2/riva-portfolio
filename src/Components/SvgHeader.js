@@ -9,7 +9,11 @@ const SvgHeader = () => {
         width="1024.6" 
         height="85.602" 
         viewBox="0 0 1024.6 85.602" 
-        xmlns="http://www.w3.org/2000/svg">
+        xmlns="http://www.w3.org/2000/svg"
+        aria-labelledby="developerName portfolioCreatorTitle"
+        >
+        <title id="developerName">Riva Davidowski</title>
+        <desc id="portfolioCreatorTitle">Animation text showing site creator name, Riva Davidowski.</desc>
         <g 
           id="svgGroup" 
           strokeLinecap="round" 
