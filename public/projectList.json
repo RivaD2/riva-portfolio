@@ -5,8 +5,8 @@
     "webm_url": "/images/aqaba(1).webm",
     "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/aqaba.mp4",
     "github_url":"https://github.com/RivaD2/aqaba", 
-    "tools_used":"JavaScript, React, React-Spring, React Responsive Carousel, React Router DOM, OAuth 2.0 with Google APIs, Axios, Figma/FigJam, Material-UI, CSS, and my API-server",
-    "text_desc":"Aqaba by Miram Mirani is a fragrance site that carries a product I'm interested in: Aqaba perfumes. I chose to rebuild this site to gain familiarity with e-commerce flows and UI and because of the complexity that all these features introduce.",
+    "tools_used":"JavaScript, React, React-Spring, React Responsive Carousel, React Router DOM, OAuth 2.0 with Google APIs, Axios, Figma/FigJam, Material-UI, CSS3, and my API-server",
+    "text_desc":"Aqaba by Miram Mirani is a fragrance site that carries a product I'm interested in: Aqaba perfumes. I chose to rebuild this site to gain familiarity with e-commerce flows and UI, and because of the complexity that all these features introduce.",
     "demo_desc": "This ongoing project has allowed me to build more Functional components and Class-based components using React, but it's also helped to solidify my understanding of component hierarchy, state management, props, and responsive design. \n\n I have incorporated third party libaries and Material-UI, which gave me the opportunity to see how tools like these can increase efficiency, but also how they can introduce new challenges and complexity to our code. I've successfully been able to hit my MVP for this e-commerce site and continue to work on additional features. \n  \n Future goals of this project include finishing OAuth login using Google Developers API and refactoring components to use Redux or Context API for state management."
   },
   {
@@ -16,7 +16,7 @@
     "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/portfolio-demo.mp4",
     "github_url":"https://github.com/RivaD2/riva-portfolio", 
     "deployed_url":"https://www.rivadavidowski.com/",
-    "tools_used":"JavaScript, React, Nasa Image and Video Library API, Axios, React Router DOM, Semantic-UI, and CSS3 Animations",
+    "tools_used":"JavaScript, React, Nasa Image and Video Library API, Axios, React Router DOM, Figma, Semantic-UI, and CSS3",
     "text_desc":"Look familiar? My responsive developer portfolio showcases projects I'm current working on (Aqaba) and my individual contributions to past projects I had the opportunity to work on.",
     "demo_desc": "During this ongoing project, I've built modals from scratch, gained exposure to SVG's and various video formats, continued to explore asynchronous methods and AJAX calls, and incorported both Class-based and Functional components using React. I've seen first hand how reusable components can transform an application and how my code has evolved from one project to the next."
   },
@@ -26,7 +26,7 @@
     "webm_url": "/images/greenerLogin.webm",
     "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/greenerLogin.mp4",
     "github_url":"https://github.com/RivaD2/GreenerFrontEnd",
-    "tools_used":"JavaScript, React Native, Redux, Expo, Sign In With Google, Google App Auth, Axios",
+    "tools_used":"JavaScript, CSS, React Native, Redux, Expo, Sign In With Google, Google App Auth, Axios",
     "text_desc":"A casual game app modeled after Tamagatchi designed to help people relax.\nThe app allows the user to perform actions on a plant to gain currency for upgrading and expanding their terrarium. Login is possible through form submission or OAuth.",
     "demo_desc":"Through this week-long project I implemented front-end to back-end OAuth via Google.I refactored duplicated logic into a standalone component for reuse, and created the action buttons that reward in-game currency to the user. \n \n Working on this project solidified to me the importance of writing clean code and provided insight into coding patterns and how to manage feature tasks progress."
   },
@@ -47,9 +47,9 @@
     "mp4_url": "/images/movie-night.mp4",
     "github_url":"https://github.com/RivaD2/Movie-Night",
     "deployed_url":"https://riva-movie-night.herokuapp.com/",
-    "tools_used":"JavaScript, PostgreSQL (originally used), EJS, Express.js, Axios, MongoDB, the Movie Database API (TMDb)",
+    "tools_used":"JavaScript, CSS3, PostgreSQL (originally used), EJS, Express.js, Axios, MongoDB, the Movie Database API (TMDb)",
     "text_desc":"Movie Night makes it easy for a user to pick a movie from a recommendation list based on ratings.The user can find top-rated movies and add them to a watchlist.",
-    "demo_desc": "I took the lead role in the overall styling of this project and created the MovieDetail page, which presents movie information and the option to add it to the watchlist, and the Watchlist page, which enables a user to see and delete movies from the watchlist. \n \n  Initially this project used Superagent to query the Movie Database API and fetch from the local PostgreSQL database. \n \n Recently I migrated the backend from PostgreSQL to my personal MongoDB API server by creating a new Mongoose Schema and Model to mirror the table from PostgreSQL. From there, I refactored the routes to use Axios instead of Superagent."
+    "demo_desc": "I took the lead role in the overall styling of this project and created the MovieDetail page, which presents movie information and the option to add it to the watchlist, and the Watchlist page, which enables a user to see and delete movies from the watchlist. \n\n Initially this reponsive app used Superagent to query the Movie Database API and fetch from the local PostgreSQL database. Recently I migrated the backend from PostgreSQL to my personal MongoDB API server by creating a new Mongoose Schema and Model to mirror the table from PostgreSQL. From there, I refactored the routes to use Axios instead of Superagent."
   }
 ]
 

@@ -1,57 +1,58 @@
 
 .project-container {
-    display:flex;
-    flex-direction:row;
-    border-top:1px solid blanchedalmond; 
-    border-bottom:1px solid blanchedalmond;
-    align-items:center;
-    min-height: 469px;
+  display:flex;
+  flex-direction:row;
+  border-top:1px solid blanchedalmond; 
+  border-bottom:1px solid blanchedalmond;
+  align-items:center;
+  min-height: 469px;
+  padding:20px 10px;
 }
 
 .image-container {
-    width:40vw;
-    height:50vh;
-    background-size:contain;
-    background-position: center;
-    display:flex;
-    flex-direction:row;
-    background-repeat: no-repeat; 
-    justify-content: center;
-    align-items: center;
-    flex-shrink:0;
+  width:40vw;
+  height:50vh;
+  background-size:contain;
+  background-position: center;
+  display:flex;
+  flex-direction:row;
+  background-repeat: no-repeat; 
+  justify-content: center;
+  align-items: center;
+  flex-shrink:0;
 }
 
 .image-container-wrap {
-  padding-right:42px;
-  padding-left:22px;
+  padding-right:0px 22px;
 }
 
 .project-gif {
-    width: 70%;
-    border:1px solid blanchedalmond;
+  width: 70%;
+  border:1px solid blanchedalmond;
 }
 
 .detail-container {
-    display:flex;
-    flex-direction:column;
-    justify-content: space-around;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  margin-left:20px;
 }
 
 .project-title {
-    color:rgb(178, 227, 241);
-    font-size: 38pt;
-    line-height:48pt;
-    text-align:center;
-    font-family: 'Orbitron', sans-serif;
-    padding-bottom:40px;
+  color:rgb(178, 227, 241);
+  font-size: 38pt;
+  line-height:48pt;
+  text-align:center;
+  font-family: 'Orbitron', sans-serif;
+  padding-bottom:40px;
 }
 
 .button-container {
-    display:flex;
-    flex-direction:row;
-    justify-content:space-evenly;
-    align-items: center;
-    padding-top:40px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  align-items: center;
+  padding-top:40px;
 }
 
 .project-page-button {
@@ -76,7 +77,7 @@
 }
   
 .project-page-button{
-    transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .project-page-button:hover {
@@ -85,25 +86,26 @@
 }
 
 #tools-used-desc b {
-   text-align:left;
-   font-size: 12pt;
-   text-transform: uppercase;
-   color:rgb(177, 243, 245);
+  text-align:left;
+  font-size: 12pt;
+  text-transform: uppercase;
+  color:rgb(177, 243, 245);
 }
 
 .project-text{
-    /* color: rgb(221, 211, 211); */
-    font-size:12pt;
-    line-height: 1.5em;
-    font-family: 'Roboto', sans-serif;
-    color: blanchedalmond;
-}
-#text-desc b {
-    text-transform: uppercase;
-    color:rgb(177, 243, 245);
+  font-size:12pt;
+  line-height: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  color: blanchedalmond;
 }
 
-@media (max-width: 600px) {
+#text-desc b {
+  text-transform: uppercase;
+  color:rgb(177, 243, 245);
+}
+
+@media all and (max-width: 965px) {
+  /* Mobile and tablet */
   .project-container {
     display:flex;
     flex-direction:column;
@@ -112,35 +114,58 @@
   }
 
   .image-container {
-    min-height:0;
     width:80vw;
+    height:30vh;
+    margin-top:20px;
     display:flex;
     flex-direction:column; 
   } 
 
+  .detail-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
   .project-title {
-    font-size: 20pt;
+    font-size: 24pt;
     text-align:left;
     font-family: 'Orbitron', sans-serif;
-    padding-top:30px;
     padding-bottom:10px;
+    margin:0 auto;
   }
 
   .project-gif {
     width: 60%;
   }
-
-  .detail-container {
+  
+  .button-container {
     display:flex;
     flex-direction:column;
-    justify-content:left;
   }
 
   .project-page-button {
     font-size:12px;
+    display:flex;
+    margin-bottom:14px;
   }
   
   .tools-desc-container {
    margin-top:20px;
+  }
+}
+
+@media all and (max-width: 965px) and (min-width:475px) {
+  /* Tablet */
+  .button-container {
+    display:flex;
+    flex-direction:row;
+  }
+
+  .project-page-button {
+    font-size:12px;
+    display:flex;
+    margin-bottom:14px;
   }
 }

@@ -4,7 +4,7 @@
   min-height:400px;
   background-image:url('/images/spaceship-interior-projects.jpg');
   background-repeat: no-repeat; 
-  background-size:contain;
+  background-size:cover;
   background-position: center center;
   display:flex;
   flex-direction:column;
@@ -65,8 +65,10 @@
   justify-content: center;
 }
 
-/* Mobile */
+
+
 @media (max-width: 600px) {
+  /* Mobile */
   .header-background {
     background-repeat: no-repeat; 
     background-size:cover;
