@@ -25,22 +25,30 @@ class Projects extends React.Component {
   }
 
   fetchNasaImages = async () => {
-    const imageIdArray = ['PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'GSFC_20171208_Archive_e000720'];
-    const imagesArray = await Promise.all(
-      imageIdArray.map(image => {
-        return HttpClient.getNasaImage(image);
-      })
-    )
-    this.setState({
-      projectPageNasaImages: imagesArray
-    })
+    try {
+      const imageIdArray = ['PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'GSFC_20171208_Archive_e000720'];
+      const imagesArray = await Promise.all(
+        imageIdArray.map(image => {
+          return HttpClient.getNasaImage(image);
+        })
+      )
+      this.setState({
+        projectPageNasaImages: imagesArray
+      });
+    } catch (err) {
+      console.log(err);
+    }
   }
 
   fetchProjectDetails = async () => {
-    const projectListData = await HttpClient.getProjectListData();
-    this.setState({
-      projectListData
-    })
+    try {
+      const projectListData = await HttpClient.getProjectListData();
+      this.setState({
+        projectListData
+      });
+    } catch (err) {
+      console.log(err);
+    }
   }
 
   componentWillUnmount() {
@@ -57,13 +65,13 @@ class Projects extends React.Component {
   showModal = projectData => {
     this.setState({
       projectData: projectData
-    })
+    });
   }
 
   hideModal = () => {
     this.setState({
       projectData: undefined
-    })
+    });
   }
 
   render() {
