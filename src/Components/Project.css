@@ -104,7 +104,7 @@
   color:rgb(177, 243, 245);
 }
 
-@media all and (max-width: 965px) {
+@media (max-width: 965px) {
   /* Mobile and tablet */
   .project-container {
     display:flex;
@@ -153,19 +153,5 @@
   
   .tools-desc-container {
    margin-top:20px;
-  }
-}
-
-@media all and (max-width: 965px) and (min-width:475px) {
-  /* Tablet */
-  .button-container {
-    display:flex;
-    flex-direction:row;
-  }
-
-  .project-page-button {
-    font-size:12px;
-    display:flex;
-    margin-bottom:14px;
   }
 }

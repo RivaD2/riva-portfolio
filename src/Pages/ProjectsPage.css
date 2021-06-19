@@ -65,21 +65,9 @@
   justify-content: center;
 }
 
-
-
 @media (max-width: 600px) {
   /* Mobile */
-  .header-background {
-    background-repeat: no-repeat; 
-    background-size:cover;
-    background-position: center center;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items:center;
-    text-align:center;
-  }
-  
+ 
   .header-text-projects {
     font-size: 30px;
   }
