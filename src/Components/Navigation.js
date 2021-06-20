@@ -10,6 +10,7 @@ const Navigation  = () => {
       target="#"
       id="resume" 
       className="sidenav-item"
+      aria-label="Link to my resume"
       >
         <img 
           src="/images/cv-icon.png" 
@@ -25,6 +26,7 @@ const Navigation  = () => {
         target="#" 
         id="linkedin"
         className="sidenav-item"
+        aria-label="link to LinkedIn account"
       >
         <img 
           src="/images/linkedin-logo.png" 
@@ -40,6 +42,7 @@ const Navigation  = () => {
         target="#" 
         id="github" 
         className="sidenav-item"
+        aria-label="link to github account"
       >
         <img 
           src="/images/github-image2.png" 
@@ -54,12 +57,10 @@ const Navigation  = () => {
         to="/" 
         id="home" 
         className="sidenav-item"
+        aria-label="Link to home page"
       >
         <div className="sidenav-image sidenav-icon">
-          <i 
-           className={'home icon'} 
-           title="Icon for home page" 
-           aria-labelledby="Icon of house to represent home page"></i>
+          <i className={'home icon'} title="Icon for home page" ></i>
         </div>
         <div className="header-logo">
           Home
@@ -69,12 +70,10 @@ const Navigation  = () => {
         to="/about" 
         id="about-me" 
         className="sidenav-item"
+        aria-label="Link to about me page"
       >
         <div className="sidenav-image sidenav-icon">
-          <i 
-            className={'address book icon'}
-            title="Icon for personal information"
-            aria-labelledby="Icon of person to represent about me section of website"></i>
+          <i className={'address book icon'} title="Icon for personal information"></i>
         </div>
         <div className="header-logo">
           About

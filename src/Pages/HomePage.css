@@ -3,7 +3,6 @@
   margin:0;
   padding:0;
   text-align: center;
-  /* -webkit-background-size:cover; */
   background-size: auto 80%;
   background-position: center center;
   background-repeat:no-repeat;
@@ -68,7 +67,7 @@ path {
   animation: draw 5s linear forwards;
 }
 
- /* Small devices (portrait tablets and large phones, 600px and up) */
+ /* tablets and large phones, 600px and up */
  @media (max-width: 600px) {
   .home-container {
     display:flex;
@@ -79,6 +78,6 @@ path {
     position:absolute;
     top: 50%;
     left: 50%;
-   transform: translate(-50%, -50%) scale(0.3);
+    transform: translate(-50%, -50%) scale(0.3);
   }
 }

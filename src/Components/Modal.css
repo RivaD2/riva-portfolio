@@ -12,6 +12,7 @@
 .modal-body {
   display:flex;
   flex-direction: column;
+  max-height:80vh; 
   position:relative;
   background-color:rgb(24, 22, 22);
   border: 3px solid rgb(177, 243, 245);
@@ -70,15 +71,6 @@
 }
 
 @media (max-width:965px) {
-  .modal-body {
-    max-height:80vh;
-
-  }
-  .modal-content {
-    flex-direction:column;
-    overflow-y:auto;
-  }
-
   .modal-title {
     font-size: 20pt;
   }

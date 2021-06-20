@@ -30,10 +30,10 @@
   left:0px;
   opacity:0;
   transition: 0.3s; /* Add transition on hover */
-  padding-left: 15px; /* 15px padding */
+  padding-left: 15px; 
   text-decoration: none; /* Remove underline */
-  font-size: 15px; /* Increase font size */
-  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  font-size: 15px;
+  border-radius: 0 5px 5px 0; 
   font-weight:bold;
   font-family:'Orbitron', sans-serif;
 }
