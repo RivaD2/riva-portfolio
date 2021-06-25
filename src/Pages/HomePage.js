@@ -4,6 +4,9 @@ import SvgHeader from '../Components/SvgHeader';
 import HttpClient from '../HttpClient';
 import {Link} from 'react-router-dom';
 
+/**
+ * Returns homepage component
+ */
 const HomePage = props => {
   const [backgroundUrl, setBackgroundUrl] = useState('');
   

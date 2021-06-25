@@ -6,6 +6,9 @@ class Project extends React.Component {
     image:this.props.projectData.img_url,
   }
 
+  /**
+   * Handler for demo button, shows modal when button is clicked
+   */
   onDemoClick = () => {
     this.props.showModal(this.props.projectData);
   }

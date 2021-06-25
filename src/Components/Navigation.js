@@ -2,6 +2,9 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import './Navigation.css';
 
+/**
+ * Returns Nav component
+ */
 const Navigation  = () => {
   return (
     <div className="navbar-container" id="mySidenav">

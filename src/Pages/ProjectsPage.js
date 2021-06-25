@@ -24,6 +24,11 @@ class Projects extends React.Component {
     window.addEventListener('scroll', this.parallaxShift);
   }
 
+  /**
+   * Fetches Nasa images from Nasa Image and Video library
+   * @returns {Promise} Promise that takes in array of images from API and returns a single promise
+   * that resolves to an array of results(images) from API
+   */
   fetchNasaImages = async () => {
     try {
       const imageIdArray = ['PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'GSFC_20171208_Archive_e000720'];
@@ -40,6 +45,9 @@ class Projects extends React.Component {
     }
   }
 
+  /**
+   * Fetches project data from json file
+   */
   fetchProjectDetails = async () => {
     try {
       const projectListData = await HttpClient.getProjectListData();
@@ -55,19 +63,28 @@ class Projects extends React.Component {
     window.removeEventListener('scroll', this.parallaxShift);
   }
   
-  // Setting parallax offset for header
+  /**
+   * Sets parallax offset for header
+   */
   parallaxShift = () => {
     this.setState({
       offset: window.pageYOffset
     });
   };
 
+  /**
+   * Shows modal for demo
+   * @param  {object} projectData project data from json file
+   */
   showModal = projectData => {
     this.setState({
       projectData: projectData
     });
   }
 
+  /**
+   * Hides demo modal when there is no project data to display
+   */
   hideModal = () => {
     this.setState({
       projectData: undefined

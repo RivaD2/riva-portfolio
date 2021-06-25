@@ -3,8 +3,10 @@ import {Link} from 'react-router-dom';
 import SvgHeader from '../Components/SvgHeader';
 import './About.css';
 
-export default class About extends React.Component {
-  render() {
+/**
+ * Returns the About me page
+ */
+const About = () => {
     return (
       <div className="about-container">
         <div className="headshot-container">
@@ -37,5 +39,5 @@ export default class About extends React.Component {
         </Link>
       </div> 
     )
-  }
 }
+export default About;

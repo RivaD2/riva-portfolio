@@ -1,6 +1,9 @@
 import React from 'react';
 import './SvgHeader.css';
 
+/**
+ * Returns the svg header for developer name
+ */
 const SvgHeader = () => {
   return (
     <div>
