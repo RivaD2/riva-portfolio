@@ -31,15 +31,23 @@ export default {
    * @returns {string} string for one medium nasa img
    */
   getNasaImage: async (image_id) => {
-    const response = await axios.get(`${nasaEndpoint}/asset/${image_id}`)
-    return response.data.collection.items[2].href;
+    try {
+      const response = await axios.get(`${nasaEndpoint}/asset/${image_id}`)
+      return response.data.collection.items[2].href;
+    } catch (err) {
+      console.err();
+    }
   },
   /**
    * gets project list data from json file and returns res
    * @returns {object} all data objects from json
    */
   getProjectListData:  async () => {
-    const response = await axios.get('/projectList.json');
-    return response.data;
+    try {
+      const response = await axios.get('/projectList.json');
+      return response.data;
+    } catch (err) {
+      console.err(err);
+    }
   }
 }

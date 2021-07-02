@@ -2,7 +2,7 @@
 
 ### Deployed site: [rivadavidowski.com](https://www.rivadavidowski.com/)
 
-### Hello,Thank you for checking out my developer portfolio!
+### Hello there! Thank you for checking out my developer portfolio.
 
 ![me](https://media.giphy.com/media/tPVEVc5Qjqcyxj1Ain/giphy.gif)
 
