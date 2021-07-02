@@ -1,10 +1,14 @@
-### Developer Portfolio
+# Developer Portfolio
 
 ### Deployed site: [rivadavidowski.com](https://www.rivadavidowski.com/)
 
-**While building out my space-themed portfolio, I focused my efforts on solidifying my knowledge of React and incorporated the Nasa Image and Video Library API to aid in theming.**
+### Hello! Thank you for checking out my developer Portfolio!
 
-**Most of the CSS is built out from scratch. However, I made use of Semantic-UI icons in my navigation bar and in the modal.**
+![me](https://media.giphy.com/media/tPVEVc5Qjqcyxj1Ain/giphy.gif)
+
+While building out my space-themed portfolio, I focused my efforts on solidifying my knowledge of React and incorporated the Nasa Image and Video Library API to aid in theming (I should note that there are no pictures of cats in my portfolio...although that might have made it better :)).
+
+Most of the CSS is built out from scratch. However, I made use of Semantic-UI icons in my navigation bar and in the modal.
 
 
 ### Tools Used:
