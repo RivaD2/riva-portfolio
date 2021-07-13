@@ -1,20 +1,20 @@
 .arrow-box {
+  align-items: center;
   display:flex;
   flex-direction:column;
-  align-items: center;
-  margin-top:40px;
   left:40px;
+  margin-top:40px;
 }
    
 .arrow-box div {
-  display:flex;
-  width:20px;
-  height:20px;
+  animation: arrowDrop 2s infinite;
   border-bottom:5px solid white;
   border-right:5px solid white;
-  transform:rotate(45deg);
-  animation: arrowDrop 2s infinite;
+  display:flex;
+  height:20px;
   margin:-10px;
+  transform:rotate(45deg);
+  width:20px;
 }
   
 .arrow-box div:nth-child(2) 
@@ -52,7 +52,7 @@
   }
     
   .arrow-box div {
-    width:15px;
     height:15px;
+    width:15px;
   }
 }

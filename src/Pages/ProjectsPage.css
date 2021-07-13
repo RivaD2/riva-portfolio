@@ -1,25 +1,25 @@
 .header-background {
+  align-items:center;
   background-color:black;
-  height:70vh;
-  min-height:400px;
   background-image:url('/images/spaceship-interior-projects.jpg');
   background-repeat: no-repeat; 
-  background-size:cover;
   background-position: center center;
+  background-size:cover;
   display:flex;
   flex-direction:column;
+  height:70vh;
   justify-content: center;
-  align-items:center;
+  min-height:400px;
   text-align:center;
 }
 
 .header-text-projects {
-  -webkit-text-stroke: 1px black;
   color:rgb(178, 227, 241);
   font-family:'Orbitron', sans-serif;
   font-size: 34px;
   font-weight: bold;
   padding-top: 40px;
+  -webkit-text-stroke: 1px black;
 }
 
 .projects-container {
@@ -27,25 +27,25 @@
 }
 
 .info-container {
-  width:600px;
-  font-size:28pt;
-  -webkit-text-stroke: 1px black;
+  align-items: center;
   color:#fff;
   display:flex;
   flex-direction: column;
-  align-items: center;
+  font-size:28pt;
+  -webkit-text-stroke: 1px black;
+  width:600px;
 }
 
 .parallax-divider-container {
   background-color:black;
-  height:60vh;
   border-width: 2px 0;
+  height:60vh;
 }
 
 .api-image {
-  height:100%;
   background-size:cover;
   background-position:center center;
+  height:100%;
 }
 
 .svg-projects {
@@ -53,11 +53,11 @@
 }
 
 .to-top-container {
+  align-items:center;
+  bottom:20px;
   display:flex;
   justify-content: center;
-  align-items:center;
   position: absolute;
-  bottom:20px;
   width:100%;
 }
 
@@ -77,7 +77,7 @@
   }
 
   .info-container {
-    width:200px;
     font-size:15pt;
+    width:200px;
   }
 }

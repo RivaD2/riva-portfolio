@@ -21,7 +21,7 @@ class Modal extends React.Component {
                   loop 
                   preload="auto"
                   className="modal-img"
-                  title="Picture of each project's home page"
+                  title="Video to demo project selected"
                 >
                   <source src={this.props.projectData.webm_url} type="video/webm" title="Video showing demo of each project"/>
                   <source src={this.props.projectData.mp4_url} type="video/mp4" title="Video showing demo of each project"/>
