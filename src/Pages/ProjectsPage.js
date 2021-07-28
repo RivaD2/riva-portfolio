@@ -31,7 +31,7 @@ class Projects extends React.Component {
    */
   fetchNasaImages = async () => {
     try {
-      const imageIdArray = ['PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'GSFC_20171208_Archive_e000720'];
+      const imageIdArray = ['PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'GSFC_20171208_Archive_e000720','GSFC_20171208_Archive_e000877'];
       const imagesArray = await Promise.all(
         imageIdArray.map(image => {
           return HttpClient.getNasaImage(image);
@@ -54,7 +54,7 @@ class Projects extends React.Component {
       this.setState({
         projectListData
       });
-    } catch (err) {
+    } catch(err) {
       console.log(err);
     }
   }
