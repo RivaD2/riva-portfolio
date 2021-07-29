@@ -1,11 +1,11 @@
 path {
   fill: white;
   fill-opacity: 1;
-  stroke: black;
-  stroke-width: 3;
+  stroke: rgb(24, 143, 216);
+  stroke-width: 5;
   stroke-linecap: round;
-  stroke-dasharray: 860;
-  stroke-dashoffset: 860;
+  stroke-dasharray: 900;
+  stroke-dashoffset: 900;
 }
 
 .svg-projects {

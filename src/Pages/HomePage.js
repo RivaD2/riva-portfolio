@@ -19,8 +19,8 @@ const HomePage = props => {
 
   return (
     <div className="home-container" style={{backgroundImage: backgroundUrl}}>
-      <div>
-        <div className="svg-container">
+      <div className="svg-container">
+        <div className="svg-header">
          <SvgHeader />
         </div>
       </div>
