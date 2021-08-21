@@ -26,8 +26,9 @@ const HomePage = props => {
       </div>
       <div>
         <Link to="/projects">
-        <button 
-          className="project-button">VIEW PROJECTS</button>
+          <button
+            className="project-button">VIEW PROJECTS
+          </button>
         </Link>
       </div> 
     </div>
