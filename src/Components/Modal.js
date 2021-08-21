@@ -2,17 +2,17 @@ import React from 'react';
 import './Modal.css';
 
 class Modal extends React.Component {
-
   onVideoClick = e => {
     e.stopPropagation();
   }
 
   render() {
+    const { hideModal, projectData } = this.props;
     return (
       // onClick attr will call the method that is passed in as prop which is hideModal
-      <div className="modal-container" onClick={this.props.hideModal}>
+      <div className="modal-container" onClick={hideModal}>
         <div className="modal-body">
-          <div className="modal-title">{this.props.projectData.title}</div>
+          <div className="modal-title">{projectData.title}</div>
           <div className="close-icon">
             <i className={'window close outline icon'}></i>
           </div>
@@ -28,13 +28,13 @@ class Modal extends React.Component {
                   className="modal-img"
                   title="Video to demo project selected"
                 >
-                  <source src={this.props.projectData.webm_url} type="video/webm" title="Video showing demo of each project"/>
-                  <source src={this.props.projectData.mp4_url} type="video/mp4" title="Video showing demo of each project"/>
+                  <source src={projectData.webm_url} type="video/webm" title="Video showing demo of each project"/>
+                  <source src={projectData.mp4_url} type="video/mp4" title="Video showing demo of each project"/>
                 </video>
               </div>
             </div>
             <div className="modal-details">
-              {this.props.projectData.demo_desc}
+              {projectData.demo_desc}
             </div>
           </div>
         </div>
