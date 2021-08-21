@@ -2,6 +2,11 @@ import React from 'react';
 import './Modal.css';
 
 class Modal extends React.Component {
+
+  onVideoClick = e => {
+    e.stopPropagation();
+  }
+
   render() {
     return (
       // onClick attr will call the method that is passed in as prop which is hideModal
@@ -13,7 +18,7 @@ class Modal extends React.Component {
           </div>
           <div className="modal-content">
             <div className="modal-image-wrapper">
-              <div className="modal-img">
+              <div className="modal-img" onClick={this.onVideoClick}>
                 <video 
                   controls
                   muted 

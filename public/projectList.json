@@ -6,9 +6,9 @@
     "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/aqaba.mp4",
     "github_url":"https://github.com/RivaD2/aqaba", 
     "deployed_url":"https://aqaba.rivadavidowski.com",
-    "tools_used":"JavaScript, React, React-Spring, React Responsive Carousel, React Router DOM, OAuth 2.0 with Google APIs, Axios, Figma/FigJam, Material-UI, CSS3, my API-server, Heroku (deployment of server), and AWS (deployment of the front-end)",
+    "tools_used":"JavaScript, React, React-Spring, React Responsive Carousel, React Router DOM, OAuth 2.0 with Google APIs, Axios, Figma/FigJam, Material-UI, CSS3/CSS Flexbox, my API-server, Heroku (deployment of server), and AWS (deployment of the front-end)",
     "text_desc":"Aqaba by Miram Mirani is a fragrance site that carries a product I'm interested in: Aqaba perfumes. I chose to rebuild this site to gain familiarity with e-commerce flows and UI, and because of the complexity that all these features introduce. My focus here was not on design but on e-commerce functionality.",
-    "demo_desc": "This ongoing project has allowed me to build more Functional components and Class-based components using React, but it's also helped to solidify my understanding of component hierarchy, state management, props, and responsive design. \n\n I have incorporated third party libaries and Material-UI, which gave me the opportunity to see how tools like these can increase efficiency, but also how they can introduce new challenges and complexity to our code. I continue to work on additional features, and future goals of this project include adding tests using React-Testing-Library with Jest and saving carts to the database."
+    "demo_desc": "This ongoing project has allowed me to build more Functional components with React Hooks and Class-based components, but it's also helped to solidify my understanding of component hierarchy, state management, props, and responsive design. \n\n I have incorporated third party libaries and Material-UI, which gave me the opportunity to see how tools like these can increase efficiency, but also how they can introduce new challenges and complexity to our code. I continue to work on additional features, and future goals of this project include adding tests using React-Testing-Library with Jest and saving carts to the database."
   },
   {
     "title": "The GIFing Game",
@@ -17,9 +17,9 @@
     "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/gifing-game.mp4",
     "github_url":"https://github.com/RivaD2/box-challenge",
     "deployed_url":"https://gifing-game.rivadavidowski.com",
-    "tools_used":"JavaScript, React, React Animated CSS, Axios, GIPHY API and AWS",
-    "text_desc":" The GIFing Game is fun and iteractive memory game.\n\n The game can be customized based off the search term entered. The goal of this game is of course to find the matching pairs of GIFs in the lowest amount of clicks. Clicks are counted and the user's best score is stored in localStorage. When two GIFs are matched, they disappear.",
-    "demo_desc": "I am a GIF lover and wanted to build a fun but simple game with React. This current project utilizes only Function components and the React Hook system. The purpose of this project was keep focus on core React principles while working with a third-party API."
+    "tools_used":"JavaScript, React, React Animated CSS, CSS Grid/Flexbox, Axios, GIPHY API and AWS",
+    "text_desc":" The GIFing Game is fun and interactive memory game.\n\n A modal displays instructions on how to play and it can be customized based off the search term entered. The goal of this game is of course to find the matching pairs of GIFs in the lowest amount of clicks. Clicks are counted and the user's best score is stored in localStorage. When two GIFs are matched, they disappear.",
+    "demo_desc": "I am a GIF lover and wanted to build a fun but simple game with React. This project is built with Function components and uses React's Hook system.\n\n The purpose of this project is to focus on core React principles, work with a third-party library, and continue to build features in React. The project originally started out as a simple grid of boxes that could be clicked on. Throughout each phase I added a new features and functionality and it has morphed into a fun and interactive game that be customized."
   },
   {
     "title": " My Portfolio",
@@ -28,7 +28,7 @@
     "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/portfolio-demo.mp4",
     "github_url":"https://github.com/RivaD2/riva-portfolio", 
     "deployed_url":"https://www.rivadavidowski.com/",
-    "tools_used":"JavaScript, React, CSS3, Nasa Image and Video Library API, Axios, React Router DOM, Figma, Semantic-UI, and AWS for project deployment",
+    "tools_used":"JavaScript, React, CSS3/CSS Flexbox, Nasa Image and Video Library API, Axios, React Router DOM, Figma, Semantic-UI, and AWS for project deployment",
     "text_desc":"Look familiar? My responsive developer portfolio showcases projects I'm current working on (Aqaba) and my individual contributions to past projects I had the opportunity to work on.",
     "demo_desc": "During this ongoing project, I've built modals from scratch, gained exposure to SVG's and various video formats, continued to explore asynchronous methods and AJAX calls, and incorported both Class-based and Functional components using React. I've seen first hand how reusable components can transform an application and how my code has evolved from one project to the next."
   },
