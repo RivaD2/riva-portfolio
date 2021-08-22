@@ -19,7 +19,7 @@
     "deployed_url":"https://gifing-game.rivadavidowski.com",
     "tools_used":"JavaScript, React, React Animated CSS, CSS Grid/Flexbox, Axios, GIPHY API and AWS",
     "text_desc":" The GIFing Game is fun and interactive memory game.\n\n A modal displays instructions on how to play and it can be customized based off the search term entered. The goal of this game is of course to find the matching pairs of GIFs in the lowest amount of clicks. Clicks are counted and the user's best score is stored in localStorage. When two GIFs are matched, they disappear.",
-    "demo_desc": "I am a GIF lover and wanted to build a fun but simple game with React. This project is built with Function components and uses React's Hook system.\n\n The purpose of this project is to focus on core React principles, work with a third-party library, and continue to build features in React. The project originally started out as a simple grid of boxes that could be clicked on. Throughout each phase I added a new features and functionality and it has morphed into a fun and interactive game that be customized."
+    "demo_desc": "I am a GIF lover and wanted to build a fun but simple game with React. This ongoing project is built with Function components and uses React's Hook system.\n\n The purpose of this project is to focus on core React principles, work with a third-party library, and continue to build features in React. The project originally started out as a simple grid of boxes that could be clicked on. Throughout each phase I added new features and functionality and it has morphed into a fun and interactive game that be customized."
   },
   {
     "title": " My Portfolio",

@@ -39,6 +39,7 @@ Most of the CSS is built out from scratch. However, I made use of Semantic-UI ic
 - On the Projects page, falling arrow indicates that scroll down is needed. For every project listed the user can do the following:
     - **Click on the View Demo button**: This opens a modal and provides the user with a WebM of the project. A brief description of the project is provided along with my specific contributions.
     - **Click on the Source Code Button**: The user will be redirected to the source code for each project on Github.
+    - **Click on the Deployed Version Button**: The user will be redirected to the deployed version of the project.
 
       
 ### Credit for Code How-To's:

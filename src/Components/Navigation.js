@@ -6,82 +6,66 @@ import './Navigation.css';
  * Returns Nav component
  */
 const Navigation  = () => {
+  const navBarData = [
+    {
+     to:{pathname:"https://docs.google.com/document/d/1n62VPLj99ntJl5JMbh3I_3doLoJ3Zo5lKY4E4y7gZwo/edit?usp=sharing"},
+     target: '#',
+     ariaLabel: "Link to my resume",
+     imageSrc: "/images/cv-icon.png",
+     text: "Resume"
+    },
+    {
+      to:{pathname:"https://www.linkedin.com/in/riva-davidowski-rivad/"},
+      target:'#',
+      ariaLabel:"link to LinkedIn account",
+      imageSrc: "/images/linkedin-logo.png",
+      text:"LinkedIn"
+    },
+    {
+      to:{pathname:"https://github.com/RivaD2"},
+      target:'#',
+      ariaLabel:"link to github account",
+      imageSrc: "/images/github-image2.png",
+      text: "Github"
+    },
+    {
+      to:"/",
+      ariaLabel:"Link to home page",
+      iconClassName:"home icon",
+      text:"Home"
+    },
+    {
+      to:"/about",
+      ariaLabel:"Link to about me page",
+      iconClassName: "address book icon",
+      text: "About"
+    }
+  ]
+
   return (
     <div className="navbar-container" id="mySidenav">
-      <Link
-      to={{pathname:"https://docs.google.com/document/d/1n62VPLj99ntJl5JMbh3I_3doLoJ3Zo5lKY4E4y7gZwo/edit?usp=sharing"}}
-      target="#"
-      id="resume" 
-      className="sidenav-item"
-      aria-label="Link to my resume"
-      >
-        <img 
-          src="/images/cv-icon.png" 
-          alt="resume" 
-          className="sidenav-image"
-        />
-        <div className="header-logo">
-          Resume
-        </div>
-      </Link> 
-      <Link 
-        to={{pathname:"https://www.linkedin.com/in/riva-davidowski-rivad/"}}
-        target="#" 
-        id="linkedin"
-        className="sidenav-item"
-        aria-label="link to LinkedIn account"
-      >
-        <img 
-          src="/images/linkedin-logo.png" 
-          alt="linkedin" 
-          className="sidenav-image"
-        />
-        <div className="header-logo">
-          LinkedIn
-        </div>
-      </Link>
-      <Link 
-        to={{pathname:"https://github.com/RivaD2"}} 
-        target="#" 
-        id="github" 
-        className="sidenav-item"
-        aria-label="link to github account"
-      >
-        <img 
-          src="/images/github-image2.png" 
-          alt="github" 
-          className="sidenav-image"
-        />
-        <div className="header-logo">
-          Github
-        </div>
-      </Link>
-      <Link 
-        to="/" 
-        id="home" 
-        className="sidenav-item"
-        aria-label="Link to home page"
-      >
-        <div className="sidenav-image sidenav-icon">
-          <i className={'home icon'} title="Icon for home page" ></i>
-        </div>
-        <div className="header-logo">
-          Home
-        </div>
-      </Link>
-      <Link 
-        to="/about" 
-        id="about-me" 
-        className="sidenav-item"
-        aria-label="Link to about me page"
-      >
-        <div className="sidenav-image sidenav-icon">
-          <i className={'address book icon'} title="Icon for personal information"></i>
-        </div>
-        <div className="header-logo">
-          About
-        </div>
-      </Link>
+      {navBarData.map(link => (
+        <Link
+          to={link.to}
+          target={link.target}
+          className="sidenav-item"
+          aria-label={link.ariaLabel}
+        >
+          {link.imageSrc ?
+            <img
+              src={link.imageSrc}
+              alt={link.ariaLabel}
+              className="sidenav-image"
+            />  :
+            <div className="sidenav-image sidenav-icon">
+              <i className={link.iconClassName} title={link.ariaLabel}></i>
+            </div>
+          }
+          <div className="header-logo">
+           {link.text}
+          </div>
+        </Link>
+      ))}
     </div>
   )
 }
