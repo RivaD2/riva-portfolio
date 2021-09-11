@@ -7,8 +7,8 @@
     "github_url":"https://github.com/RivaD2/aqaba", 
     "deployed_url":"https://aqaba.rivadavidowski.com",
     "tools_used":"JavaScript, React, React-Spring, React Responsive Carousel, React Router DOM, OAuth 2.0 with Google APIs, Axios, Figma/FigJam, Material-UI, CSS3/CSS Flexbox, my API-server, Heroku (deployment of server), and AWS (deployment of the front-end)",
-    "text_desc":"Aqaba by Miram Mirani is a fragrance site that carries a product I'm interested in: Aqaba perfumes. I chose to rebuild this site to gain familiarity with e-commerce flows and UI, and because of the complexity that all these features introduce. My focus here was not on design but on e-commerce functionality.",
-    "demo_desc": "This ongoing project has allowed me to build more Functional components with React Hooks and Class-based components, but it's also helped to solidify my understanding of component hierarchy, state management, props, and responsive design. \n\n I have incorporated third party libaries and Material-UI, which gave me the opportunity to see how tools like these can increase efficiency, but also how they can introduce new challenges and complexity to our code. I continue to work on additional features, and future goals of this project include adding tests using React-Testing-Library with Jest and saving carts to the database."
+    "text_desc":"I chose to rebuild this fragrance site to gain familiarity with e-commerce flows and UI, and because of the complexity that all these features introduce. I am now in the process of making the site my own and am currently working with a professional UI designer to assist me with rebranding. This will include new mockups and styles using an original theme.",
+    "demo_desc": "This ongoing project has allowed me to build more Functional components with React Hooks and Class-based components, but it's also helped to solidify my understanding of component hierarchy, state management, props, and responsive design. \n\n I have incorporated third-party libraries and frameworks (Material-UI) which gave me the opportunity to see how tools like these can increase efficiency, but also how they can introduce new challenges and complexity to our code. I continue to work on additional features, and future goals of this project include adding tests using React-Testing-Library with Jest, rebranding of the site for a more cohesive style, and saving carts to the database."
   },
   {
     "title": "The GIFing Game",
@@ -19,7 +19,7 @@
     "deployed_url":"https://gifing-game.rivadavidowski.com",
     "tools_used":"JavaScript, React, React Animated CSS, CSS Grid/Flexbox, Axios, GIPHY API and AWS",
     "text_desc":" The GIFing Game is fun and interactive memory game.\n\n A modal displays instructions on how to play and it can be customized based off the search term entered. The goal of this game is of course to find the matching pairs of GIFs in the lowest amount of clicks. Clicks are counted and the user's best score is stored in localStorage. When two GIFs are matched, they disappear.",
-    "demo_desc": "I am a GIF lover and wanted to build a fun but simple game with React. This ongoing project is built with Function components and uses React's Hook system.\n\n The purpose of this project is to focus on core React principles, work with a third-party library, and continue to build features in React. The project originally started out as a simple grid of boxes that could be clicked on. Throughout each phase I added new features and functionality and it has morphed into a fun and interactive game that be customized."
+    "demo_desc": "I am a GIF lover and wanted to build a fun but simple game with React. This ongoing project is built solely with Functional components and uses React's Hook system.\n\n The purpose of this project is to focus on core React principles, work with a third-party library (GIPHY API), and practice user interaction with state management. The project originally started out as a simple grid of boxes that could be clicked on. Throughout each phase I added new features and functionality and it has morphed into a fun and interactive game that be customized."
   },
   {
     "title": " My Portfolio",
@@ -29,8 +29,8 @@
     "github_url":"https://github.com/RivaD2/riva-portfolio", 
     "deployed_url":"https://www.rivadavidowski.com/",
     "tools_used":"JavaScript, React, CSS3/CSS Flexbox, Nasa Image and Video Library API, Axios, React Router DOM, Figma, Semantic-UI, and AWS for project deployment",
-    "text_desc":"Look familiar? My responsive developer portfolio showcases projects I'm current working on (Aqaba) and my individual contributions to past projects I had the opportunity to work on.",
-    "demo_desc": "During this ongoing project, I've built modals from scratch, gained exposure to SVG's and various video formats, continued to explore asynchronous methods and AJAX calls, and incorported both Class-based and Functional components using React. I've seen first hand how reusable components can transform an application and how my code has evolved from one project to the next."
+    "text_desc":"Look familiar? My responsive developer portfolio showcases projects I'm currently working on and my individual contributions to past projects I had the opportunity to work on while in coding bootcamp. My portfolio is built entirely from scratch and I am currently in the process of working with UI designer on polishing and refining the visual design. Check back soon!",
+    "demo_desc": "During this ongoing project, I've built all components from scratch (modals, buttons, navigation etc.), gained exposure to SVG's and various video formats, continued to explore asynchronous methods and AJAX calls, and incorported both Class-based and Functional components using React. I've seen firsthand how reusable components can transform an application and how my code has evolved from one project to the next."
   },
   {
     "title": "Greener", 
@@ -59,9 +59,9 @@
     "mp4_url": "/images/movie-night.mp4",
     "github_url":"https://github.com/RivaD2/Movie-Night",
     "deployed_url":"https://riva-movie-night.herokuapp.com/",
-    "tools_used":"JavaScript, CSS3, PostgreSQL (originally used), EJS, Express.js, Axios, MongoDB, the Movie Database API (TMDb)",
-    "text_desc":"Movie Night makes it easy for a user to pick a movie from a recommendation list based on ratings.The user can find top-rated movies and add them to a watchlist.",
-    "demo_desc": "I took the lead role in the overall styling of this project and created the MovieDetail page, which presents movie information and the option to add it to the watchlist, and the Watchlist page, which enables a user to see and delete movies from the watchlist. \n\n Initially this reponsive app used Superagent to query the Movie Database API and fetch from the local PostgreSQL database. Recently I migrated the backend from PostgreSQL to my personal MongoDB API server by creating a new Mongoose Schema and Model to mirror the table from PostgreSQL. From there, I refactored the routes to use Axios instead of Superagent."
+    "tools_used":"JavaScript, CSS3, PostgreSQL (originally used), EJS, Express.js, Axios, MongoDB, the Movie Database API (TMDb), and Heroku (for deployment).",
+    "text_desc":"Movie Night makes it easy for a user to pick a movie from a recommendation list based on ratings. The user can find top-rated movies and add them to a watchlist.",
+    "demo_desc": "I took the lead role in the overall styling of this project and created the MovieDetail page, which presents movie information and the option to add it to the watchlist, and refactored the Watchlist page, which enables a user to see and delete movies from the watchlist. \n\n Initially this reponsive app used Superagent to query the Movie Database API and fetch from the local PostgreSQL database. Recently I migrated the backend from PostgreSQL to my personal MongoDB API server by creating a new Mongoose Schema and Model to mirror the table from PostgreSQL. From there, I refactored the routes to use Axios instead of Superagent."
   }
 ]
 
