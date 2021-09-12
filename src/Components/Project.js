@@ -32,7 +32,7 @@ class Project extends React.Component {
         <div className="detail-container">
           <div className="project-title">{title}</div>
           <div className="tools-desc-container">
-            <div id="tools-used-desc" className="project-text"> <b>TOOLS USED:</b>  
+            <div id="tools-used-desc" className="project-text"> <b>TOOLS AND LANGUAGES USED:</b>
                 <blockquote>{tools_used}
                 </blockquote>
             </div>  

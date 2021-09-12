@@ -1,5 +1,15 @@
 [
   {
+    "title": "Book Project",
+    "img_url": "/images/book-project.png",
+    "webm_url": "/images/book-project.webm",
+    "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/book-project.mp4",
+    "github_url":"https://github.com/Project-Books/book-project",
+    "tools_used":"JavaScript, TypeScript, React, React Router DOM, Material-UI, CSS, CSS Grid, Flexbox, Java, mySQL, Spring Boot, Docker, and Maven",
+    "text_desc":"Before graduating from Code Fellows I made it a personal goal to contribute regularly to an open source project and with Book Project I have achieved this goal. Due to my regular contributions and quality of work, I am now part of the front-end team. Based off mockups I've implemented several key features for this project, I help out with code reviews for the frontend, and continue to learn and grow with a great team.",
+    "demo_desc": "Working on this project has introduced to me to new tools like Docker,  has allowed me to review Java code, and build React TypesScript components. I am really proud of the features I've built and I have learned so much from working on this open source project. \n\n Here you can see some of the work I've done: toggling the password; modals and the navbar; the delete account page; and a toggle switch for dark mode. Some challenges I've faced have been building frontend and backend JWT support in parallel across continents and building responsive designs based off fixed mockups."
+  },
+  {
     "title": "Aqaba",
     "img_url": "/images/aqaba.png",
     "webm_url": "/images/aqaba(1).webm",
