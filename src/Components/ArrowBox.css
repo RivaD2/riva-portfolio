@@ -1,58 +1,52 @@
 .arrow-box {
   align-items: center;
-  display:flex;
-  flex-direction:column;
-  left:40px;
-  margin-top:40px;
+  display: flex;
+  flex-direction: column;
+  left: 40px;
+  margin-top: 40px;
 }
-   
+
 .arrow-box div {
   animation: arrowDrop 2s infinite;
-  border-bottom:5px solid white;
-  border-right:5px solid white;
-  display:flex;
-  height:20px;
-  margin:-10px;
-  transform:rotate(45deg);
-  width:20px;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  display: flex;
+  height: 30px;
+  margin: -10px;
+  transform: rotate(45deg);
+  width: 28px;
 }
-  
-.arrow-box div:nth-child(2) 
-  {
-    animation-delay:-0.2s;   
-  }
 
-  .arrow-box div:nth-child(3) 
-  {
-    animation-delay:-0.4s;
-  }
+.arrow-box div:nth-child(2) {
+  animation-delay: -0.2s;
+}
 
-  @keyframes arrowDrop 
-  {
-    0%
-    {
-      opacity:0;
-      transform:rotate(45deg)translate(-20px,-20px);
-    }
-    50%
-    {
-      opacity:1;
-    }
-    100%
-    {
-      opacity:0;
-      transform:rotate(45deg)translate(20px,20px);
-    }
+.arrow-box div:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes arrowDrop {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
   }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
 
 @media (max-width: 600px) {
   .arrow-box {
-    top:20%;
-    left:20%;
+    top: 20%;
+    left: 20%;
   }
-    
+
   .arrow-box div {
-    height:15px;
-    width:15px;
+    height: 15px;
+    width: 15px;
   }
 }

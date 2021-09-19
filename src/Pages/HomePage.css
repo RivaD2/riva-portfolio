@@ -1,5 +1,5 @@
 .home-container {
-  background-size: auto 80%;
+  background-size: auto 90%;
   background-position: center center;
   background-repeat: no-repeat;
   background-color: black;
@@ -16,37 +16,28 @@
   text-align: center;
 }
 
-.greeting-text {
-  color: white;
-  display: flex;
-  font-size: 40px;
-  justify-content: center;
-  padding-top: 100px;
+.introduction-text {
+  color: blanchedalmond;
+  font-size: 14pt;
+  margin-top: 40px;
 }
 
-.greeting-text-two {
-  color: white;
-  font-size: 40px;
+.external-button-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .project-button {
-  background-color: black;
-  border-radius: 8px;
-  border: 2px solid rgb(177, 243, 245);
-  color: rgb(177, 243, 245);
+  background-color: rgba(25, 25, 25, 0.4);
+  border: solid 2px rgb(24 180 216);
+  color: rgb(24, 143, 216);
   cursor: pointer;
-  display: block;
-  font-size: 15px;
-  font-weight: bold;
   font-family: "Orbitron", sans-serif;
-  height: 40px;
-  margin: 0 auto;
-  margin-bottom: 70px;
-  outline: none;
-  padding: 8px;
-  text-align: center;
-  text-decoration: none;
-  width: 170px;
+  font-weight: bold;
+  font-size: 20px;
+  height: 48px;
+  margin: 100px 10px 0px 10px;
+  width: 200px;
 }
 
 .project-button {
@@ -68,7 +59,7 @@
 }
 
 .svg-header {
-  transform: scale(0.6);
+  transform: scale(0.7);
 }
 
 path {

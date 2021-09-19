@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Navigation.css';
 
 /**
@@ -7,27 +7,6 @@ import './Navigation.css';
  */
 const Navigation  = () => {
   const navBarData = [
-    {
-     to:{pathname:"https://docs.google.com/document/d/1n62VPLj99ntJl5JMbh3I_3doLoJ3Zo5lKY4E4y7gZwo/edit?usp=sharing"},
-     target: '#',
-     ariaLabel: "Link to my resume",
-     imageSrc: "/images/cv-icon.png",
-     text: "Resume"
-    },
-    {
-      to:{pathname:"https://www.linkedin.com/in/riva-davidowski-rivad/"},
-      target:'#',
-      ariaLabel:"link to LinkedIn account",
-      imageSrc: "/images/linkedin-logo.png",
-      text:"LinkedIn"
-    },
-    {
-      to:{pathname:"https://github.com/RivaD2"},
-      target:'#',
-      ariaLabel:"link to github account",
-      imageSrc: "/images/github-image2.png",
-      text: "Github"
-    },
     {
       to:"/",
       ariaLabel:"Link to home page",
@@ -37,7 +16,6 @@ const Navigation  = () => {
     {
       to:"/about",
       ariaLabel:"Link to about me page",
-      iconClassName: "address book icon",
       text: "About"
     }
   ]

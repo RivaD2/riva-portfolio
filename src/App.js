@@ -16,14 +16,12 @@ class App extends React.Component {
         <Router history={history}>
           <Switch>
             <Route exact path="/"> 
+              <NavBar/>
               <HomePage /> 
-            </Route>
-            <Route exact path="/about" component={About} />
-            <Route exact path="/projects">
               <Projects />
             </Route>
+            <Route exact path="/about" component={About} />
           </Switch>
-          <NavBar/>
         </Router>
       </div>
     );
