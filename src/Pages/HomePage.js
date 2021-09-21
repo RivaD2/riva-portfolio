@@ -10,13 +10,17 @@ import {Link} from 'react-router-dom';
 const HomePage = () => {
   const [backgroundUrl, setBackgroundUrl] = useState('');
   
-  useEffect(() => { 
+  useEffect(() => {
     getHomePageImage();
   }, []);
 
   const getHomePageImage = async () => {
-    const imageUrl = await HttpClient.getNasaImage('GSFC_20171208_Archive_e001427');
-    setBackgroundUrl(`url('${imageUrl}')`);
+    try {
+      const imageUrl = await HttpClient.getNasaImage('GSFC_20171208_Archive_e001427');
+      setBackgroundUrl(`url('${imageUrl}')`);
+    } catch (err) {
+      console.err(err);
+    }
   };
 
   const externalLinkData = [
@@ -49,7 +53,7 @@ const HomePage = () => {
         <div className="introduction-text">
          <p>Hello there! I am a fullstack JavaScript developer who enjoys
          learning about how JavaScript works under the hood and I seek to understand concepts on a deeper level.</p>
-         <p>I focus on my efforts onbuilding exciting features using frontend web technologies and writing clean code (and I absoutely love a good review)!</p>
+         <p>I focus on my efforts on building exciting features using frontend web technologies and writing clean code (and I absoutely love a good review)!</p>
          <p>As a lifelong learner, I work to improve my understanding and execution of code through daily practice and
           continuous study.
          </p>

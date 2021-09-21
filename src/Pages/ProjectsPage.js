@@ -3,7 +3,6 @@ import HttpClient from '../HttpClient';
 import Project from '../Components/Project';
 import Modal from "../Components/Modal"
 import Parallax from '../lib/Parallax';
-import SvgHeader from '../Components/SvgHeader';
 import ArrowBox from '../Components/ArrowBox';
 import './ProjectsPage.css';
 
@@ -92,13 +91,14 @@ class Projects extends React.Component {
   }
 
   render() {
-    const {projectData, offset} = this.state;
+    const { projectData, offset } = this.state;
     return (
     <div className="projects-container">
       {projectData &&
         (<Modal projectData={projectData} hideModal={this.hideModal}/>)
       }
-      <header className='header-background'style={{ backgroundPositionY: offset / 2}}>
+      <header className='header-background'>
+        {/* style={{ backgroundPositionY: offset / 2}} */}
         <section className='info-container'style={{ marginBottom: offset / 3 }}>
           <p className="header-text-projects">PROJECTS</p>
           <ArrowBox />

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import SvgHeader from '../Components/SvgHeader';
 import './About.css';
 
@@ -30,12 +30,9 @@ const About = () => {
             <li>Coding!</li>
           </p>
         </div>
-        <Link to="/">
-          <button 
-              className="project-button about-project-button">
-              BACK TO PROJECTS
-          </button>
-        </Link>
+        <button className="about-project-button">
+          <Link to="/"> PROJECTS</Link>
+        </button>
       </div> 
     )
 }
