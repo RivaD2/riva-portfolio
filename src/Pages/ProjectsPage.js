@@ -30,7 +30,7 @@ class Projects extends React.Component {
    */
   fetchNasaImages = async () => {
     try {
-      const imageIdArray = ['PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'GSFC_20171208_Archive_e000720','GSFC_20171208_Archive_e000877'];
+      const imageIdArray = ['PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'GSFC_20171208_Archive_e000720','GSFC_20171208_Archive_e000877','sts083-507-023','PIA06939'];
       const imagesArray = await Promise.all(
         imageIdArray.map(image => {
           return HttpClient.getNasaImage(image);
@@ -97,8 +97,8 @@ class Projects extends React.Component {
       {projectData &&
         (<Modal projectData={projectData} hideModal={this.hideModal}/>)
       }
-      <header className='header-background'>
-        {/* style={{ backgroundPositionY: offset / 2}} */}
+      {/* possible removal style here to start parallax elsewhere/warning messes with parallax offset*/}
+      <header className='header-background' style={{ backgroundPositionY: offset / 2}}>
         <section className='info-container'style={{ marginBottom: offset / 3 }}>
           <p className="header-text-projects">PROJECTS</p>
           <ArrowBox />

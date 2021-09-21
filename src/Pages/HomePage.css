@@ -1,5 +1,5 @@
 .home-container {
-  /* background-size: auto 95%; */
+  /* background-size: auto 90%; */
   background-position: center center;
   background-repeat: no-repeat;
   background-color: black;
@@ -20,7 +20,7 @@
   color: whitesmoke;
   font-size: 14pt;
   font-weight: bold;
-  margin: 80px 0px 10px 0px;
+  margin: 40px 0px 10px 0px;
 }
 
 .external-button-container {
@@ -57,7 +57,7 @@
   flex-direction: column;
   flex-grow: 1;
   justify-content: center;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .svg-header {

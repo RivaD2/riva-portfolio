@@ -1,16 +1,11 @@
 .header-background {
   align-items: center;
-  background-color: black;
-  background-image: url("/images/spaceship-interior-projects.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   display: flex;
   flex-direction: column;
-  height: 60vh;
+  /* height: 60vh;
   justify-content: center;
   min-height: 400px;
-  text-align: center;
+  text-align: center; */
 }
 
 .header-text-projects {

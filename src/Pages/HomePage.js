@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom';
  */
 const HomePage = () => {
   const [backgroundUrl, setBackgroundUrl] = useState('');
-  
+
   useEffect(() => {
     getHomePageImage();
   }, []);
@@ -51,12 +51,8 @@ const HomePage = () => {
          <SvgHeader />
         </div>
         <div className="introduction-text">
-         <p>Hello there! I am a fullstack JavaScript developer who enjoys
-         learning about how JavaScript works under the hood and I seek to understand concepts on a deeper level.</p>
-         <p>I focus on my efforts on building exciting features using frontend web technologies and writing clean code (and I absoutely love a good review)!</p>
-         <p>As a lifelong learner, I work to improve my understanding and execution of code through daily practice and
-          continuous study.
-         </p>
+        <p>Fullstack JavaScript developer | Enjoys learning how JavaScript works under the hood.</p>
+         <p>Passion for frontend web technologies and writing clean code | Loves a good review!</p>
         </div>
         <div className="external-button-container">
           {externalLinkData.map(link => (

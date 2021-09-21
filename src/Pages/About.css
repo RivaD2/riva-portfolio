@@ -1,6 +1,6 @@
 .about-container {
   align-items: center;
-  color: black;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,9 +9,13 @@
 }
 
 .headshot-container {
-  min-height: 400px;
+  background-image: url("/images/spaceship-interior-projects.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   padding-bottom: 20px;
   text-align: center;
+  height: 400px;
   width: 100vw;
 }
 
