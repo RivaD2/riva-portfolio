@@ -74,4 +74,17 @@
   .headshot-container {
     padding-top: 80px;
   }
+
+  img {
+    width: 50%;
+  }
+
+  .hobby-text {
+    padding: 20px;
+  }
+
+  .about-project-button {
+    height: 40px;
+    width: 152px;
+  }
 }

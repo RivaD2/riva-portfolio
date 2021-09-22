@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import ArrowBox from '../Components/ArrowBox';
 import './HomePage.css';
 import SvgHeader from '../Components/SvgHeader';
 import HttpClient from '../HttpClient';
@@ -52,11 +53,11 @@ const HomePage = () => {
         </div>
         <div className="introduction-text">
         <p>Fullstack JavaScript developer | Enjoys learning how JavaScript works under the hood.</p>
-         <p>Passion for frontend web technologies and writing clean code | Loves a good review!</p>
+         <p>Passion for frontend web technologies and writing clean code | Loves a good code review!</p>
         </div>
-        <div className="external-button-container">
+        <div className="home-button-container">
           {externalLinkData.map(link => (
-            <button className="project-button">{link.text}
+            <button className="home-button">{link.text}
               <Link
                 to={link.to}
                 target={link.target}
@@ -66,6 +67,7 @@ const HomePage = () => {
             </button>
           ))}
         </div>
+        <ArrowBox />
       </div>
     </div>
   )

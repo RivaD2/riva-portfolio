@@ -3,13 +3,11 @@ import HttpClient from '../HttpClient';
 import Project from '../Components/Project';
 import Modal from "../Components/Modal"
 import Parallax from '../lib/Parallax';
-import ArrowBox from '../Components/ArrowBox';
 import './ProjectsPage.css';
 
 
 class Projects extends React.Component {
   state = {
-    offset: 0,
     projectData: undefined,
     projectPageNasaImages: new Array(3),
     projectListData: []
@@ -18,9 +16,6 @@ class Projects extends React.Component {
   componentDidMount = () => {
     this.fetchNasaImages();
     this.fetchProjectDetails();
-    // Turns off parallax for mobile
-    if(window.innerWidth < 600) return;
-    window.addEventListener('scroll', this.parallaxShift);
   }
 
   /**
@@ -57,20 +52,7 @@ class Projects extends React.Component {
       console.log(err);
     }
   }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.parallaxShift);
-  }
   
-  /**
-   * Sets parallax offset for header
-   */
-  parallaxShift = () => {
-    this.setState({
-      offset: window.pageYOffset
-    });
-  };
-
   /**
    * Shows modal for demo
    * @param  {object} projectData project data from json file
@@ -91,18 +73,14 @@ class Projects extends React.Component {
   }
 
   render() {
-    const { projectData, offset } = this.state;
+    const { projectData } = this.state;
     return (
     <div className="projects-container">
       {projectData &&
         (<Modal projectData={projectData} hideModal={this.hideModal}/>)
       }
-      {/* possible removal style here to start parallax elsewhere/warning messes with parallax offset*/}
-      <header className='header-background' style={{ backgroundPositionY: offset / 2}}>
-        <section className='info-container'style={{ marginBottom: offset / 3 }}>
-          <p className="header-text-projects">PROJECTS</p>
-          <ArrowBox />
-        </section>
+      <header className='header-background'>
+        <p className="header-text-projects">PROJECTS</p>
       </header>
       {this.state.projectListData.map((projectListData,index) => {
         return [

@@ -29,12 +29,7 @@ const Navigation  = () => {
           className="sidenav-item"
           aria-label={link.ariaLabel}
         >
-          {link.imageSrc ?
-            <img
-              src={link.imageSrc}
-              alt={link.ariaLabel}
-              className="sidenav-image"
-            />  :
+          {link.iconClassName &&
             <div className="sidenav-image sidenav-icon">
               <i className={link.iconClassName} title={link.ariaLabel}></i>
             </div>

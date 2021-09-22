@@ -11,10 +11,10 @@
   border-bottom: 5px solid white;
   border-right: 5px solid white;
   display: flex;
-  height: 30px;
+  height: 22px;
   margin: -10px;
   transform: rotate(45deg);
-  width: 28px;
+  width: 22px;
 }
 
 .arrow-box div:nth-child(2) {
