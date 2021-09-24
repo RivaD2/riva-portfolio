@@ -48,10 +48,10 @@
 .about-project-button {
   width: auto;
   margin-bottom: 40px;
-  background-color: rgba(25, 25, 25, 0.4);
-  border: solid 2px rgb(24 180 216);
+  background-color: rgba(25, 25, 25, 0.8);
+  border: solid 2px rgb(24, 143, 216);
   border-radius: 8px;
-  color: rgb(24 141 239);
+  color: rgb(24, 143, 216);
   cursor: pointer;
   font-family: "Orbitron", sans-serif;
   font-weight: bold;

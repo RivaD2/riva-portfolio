@@ -57,14 +57,13 @@ const HomePage = () => {
         </div>
         <div className="home-button-container">
           {externalLinkData.map(link => (
-            <button className="home-button">{link.text}
-              <Link
-                to={link.to}
-                target={link.target}
-                aria-label={link.ariaLabel}
-              >
-              </Link>
-            </button>
+             <Link
+              to={link.to}
+              target={link.target}
+              aria-label={link.ariaLabel}
+            >
+            <button className="home-button">{link.text}</button>
+            </Link>
           ))}
         </div>
         <ArrowBox />

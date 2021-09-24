@@ -30,9 +30,9 @@ const About = () => {
             <li>Coding!</li>
           </p>
         </div>
-        <button className="about-project-button">
-          <Link to="/"> PROJECTS</Link>
-        </button>
+        <Link to="/">
+        <button className="about-project-button">PROJECTS</button>
+        </Link>
       </div> 
     )
 }
