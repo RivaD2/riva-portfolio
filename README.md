@@ -6,16 +6,13 @@
 
 ![me](https://media.giphy.com/media/tPVEVc5Qjqcyxj1Ain/giphy.gif)
 
-While building out my space-themed portfolio, I focused my efforts on solidifying my knowledge of React and incorporated the Nasa Image and Video Library API to aid in theming (I should note that there are no pictures of cats in my portfolio...although that might have made it better :)).
-
-Most of the CSS is built out from scratch. However, I made use of Semantic-UI icons in my navigation bar and in the modal.
+While building out my space-themed portfolio, I focused my efforts on solidifying my knowledge of React and incorporated the Nasa Image and Video Library API to aid in theming (I should note that there are no pictures of cats in my portfolio...although that might have made it better :)). I should also note that thisproject is built from scratch.
 
 
 ### Tools Used:
 
 * React
 * React-Router-DOM
-* Semantic-UI 
 * NASA Image and Video Library
 * Axios
 * AWS for deploying site
@@ -24,6 +21,7 @@ Most of the CSS is built out from scratch. However, I made use of Semantic-UI ic
 
 * CSS/CSS3 animations
 * JavaScript/ES6
+* React (Class based components and Functional components)
 
 **OTHER TOOLS**
 
