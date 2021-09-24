@@ -42,8 +42,10 @@ Most of the CSS is built out from scratch. However, I made use of Semantic-UI ic
     - **Click on the Deployed Version Button**: The user will be redirected to the deployed version of the project.
 
       
-### Credit for Code How-To's:
+### Credit for Code How-To's/Contributions:
 
+* Big thank you to Eric Rathwell for reviewing my design/portfolio and sending over a rudimentary mock up with feedback that helped to polish to my final result
+  to help guide me to polishing the final result
 * https://codepen.io/cmarcelly/pen/vOQxGp for reference on how to build vector text (I utilized some of the CSS for my vector image on `home.js` and created a vector image based off the image in this example.)
 * http://pixelcog.github.io/parallax.js/ for reference to parallax scroll 
   * https://www.youtube.com/watch?v=d34GsFz-HkY which is the same reference as above but this video helped me to understand how the scroll works
@@ -51,4 +53,4 @@ Most of the CSS is built out from scratch. However, I made use of Semantic-UI ic
 * credit to Google images for `Project.js page` header image
 * https://www.youtube.com/watch?v=U7ACjZpk-jk for the code on how to build a falling arrow with pure CSS3 Animation effect
 * For svg creation: https://danmarshall.github.io/google-font-to-svg-path/
-* Parallax Scroll provided by another developer, my partner and friend, Anthony van Winkle.
+* Parallax Scroll provided by another developer, my boyfriend and super teacher, Anthony van Winkle.

@@ -3,14 +3,11 @@ import HttpClient from '../HttpClient';
 import Project from '../Components/Project';
 import Modal from "../Components/Modal"
 import Parallax from '../lib/Parallax';
-import SvgHeader from '../Components/SvgHeader';
-import ArrowBox from '../Components/ArrowBox';
 import './ProjectsPage.css';
 
 
 class Projects extends React.Component {
   state = {
-    offset: 0,
     projectData: undefined,
     projectPageNasaImages: new Array(3),
     projectListData: []
@@ -19,9 +16,6 @@ class Projects extends React.Component {
   componentDidMount = () => {
     this.fetchNasaImages();
     this.fetchProjectDetails();
-    // Turns off parallax for mobile
-    if(window.innerWidth < 600) return;
-    window.addEventListener('scroll', this.parallaxShift);
   }
 
   /**
@@ -31,7 +25,7 @@ class Projects extends React.Component {
    */
   fetchNasaImages = async () => {
     try {
-      const imageIdArray = ['PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'GSFC_20171208_Archive_e000720','GSFC_20171208_Archive_e000877'];
+      const imageIdArray = ['PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'GSFC_20171208_Archive_e000720','GSFC_20171208_Archive_e000877','sts083-507-023','PIA06939'];
       const imagesArray = await Promise.all(
         imageIdArray.map(image => {
           return HttpClient.getNasaImage(image);
@@ -58,20 +52,7 @@ class Projects extends React.Component {
       console.log(err);
     }
   }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.parallaxShift);
-  }
   
-  /**
-   * Sets parallax offset for header
-   */
-  parallaxShift = () => {
-    this.setState({
-      offset: window.pageYOffset
-    });
-  };
-
   /**
    * Shows modal for demo
    * @param  {object} projectData project data from json file
@@ -92,20 +73,14 @@ class Projects extends React.Component {
   }
 
   render() {
-    const {projectData, offset} = this.state;
+    const { projectData } = this.state;
     return (
     <div className="projects-container">
       {projectData &&
         (<Modal projectData={projectData} hideModal={this.hideModal}/>)
       }
-      <header className='header-background'style={{ backgroundPositionY: offset / 2}}>
-        <section className='info-container'style={{ marginBottom: offset / 3 }}>
-          <div className="svg-projects">
-            <SvgHeader />
-          </div>
-            <p className="header-text-projects">PROJECTS</p>
-          <ArrowBox />
-        </section>
+      <header className='header-background'>
+        <p className="header-text-projects">PROJECTS</p>
       </header>
       {this.state.projectListData.map((projectListData,index) => {
         return [

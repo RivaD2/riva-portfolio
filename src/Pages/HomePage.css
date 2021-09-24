@@ -1,6 +1,6 @@
 .home-container {
-  background-size: auto 80%;
-  background-position: center center;
+  background-size: auto 90%;
+  background-position: center top;
   background-repeat: no-repeat;
   background-color: black;
   background-image: linear-gradient(
@@ -16,37 +16,31 @@
   text-align: center;
 }
 
-.greeting-text {
-  color: white;
-  display: flex;
-  font-size: 40px;
-  justify-content: center;
-  padding-top: 100px;
-}
-
-.greeting-text-two {
-  color: white;
-  font-size: 40px;
-}
-
-.project-button {
-  background-color: black;
-  border-radius: 8px;
-  border: 2px solid rgb(177, 243, 245);
-  color: rgb(177, 243, 245);
-  cursor: pointer;
-  display: block;
-  font-size: 15px;
+.introduction-text {
+  color: rgb(236, 233, 233);
+  font-size: 14pt;
   font-weight: bold;
+  margin: 40px 0px 10px 0px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.home-button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-button {
+  background-color: rgba(25, 25, 25, 0.8);
+  border: solid 2px rgb(24, 143, 216);
+  border-radius: 8px;
+  color: rgb(24, 143, 216);
+  cursor: pointer;
   font-family: "Orbitron", sans-serif;
-  height: 40px;
-  margin: 0 auto;
-  margin-bottom: 70px;
-  outline: none;
-  padding: 8px;
-  text-align: center;
-  text-decoration: none;
-  width: 170px;
+  font-weight: bold;
+  font-size: 20px;
+  height: 48px;
+  margin: 40px 10px 40px 10px;
+  width: 200px;
 }
 
 .project-button {
@@ -68,7 +62,7 @@
 }
 
 .svg-header {
-  transform: scale(0.6);
+  transform: scale(0.7);
 }
 
 path {
@@ -76,14 +70,35 @@ path {
 }
 
 @media (max-width: 600px) {
+  .home-container {
+    background-size: auto 70%;
+  }
+
   .svg-header {
     transform: scale(0.4);
+  }
+
+  .home-button-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .home-button {
+    height: 40px;
+    width: 120px;
+    font-size: 14pt;
+    margin: 10px;
   }
 }
 
 @media (max-width: 400px) {
   .home-container {
     background-size: 150% auto;
+  }
+
+  .svg-container {
+    padding-top: 20px;
   }
 
   .svg-header {

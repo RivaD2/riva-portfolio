@@ -48,7 +48,7 @@ class Project extends React.Component {
           <div className="button-spacer"></div> 
           <div className="button-container">
             {deployed_url !== undefined && (
-                <a
+              <a
                 href={deployed_url}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -61,7 +61,7 @@ class Project extends React.Component {
               href={github_url} 
               target="RivaD2" 
               className="project-page-button">
-                SOURCE CODE
+              SOURCE CODE
             </a>
           </div>
         </div>

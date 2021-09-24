@@ -1,6 +1,6 @@
 import React from 'react';
-import './SvgHeader.css';
 import {Link} from 'react-router-dom';
+import './SvgHeader.css';
 
 /**
  * Returns the svg header for developer name

@@ -9,7 +9,6 @@ class Modal extends React.Component {
   render() {
     const { hideModal, projectData } = this.props;
     return (
-      // onClick attr will call the method that is passed in as prop which is hideModal
       <div className="modal-container" onClick={hideModal}>
         <div className="modal-body">
           <div className="modal-title">{projectData.title}</div>
