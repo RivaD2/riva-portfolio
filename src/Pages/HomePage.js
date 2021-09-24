@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import ArrowBox from '../Components/ArrowBox';
-import './HomePage.css';
 import SvgHeader from '../Components/SvgHeader';
 import HttpClient from '../HttpClient';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import './HomePage.css';
 
 /**
  * Returns homepage component
