@@ -34,8 +34,8 @@ export default {
     try {
       const response = await axios.get(`${nasaEndpoint}/asset/${image_id}`)
       return response.data.collection.items[2].href;
-    } catch (error) {
-      console.log(error, error.message())
+    } catch (err) {
+      console.error(err);
     }
   },
   /**

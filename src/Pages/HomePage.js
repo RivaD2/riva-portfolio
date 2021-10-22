@@ -19,8 +19,9 @@ const HomePage = () => {
     try {
       const imageUrl = await HttpClient.getNasaImage('GSFC_20171208_Archive_e001427');
       setBackgroundUrl(`url('${imageUrl}')`);
-    } catch (err) {
-      console.err(err);
+    } catch (error) {
+      console.log(error, error.message)
+
     }
   };
 
@@ -61,6 +62,7 @@ const HomePage = () => {
               to={link.to}
               target={link.target}
               aria-label={link.ariaLabel}
+              key={link.text}
             >
             <button className="home-button">{link.text}</button>
             </Link>

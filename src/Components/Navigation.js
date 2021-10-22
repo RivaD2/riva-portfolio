@@ -28,6 +28,7 @@ const Navigation  = () => {
           target={link.target}
           className="sidenav-item"
           aria-label={link.ariaLabel}
+          key={link.text}
         >
           {link.iconClassName &&
             <div className="sidenav-image sidenav-icon">
