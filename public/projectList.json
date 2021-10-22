@@ -16,7 +16,7 @@
     "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/aqaba.mp4",
     "github_url":"https://github.com/RivaD2/aqaba", 
     "deployed_url":"https://aqaba.rivadavidowski.com",
-    "tools_used":"JavaScript, React, React-Spring, React Responsive Carousel, React Router DOM, OAuth 2.0 with Google APIs, Axios, Figma/FigJam, Material-UI, CSS3/CSS Flexbox, my API-server, Heroku (deployment of server), and AWS (deployment of the front-end)",
+    "tools_used":"JavaScript, React, React-Spring, React Responsive Carousel, React Router DOM, OAuth 2.0 with Google APIs, Axios, Figma/FigJam, Material-UI, CSS3/CSS Flexbox, my API-server, Heroku (deployment of server), and AWS (deployment of the front-end), GTMetrix",
     "text_desc":"I chose to rebuild this fragrance site to gain familiarity with e-commerce flows and UI, and because of the complexity that all these features introduce. I am now in the process of making the site my own and am currently working with a professional UI designer to assist me with rebranding. This will include new mockups and styles using an original theme.",
     "demo_desc": "This ongoing project has allowed me to build more Functional components with React Hooks and Class-based components, but it's also helped to solidify my understanding of component hierarchy, state management, props, and responsive design. \n\n I have incorporated third-party libraries and frameworks (Material-UI) which gave me the opportunity to see how tools like these can increase efficiency, but also how they can introduce new challenges and complexity to our code. I continue to work on additional features, and future goals of this project include adding tests using React-Testing-Library with Jest, rebranding of the site for a more cohesive style, and saving carts to the database."
   },
@@ -38,8 +38,8 @@
     "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/portfolio-demo.mp4",
     "github_url":"https://github.com/RivaD2/riva-portfolio", 
     "deployed_url":"https://www.rivadavidowski.com/",
-    "tools_used":"JavaScript, React, CSS3/CSS Flexbox, Nasa Image and Video Library API, Axios, React Router DOM, Figma, Semantic-UI, and AWS for project deployment",
-    "text_desc":"Look familiar? My responsive developer portfolio showcases projects I'm currently working on and my individual contributions to past projects I had the opportunity to work on while in coding bootcamp. My portfolio is built entirely from scratch and I am currently in the process of working with UI designer on polishing and refining the visual design. Check back soon!",
+    "tools_used":"JavaScript, React, CSS3/CSS Flexbox, Nasa Image and Video Library API, Axios, React Router DOM, Figma, Semantic-UI, and AWS for project deployment, GTMetrix",
+    "text_desc":"Look familiar? My responsive developer portfolio showcases projects I'm currently working on and my individual contributions to past projects I had the opportunity to work on while in coding bootcamp. Currently I am working to improve loading times of images and reviewing performance of the site using GTMetrix.",
     "demo_desc": "During this ongoing project, I've built all components from scratch (modals, buttons, navigation etc.), gained exposure to SVG's and various video formats, continued to explore asynchronous methods and AJAX calls, and incorported both Class-based and Functional components using React. I've seen firsthand how reusable components can transform an application and how my code has evolved from one project to the next."
   },
   {
