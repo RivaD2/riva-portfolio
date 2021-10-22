@@ -28,12 +28,12 @@ export default {
   /**
    *Gets Nasa image from endpoint
    * @param  {string} image_id id of Nasa image
-   * @returns {string} string for one medium nasa img
+   * @returns {string} string for one orig nasa img
    */
   getNasaImage: async (image_id) => {
     try {
       const response = await axios.get(`${nasaEndpoint}/asset/${image_id}`)
-      return response.data.collection.items[2].href;
+      return response.data.collection.items[0].href;
     } catch (error) {
       console.log(error, error.message())
     }
