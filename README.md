@@ -1,13 +1,12 @@
 # Developer Portfolio
 
-### Deployed site: [rivadavidowski.com](https://www.rivadavidowski.com/)
+## Deployed site: [rivadavidowski.com](https://www.rivadavidowski.com/)
 
 ### Hello there! Thank you for checking out my developer portfolio.
 
 ![me](https://media.giphy.com/media/tPVEVc5Qjqcyxj1Ain/giphy.gif)
 
-While building out my space-themed portfolio, I focused my efforts on solidifying my knowledge of React and incorporated the Nasa Image and Video Library API to aid in theming (I should note that there are no pictures of cats in my portfolio...although that might have made it better :)). I should also note that thisproject is built from scratch.
-
+While building out my space-themed portfolio, I focused my efforts on solidifying my knowledge of React and incorporated the NASA Image and Video Library API to aid in theming (I should note that there are no pictures of cats in my portfolio...although that might have made it better :)). I built all CSS from scratch so no CSS libraries were used.
 
 ### Tools Used:
 
@@ -15,7 +14,7 @@ While building out my space-themed portfolio, I focused my efforts on solidifyin
 * React-Router-DOM
 * NASA Image and Video Library
 * Axios
-* AWS for deploying site
+* AWS for deploying site (AWS Amplify)
 
 ### LANGUAGES USED
 
@@ -27,6 +26,7 @@ While building out my space-themed portfolio, I focused my efforts on solidifyin
 
 -  mp4 to WebM Converter
 -  TinyPNG
+-  GTMetrix (testing performance)
 
 ### HOW IT WORKS:
 
@@ -42,8 +42,7 @@ While building out my space-themed portfolio, I focused my efforts on solidifyin
       
 ### Credit for Code How-To's/Contributions:
 
-* Big thank you to Eric Rathwell for reviewing my design/portfolio and sending over a rudimentary mock up with feedback that helped to polish to my final result
-  to help guide me to polishing the final result
+* Big thank you to Eric Rathwell for reviewing my design/portfolio and sending over a rudimentary mock up with feedback that helped to polish to my final result to help guide me to polishing the final result
 * https://codepen.io/cmarcelly/pen/vOQxGp for reference on how to build vector text (I utilized some of the CSS for my vector image on `home.js` and created a vector image based off the image in this example.)
 * http://pixelcog.github.io/parallax.js/ for reference to parallax scroll 
   * https://www.youtube.com/watch?v=d34GsFz-HkY which is the same reference as above but this video helped me to understand how the scroll works
@@ -51,4 +50,4 @@ While building out my space-themed portfolio, I focused my efforts on solidifyin
 * credit to Google images for `Project.js page` header image
 * https://www.youtube.com/watch?v=U7ACjZpk-jk for the code on how to build a falling arrow with pure CSS3 Animation effect
 * For svg creation: https://danmarshall.github.io/google-font-to-svg-path/
-* Parallax Scroll provided by another developer, my boyfriend and super teacher, Anthony van Winkle.
+* Parallax Scroll provided by another developer

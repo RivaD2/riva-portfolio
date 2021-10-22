@@ -33,7 +33,8 @@ export default {
   getNasaImage: async (image_id) => {
     try {
       const response = await axios.get(`${nasaEndpoint}/asset/${image_id}`)
-      return response.data.collection.items[2].href;
+      console.log(response);
+      return response.data.collection.items[3].href;
     } catch (err) {
       console.error(err);
     }
