@@ -1,7 +1,7 @@
 [
   {
     "title": "Book Project",
-    "img_url": "/images/book-project.png",
+    "img_url": "/images/book-project.jpg",
     "webm_url": "/images/book-project.webm",
     "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/book-project.mp4",
     "github_url":"https://github.com/Project-Books/book-project",
@@ -11,7 +11,7 @@
   },
   {
     "title": "Aqaba",
-    "img_url": "/images/aqaba.png",
+    "img_url": "/images/aqaba.jpg",
     "webm_url": "/images/aqaba(1).webm",
     "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/aqaba.mp4",
     "github_url":"https://github.com/RivaD2/aqaba", 
@@ -22,7 +22,7 @@
   },
   {
     "title": "The GIFing Game",
-    "img_url": "/images/gifing-game.png",
+    "img_url": "/images/gifing-game.jpg",
     "webm_url": "images/gifing-game.webm",
     "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/gifing-game.mp4",
     "github_url":"https://github.com/RivaD2/box-challenge",
@@ -33,7 +33,7 @@
   },
   {
     "title": " My Portfolio",
-    "img_url": "/images/portfolio-home.png",
+    "img_url": "/images/portfolio-home.jpg",
     "webm_url": "",
     "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/portfolio-demo.mp4",
     "github_url":"https://github.com/RivaD2/riva-portfolio", 
@@ -44,7 +44,7 @@
   },
   {
     "title": "Greener", 
-    "img_url": "/images/greenerLogin.png",
+    "img_url": "/images/greenerLogin.jpg",
     "webm_url": "/images/greenerLogin.webm",
     "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/greenerLogin.mp4",
     "github_url":"https://github.com/RivaD2/GreenerFrontEnd",
@@ -54,7 +54,7 @@
   },
   {
     "title": "Project Pinstrat", 
-    "img_url": "images/pinstrat-jpg.jpg",
+    "img_url": "images/pinstrat.jpg",
     "webm_url":"/images/pinstrat.webm", 
     "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/pinstrat.mp4",
     "github_url":"https://github.com/RivaD2/project-pinstrat",
@@ -64,7 +64,7 @@
   },
   {
     "title": "Movie Night", 
-    "img_url": "./images/home.png",
+    "img_url": "./images/home.jpg",
     "webm_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/movie-night.webm",
     "mp4_url": "/images/movie-night.mp4",
     "github_url":"https://github.com/RivaD2/Movie-Night",
