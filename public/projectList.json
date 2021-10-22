@@ -39,7 +39,7 @@
     "github_url":"https://github.com/RivaD2/riva-portfolio", 
     "deployed_url":"https://www.rivadavidowski.com/",
     "tools_used":"JavaScript, React, CSS3/CSS Flexbox, Nasa Image and Video Library API, Axios, React Router DOM, Figma, Semantic-UI, and AWS for project deployment",
-    "text_desc":"Look familiar? My responsive developer portfolio showcases projects I'm currently working on and my individual contributions to past projects I had the opportunity to work on while in coding bootcamp. My portfolio is built entirely from scratch and I am currently in the process of working with UI designer on polishing and refining the visual design. Check back soon!",
+    "text_desc":"Look familiar? My responsive developer portfolio showcases projects I'm currently working on and my individual contributions to past projects I had the opportunity to work on while in coding bootcamp. My portfolio is built entirely from scratch as I wanted to gain more experience styling with CSS.",
     "demo_desc": "During this ongoing project, I've built all components from scratch (modals, buttons, navigation etc.), gained exposure to SVG's and various video formats, continued to explore asynchronous methods and AJAX calls, and incorported both Class-based and Functional components using React. I've seen firsthand how reusable components can transform an application and how my code has evolved from one project to the next."
   },
   {

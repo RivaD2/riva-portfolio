@@ -34,7 +34,9 @@ export default {
     try {
       const response = await axios.get(`${nasaEndpoint}/asset/${image_id}`)
       console.log(response);
-      return response.data.collection.items[3].href;
+      //TODO: If I change this to three for small image, fifth image in parallax won't show as
+      // it is returning metadata.json rather than small image. Inspect ProjectsPage
+      return response.data.collection.items[2].href;
     } catch (err) {
       console.error(err);
     }
