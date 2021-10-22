@@ -28,7 +28,7 @@ export default {
   /**
    *Gets Nasa image from endpoint
    * @param  {string} image_id id of Nasa image
-   * @returns {string} string for one medium nasa img
+   * @returns {string} string for one small nasa img
    */
   getNasaImage: async (image_id) => {
     try {
