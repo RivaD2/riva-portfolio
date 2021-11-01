@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import ArrowBox from '../Components/ArrowBox';
 import SvgHeader from '../Components/SvgHeader';
-import HttpClient from '../HttpClient';
 import { Link } from 'react-router-dom';
 import './HomePage.css';
 
@@ -9,22 +8,6 @@ import './HomePage.css';
  * Returns homepage component
  */
 const HomePage = () => {
-  const [backgroundUrl, setBackgroundUrl] = useState('');
-
-  useEffect(() => {
-    getHomePageImage();
-  }, []);
-
-  const getHomePageImage = async () => {
-    try {
-      const imageUrl = await HttpClient.getNasaImage('GSFC_20171208_Archive_e001427');
-      setBackgroundUrl(`url('${imageUrl}')`);
-    } catch (error) {
-      console.log(error, error.message)
-
-    }
-  };
-
   const externalLinkData = [
     {
     to:{pathname:"https://docs.google.com/document/d/1n62VPLj99ntJl5JMbh3I_3doLoJ3Zo5lKY4E4y7gZwo/edit?usp=sharing"},
@@ -47,7 +30,7 @@ const HomePage = () => {
   ];
 
   return (
-    <div className="home-container" style={{backgroundImage: backgroundUrl}}>
+    <div className="home-container" >
       <div className="svg-container">
         <div className="svg-header">
          <SvgHeader />

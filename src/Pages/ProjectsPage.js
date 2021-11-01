@@ -5,11 +5,10 @@ import Modal from "../Components/Modal"
 import Parallax from '../lib/Parallax';
 import './ProjectsPage.css';
 
-
 class Projects extends React.Component {
   state = {
     projectData: undefined,
-    projectPageNasaImages: new Array(3),
+    projectPageNasaImages: new Array(7),
     projectListData: []
   };
 
@@ -25,17 +24,16 @@ class Projects extends React.Component {
    */
   fetchNasaImages = async () => {
     try {
-      const imageIdArray = ['PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'GSFC_20171208_Archive_e000720','GSFC_20171208_Archive_e000877','sts083-507-023','PIA06939'];
+      const imageIdArray = ['PIA12833', 'PIA23002','GSFC_20171208_Archive_e001500', 'GSFC_20171208_Archive_e000720','PIA16852','sts083-507-023','PIA06939'];
       const imagesArray = await Promise.all(
         imageIdArray.map(image => {
           return HttpClient.getNasaImage(image);
-        })
-      )
+        }))
       this.setState({
         projectPageNasaImages: imagesArray
       });
     } catch (err) {
-      console.log(err);
+      console.error(err);
     }
   }
 

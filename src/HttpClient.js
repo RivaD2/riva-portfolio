@@ -33,9 +33,7 @@ export default {
   getNasaImage: async (image_id) => {
     try {
       const response = await axios.get(`${nasaEndpoint}/asset/${image_id}`)
-      // Inspect items array, when I target items at index 3, 5th image in parallax breaks
-      // Inspect ProjectsPage data and state for this as well
-      return response.data.collection.items[2].href;
+      return response.data.collection.items[response.data.collection.items.length - 3].href;
     } catch (err) {
       console.error(err);
     }
