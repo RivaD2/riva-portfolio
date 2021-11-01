@@ -29,7 +29,8 @@
     "deployed_url":"https://gifing-game.rivadavidowski.com",
     "tools_used":"JavaScript, React, React Animated CSS, CSS Grid/Flexbox, Axios, GIPHY API and AWS",
     "text_desc":" The GIFing Game is fun and interactive memory game.\n\n A modal displays instructions on how to play and it can be customized based off the search term entered. The goal of this game is of course to find the matching pairs of GIFs in the lowest amount of clicks. Clicks are counted and the user's best score is stored in localStorage. When two GIFs are matched, they disappear.",
-    "demo_desc": "I am a GIF lover and wanted to build a fun but simple game with React. This ongoing project is built solely with Functional components and uses React's Hook system.\n\n The purpose of this project is to focus on core React principles, work with a third-party library (GIPHY API), and practice user interaction with state management. The project originally started out as a simple grid of boxes that could be clicked on. Throughout each phase I added new features and functionality and it has morphed into a fun and interactive game that be customized."
+    "demo_desc": "I am a GIF lover and wanted to build a fun but simple game with React. This ongoing project is built solely with Functional components and uses React's Hook system.\n\n The purpose of this project is to focus on core React principles, work with a third-party library (GIPHY API), and practice user interaction with state management. The project originally started out as a simple grid of boxes that could be clicked on. Throughout each phase I added new features and functionality and it has morphed into a fun and interactive game that be customized.\n\n My next goal for this project is to display the score in a more visually appealing way."
+
   },
   {
     "title": " My Portfolio",
@@ -39,8 +40,8 @@
     "github_url":"https://github.com/RivaD2/riva-portfolio", 
     "deployed_url":"https://www.rivadavidowski.com/",
     "tools_used":"JavaScript, React, CSS3/CSS Flexbox, Nasa Image and Video Library API, Axios, React Router DOM, Figma, Semantic-UI, and AWS for project deployment, GTMetrix",
-    "text_desc":"Look familiar? My responsive developer portfolio showcases projects I'm currently working on and my individual contributions to past projects I had the opportunity to work on while in coding bootcamp. Currently I am working to improve loading times of images and reviewing performance of the site using GTMetrix.",
-    "demo_desc": "During this ongoing project, I've built all components from scratch (modals, buttons, navigation etc.), gained exposure to SVG's and various video formats, continued to explore asynchronous methods and AJAX calls, and incorported both Class-based and Functional components using React. I've seen firsthand how reusable components can transform an application and how my code has evolved from one project to the next."
+    "text_desc":"Look familiar? My responsive developer portfolio showcases projects I'm currently working on and my individual contributions to past projects I had the opportunity to work on while in coding bootcamp.",
+    "demo_desc": "During this ongoing project, I've built all components from scratch (modals, buttons, navigation etc.), gained exposure to SVG's and various video formats, continued to explore asynchronous methods and AJAX calls, and incorported both Class-based and Functional components using React. I've seen firsthand how reusable components can transform an application and how my code has evolved in this project as I continue to refine the design and simplify the code where possible."
   },
   {
     "title": "Greener", 
@@ -51,16 +52,6 @@
     "tools_used":"JavaScript, CSS, React Native, Redux, Expo, Sign In With Google, Google App Auth, Axios",
     "text_desc":"A casual game app modeled after Tamagatchi designed to help people relax.\nThe app allows the user to perform actions on a plant to gain currency for upgrading and expanding their terrarium. Login is possible through form submission or OAuth.",
     "demo_desc":"Through this week-long project I implemented front-end to back-end OAuth via Google.I refactored duplicated logic into a standalone component for reuse, and created the action buttons that reward in-game currency to the user. \n \n Working on this project solidified to me the importance of writing clean code and provided insight into coding patterns and how to manage feature tasks progress."
-  },
-  {
-    "title": "Project Pinstrat", 
-    "img_url": "images/pinstrat.jpg",
-    "webm_url":"/images/pinstrat.webm", 
-    "mp4_url": "https://s3-us-west-2.amazonaws.com/nazarov.artemexmachina.com/rivad2/pinstrat.mp4",
-    "github_url":"https://github.com/RivaD2/project-pinstrat",
-    "tools_used":"JavaScript, MongoDB, Mongoose, Bcrypt, Express.js, Node.js",
-    "text_desc":"Project Pinstrat involved building a back-end server and database interface for Pinstrat (our client, an existing in-production application) as well as encrypting HTTP request data and filtering results.",
-    "demo_desc": "For this project I took on the role of project manager and was responsible for communicating client needs to the rest of our team. I also set up the CRUD routes, the database and the MongoDB Schema and Model.\n \n Pinstrat provides customized gameplay feedback to users from a game-generated hash. I worked with the client to implement encryption on the request to prevent access to game data that players haven't unlocked during gameplay. \n \n  Originally, the client was using game data hardcoded in a JSON file and shipped with the app. It was our task to create a database so the game data could be dynamic and secure."
   },
   {
     "title": "Movie Night", 
