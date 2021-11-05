@@ -32,9 +32,9 @@ const HomePage = () => {
   return (
     <div className="home-container" >
       <div className="svg-container">
-        <div className="svg-header">
+        <header className="svg-header">
          <SvgHeader />
-        </div>
+        </header>
         <div className="introduction-text">
         <p>Fullstack JavaScript developer | Enjoys learning how JavaScript works under the hood.</p>
          <p>Passion for frontend web technologies and writing clean code | Loves a good code review!</p>

@@ -16,8 +16,8 @@ class Modal extends React.Component {
             <i className={'window close outline icon'}></i>
           </div>
           <div className="modal-content">
-            <div className="modal-image-wrapper">
-              <div className="modal-img" onClick={this.onVideoClick}>
+            <div className="modal-video-wrapper">
+              <div className="modal-video" onClick={this.onVideoClick}>
                 <video 
                   controls
                   muted 

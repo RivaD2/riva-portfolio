@@ -78,7 +78,7 @@ class Projects extends React.Component {
         (<Modal projectData={projectData} hideModal={this.hideModal}/>)
       }
       <header className='header-background'>
-        <p className="header-text-projects">PROJECTS</p>
+        <h1 className="header-text-projects">PROJECTS</h1>
       </header>
       {this.state.projectListData.map((projectListData,index) => {
         return [
