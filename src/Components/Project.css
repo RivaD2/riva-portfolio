@@ -87,7 +87,8 @@
 
 #tools-used-desc b {
   color: rgb(177, 243, 245);
-  font-size: 12pt;
+  font-size: 14pt;
+  margin-left: 36px;
   text-align: left;
   text-transform: uppercase;
 }
@@ -101,6 +102,8 @@
 
 #text-desc b {
   color: rgb(177, 243, 245);
+  font-size: 14pt;
+  margin-left: 36px;
   text-transform: uppercase;
 }
 
