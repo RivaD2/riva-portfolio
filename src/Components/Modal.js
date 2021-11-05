@@ -24,7 +24,7 @@ class Modal extends React.Component {
                   playsInline 
                   loop 
                   preload="auto"
-                  className="modal-img"
+                  className="modal-video"
                   title="Video to demo project selected"
                 >
                   <source src={projectData.webm_url} type="video/webm" title="Video showing demo of each project"/>
