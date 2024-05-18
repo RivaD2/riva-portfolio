@@ -1,6 +1,6 @@
 # Developer Portfolio
 
-## Deployed site: [rivadavidowski.com](https://www.rivadavidowski.com/)
+## Deployed site: [rivadavidowski.com](https://www.rivadavidowski.com/) -> Under Construction :(
 
 ### Hello there! Thank you for checking out my developer portfolio.
 
